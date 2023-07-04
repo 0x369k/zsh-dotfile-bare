@@ -1,21 +1,12 @@
-
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#073642,bg=#839496,bold,underline"
-#ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="bold,underline,standout"
-ZSH_AUTOSUGGEST_STRATEGY=(match_prev_cmd completion)
-# ZSH_AUTOSUGGEST_STRATEGY=(history completion)
-ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=100
-
-
 zstyle ':completion:*' accept-exact '*(N)'
 zstyle ':completion:*' use-cache on
 zstyle ':completion:*' cache-path ~/.cache/zsh_cache
 
 
 
-# >‑‑‑‑‑‑ { zstyle } ‑‑‑‑‑‑> |
-# aliasexpand   CTRL+A
-zle -C alias-expension complete-word _generic
-bindkey '^a' alias-expension
+#❯■■■■■■■■■❯zstyle❮❯■■■■■■■■■❯
+
+
 zstyle ':completion:alias-expension:*' completer _expand_alias
 
 # ~~~ Abschluss ohne Berücksichtigung der Groß-/Kleinschreibung ~~~
@@ -26,7 +17,7 @@ zstyle ':completion:*' completer _complete _match _approximate
 zstyle ':completion:*:match:*' original only
 zstyle -e ':completion:*:approximate:*' max-errors 'reply=($((($#PREFIX+$#SUFFIX)/3>7?7:($#PREFIX+$#SUFFIX)/3))numeric)'
 
-# Hübsche Abschlüsse
+# beauty Abschlüsse
 zstyle ':completion:*:matches' group 'yes'
 zstyle ':completion:*:options' description 'yes'
 zstyle ':completion:*:options' auto-description '%d'
@@ -94,7 +85,7 @@ zstyle ':completion:*:*:*:*:warnings' format ' %F{red}-- no matches found --%f'
 zstyle ':completion:*:messages' format ' %F{purple} -- %d --%f'
 zstyle ':completion:*:warnings' format ' %F{red}-- no matches found --%f'
 
-# ~~~ Group matches and describe. ~~~
+#❯■■■■■■■■■❯Group matches and describe❮❯■■■■■■■■■❯
 zstyle ':completion:*:*:*:*:*' menu select
 zstyle ':completion:*:matches' group 'yes'
 zstyle ':completion:*:options' description 'yes'
@@ -118,8 +109,7 @@ zstyle ':completion:*:man:*'                        menu yes select
 # ~~~ Persistent rehash ~~~
 zstyle ':completion:*' rehash true
 
-
-# ~~~ color ~~~
+#❯■■■■■■■■■❯color❮❯■■■■■■■■■❯
 #zstyle ':completion:*:options' list-colors '=(#b)(--[^ ]#)(*)=30;1;220;1=32;1;216' # 
 #zstyle ':completion:*' list-colors '=(#b)(--[^ ]#)(*)=38;5;220;1=38;5;216'          
 #zstyle ':completion:*:parameters'  list-colors '=*=32'                             # ParameterGrün
@@ -128,8 +118,7 @@ zstyle ':completion:*' rehash true
 #zstyle ':completion:*:aliases' list-colors '=*=2;38;5;128'                         # alias purple
 zstyle -e ':completion:*:default' list-colors 'reply=("${PREFIX:+=(#bi)($PREFIX:t)(?)*==34=34}:${(s.:.)LS_COLORS}")'
 
-
-# ~~~ fzf-tab-completion ~~~
+#❯■■■■■■■■■❯fzf-tab-completion❮❯■■■■■■■■■❯
 # basic file preview for ls (you can replace with something more sophisticated than head)
 zstyle ':completion::*:ls::*' fzf-completion-opts --preview='eval head {1}'
 

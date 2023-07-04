@@ -10,8 +10,8 @@ alias qdbus="qdbus-qt5"
 alias -g devnull=" > /dev/null 2>&1 &"  
 alias dot='git --git-dir=$HOME/.dotfiles --work-tree=$HOME $@'
 
-alias  exad="exa -g --octal-permissions --icons --long --tree --sort=changed -L=1 -D --all"
-alias  exaa="exa -g --octal-permissions --icons --long --tree --sort=changed -L=1 --all"
+alias exad="exa -g --octal-permissions --icons --long --tree --sort=changed -L=1 -D --all"
+alias exaa="exa -g --octal-permissions --icons --long --tree --sort=changed -L=1 --all"
 alias  exa="exa -g --octal-permissions --icons --long --tree --sort=changed -L=1"
 alias exa2="exa -g --octal-permissions --icons --long --tree --sort=changed -L=2"
 alias exa3="exa -g --octal-permissions --icons --long --tree --sort=changed -L=3"
@@ -36,8 +36,6 @@ alias get-ip="hostname -I"
     # confirm command
     #zle accept-line
 
-alias cz="chezmoi"
-
 alias e="$EDITOR $@"
 alias ec="$EDITOR $HOME/.zshrc"
 alias exc="exec zsh"
@@ -50,14 +48,9 @@ alias -g c='code'
 alias -g co='codium'
 alias -g na='nano'
 
-alias tw='the-way'
 
 alias -g p='pwd'
 alias -g s='source'
-
-
-
-
 
 alias -g docker-compose='docker compose'
 alias -g 1DN='>/dev/null'
@@ -71,7 +64,6 @@ alias -g qqdev='/qq/dev'
 alias -g qqq='/qq'
 alias -g qqnb='/qq/lib/nb'
 alias -g qqsh='~/qq/lib/code/shell'
-
 
 
 # general
