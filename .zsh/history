@@ -1,0 +1,2886 @@
+: 1683367316:0;host dnsknowledge.com
+: 1683367335:0;host bodyprint24.de
+: 1683367348:0;dig bodyprint24.de
+: 1683367371:0;zi update
+: 1683367416:0;zi creinstall
+: 1683367531:0;rustup default stabl
+: 1683367534:0;rustup default stable
+: 1683367547:0;rustup --help
+: 1683367565:0;zypper se rust
+: 1683367576:0;sudo zypper rm -
+: 1683367580:0;sudo zypper rm rustup
+: 1683367601:0;cargo
+: 1683367871:0;cp workspace/home/zshrd/.zsh/bootstrap.sh $HOME/.zsh/
+: 1683367919:0;eval "$(atuin init zsh)"
+: 1683368074:0;bat
+: 1683368150:0;l
+: 1683368174:0;qdb
+: 1683368255:0;ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#073642,bg=#839496,bold,underline"\
+
+: 1683368348:0;zi-turbo '0c' lucid light-mode for atinit'AUTOCD=1' zplugin/zsh-exa MichaelAquilina/zsh-you-should-use
+: 1683368471:0;\
+localhost% cp workspace/home/zshrd/
+: 1683369283:0;cp history.db .local/share/atuin/
+: 1683369348:0;cd .local/
+: 1683369353:0;ls share/
+: 1683369356:0;Error: error returned from database: (code: 11) database disk image is malformed\
+\
+Caused by:\
+    (code: 11) database disk image is malformed\
+\
+Location:\
+    /home/qgrep/.zsh/.zi/plugins/z-shell---0/registry/src/github.com-1ecc6299db9ec823/atuin-14.0.1/src/command/client/search/engines.rs:37:16
+: 1683369443:0;ls share/atuin/
+: 1683369473:0;cd share/atuin/
+: 1683369477:0;rm -rf atuin/
+: 1683369482:0;sudo rm -rf atuin/
+: 1683369528:0;sudo rm /etc/X11/xorg.conf
+: 1683377351:0;flatpak remove com.github.eneshecan.WhatsAppForLinux
+: 1683377379:0;flatpak install ZapZap
+: 1683377490:0;zypper in cmake extra-cmake-modules qt5-qtdeclarative-devel qt5-qtx11extras-devel kf5-kiconthemes-devel kf5-plasma-devel kf5-kwindowsystem-devel kf5-kdeclarative-devel kf5-kxmlgui-devel kf5-kactivities-devel gcc-c++ gcc xcb-util-devel kf5-kwayland-devel git gettext kf5-karchive-devel kf5-knotifications-devel libSM-devel kf5-kcrash-devel kf5-knewstuff-devel kf5-kdbusaddons-devel kf5-kxmlgui-devel kf5-kglobalaccel-devel kf5-kio-devel kf5-kguiaddons-devel kf5-kirigami2-devel kf5-kirigami-devel kf5-ki18n-devel qt5-qtwayland-devel plasma-wayland-protocols-devel wayland-devel\
+\
+
+: 1683377495:0;sudo zypper in cmake extra-cmake-modules qt5-qtdeclarative-devel qt5-qtx11extras-devel kf5-kiconthemes-devel kf5-plasma-devel kf5-kwindowsystem-devel kf5-kdeclarative-devel kf5-kxmlgui-devel kf5-kactivities-devel gcc-c++ gcc xcb-util-devel kf5-kwayland-devel git gettext kf5-karchive-devel kf5-knotifications-devel libSM-devel kf5-kcrash-devel kf5-knewstuff-devel kf5-kdbusaddons-devel kf5-kxmlgui-devel kf5-kglobalaccel-devel kf5-kio-devel kf5-kguiaddons-devel kf5-kirigami2-devel kf5-kirigami-devel kf5-ki18n-devel qt5-qtwayland-devel plasma-wayland-protocols-devel wayland-devel\
+\
+
+: 1683377548:0;zypper se latte-dock
+: 1683377581:0;sudo snapper -c home create --description "beauty_v2"
+: 1683377707:0;sudo snapper -c root create --description "beauty_v2"
+: 1683377734:0;sudo rpm -i latte-dock-20230312.git.a0a4911-696.5.x86_64.rpm
+: 1683377761:0;killall latte-dock
+: 1683377785:0;sudo zypper rm latte-dock
+: 1683377837:0;rpm --help
+: 1683377853:0;sudo rpm -i --nosignature latte-dock-20230312.git.a0a4911-696.5.x86_64.rpm
+: 1683378000:0;zypper se -s latte-dock
+: 1683379213:0;sudo zypper dup && sudo shutdown -h now
+: 1683394244:0;cat /etc/xdg/Kvantum/kvantum.kvconfig
+: 1683394250:0;cat ~/.config/Kvantum/kvantum.kvconfig
+: 1683395962:0;cat .profile
+: 1683396224:0;sudo nano /etc/profile.d/kvantum
+: 1683397081:0;sudo snapper -c root create --description "vor theme color"
+: 1683397184:0;cat ~/.config/Trolltech.conf
+: 1683397212:0;sudo snapper -c home create --description "vor theme color"
+: 1683397372:0;kwin_x11 --replace && plasmashell --replace
+: 1683401090:0;zypper se kvantum
+: 1683401099:0;sudo zypper in kvantum-themes
+: 1683409990:0;code .local/share/color-schemes/BriseDarkLightly.colors
+: 1683410028:0;exa .local/share/color-schemes/
+: 1683410047:0;chown -R qgrep:qgrep .local/share/color-schemes/
+: 1683410054:0;chown -R qgrep:users .local/share/color-schemes/
+: 1683410060:0;sudo chown -R qgrep:users .local/share/color-schemes/\
+
+: 1683410139:0;rm -rf /home/qgrep/.local/share/plasma/look-and-feel//Brise-dark-lightly
+: 1683410143:0;sudo rm -rf /home/qgrep/.local/share/plasma/look-and-feel//Brise-dark-lightly\
+
+: 1683410149:0;chown -R qgrep:users .local/share/
+: 1683410269:0;logout
+: 1683410644:0;git clone https://github.com/yeyushengfan258/We10XOS-kde.git
+: 1683410658:0;cd We10XOS-kde/
+: 1683413883:0;nano .local/share/applications/
+: 1683413915:0;if [[ $(ps --no-header -p $PPID -o comm) =~ '^yakuake|dolphin$' ]]; then\
+ for wid in $(xdotool search --pid $PPID); do\
+ xprop -f _KDE_NET_WM_BLUR_BEHIND_REGION 32c -set _KDE_NET_WM_BLUR_BEHIND_REGION 0 -id $wid; done\
+fi
+: 1683413921:0;sudo zypper in xdotool
+: 1683413976:0;if [[ $(ps --no-header -p $PPID -o comm) =~ '^firefox|dolphin$' ]]; then\
+ for wid in $(xdotool search --pid $PPID); do\
+ xprop -f _KDE_NET_WM_BLUR_BEHIND_REGION 32c -set _KDE_NET_WM_BLUR_BEHIND_REGION 0 -id $wid; done\
+fi
+: 1683418155:0;zypper se lib dbus
+: 1683418163:0;zypper se lib dbusmenu
+: 1683418470:0;dolphin
+: 1683418603:0;latte-dock &
+: 1683419272:0;zypper se qt5
+: 1683419283:0;zypper se qt5ct
+: 1683419290:0;sudo zypper in qt5ct
+: 1683419575:0;if [ `qdbus | grep firefox` ]; then\
+xprop -f _KDE_NET_WM_BLUR_BEHIND_REGION 32c -set _KDE_NET_WM_BLUR_BEHIND_REGION 0 -id `xdotool search --class yakuake`;\
+fi
+: 1683419762:0;zypper rm qt5ct
+: 1683419766:0;sudo zypper rm qt5ct
+: 1683420098:0;sudo sed -i 's/#4285f4/#3daee9/g' MateriaBlur.kvconfig
+: 1683420978:0;sudo zypper ar -ef https://download.opensuse.org/repositories/home:/sputnik:/look-and-feel/openSUSE_Tumbleweed/ sputnik-look-and-feel
+: 1683421046:0;cat permafix.bash
+: 1683421055:0;code permafix.bash
+: 1683421074:0;nano permafix_home.sh
+: 1683421080:0;chmod permafix_home.sh
+: 1683421089:0;chmod +x permafix_home.sh
+: 1683421500:0;code bash-template.sh
+: 1683421512:0;mv bash-template.sh template-bash.sh
+: 1683421515:0;code te
+: 1683421520:0;code template-bash.sh
+: 1683421749:0;cat permafixhome.sh
+: 1683421979:0;cd ,,
+: 1683422184:0;nano sand.sh
+: 1683422190:0;chmod +x sand.sh
+: 1683422192:0;./sand.sh
+: 1683422367:0;sudo find /home/$USER -type d | xargs chmod 0775\
+sudo find /home/$USER -type f | xargs -0 chmod 0664\
+sudo find /home/$USER -type f -exec file {} \; | grep executable | cut -d":" -f1 | xargs chmod 0775
+: 1683422380:0;sudo find /home/$USER -type d | xargs chmod 0775\
+
+: 1683422386:0;sudo find /home/$USER -type d | xargs chmod 0775
+: 1683422639:0;sudo s
+: 1683422675:0;exa --help
+: 1683422718:0;cat ~/.zshPRE/.zshrc
+: 1683422723:0;cat ~/.zshPRE/.zshrc | grep exa
+: 1683422733:0;cat ~/.zshPRE/* | grep exa
+: 1683422749:0;cat ~/.zshPRE/config/ | grep exa
+: 1683422753:0;cat ~/.zshPRE/config/* | grep exa
+: 1683423010:0;find -not $HOME( -user ${USER} -group ${GROUP} \) 
+: 1683423017:0;find $HOME -not \( -user ${USER} -group ${GROUP} \)
+: 1683423037:0;find -not \( -user ${USER} -group ${users} \)
+: 1683423045:0;find -not \( -user ${USER} -group users \)
+: 1683423067:0;stat -c "%a %n" ~/.ssh/*
+: 1683423545:0;code .config/lightlyshaders.conf
+: 1683423626:0;Downloads/Firefox/Lightly-0.4.1/kstyle/lightly.themerc
+: 1683423887:0;mkdir /home/qgrep/Applications/
+: 1683423889:0;zap install --github --from oguzhaninan/stacer
+: 1683429802:0;cd kde5/services/
+: 1683429815:0;cd .local/share/color-schemes/
+: 1683429824:0;cat BriseDarkLightly.colors
+: 1683430066:0;code BriseDarkLightly.colors
+: 1683430580:0;chmod +x Enable\ Blur.sh
+: 1683430583:0;./Enable\ Blur.sh
+: 1683430742:0;find -name " lightly-qt.kvconfig "
+: 1683430747:0;find $HOME -name " lightly-qt.kvconfig "
+: 1683430753:0;find $HOME -name " lightly-q*"
+: 1683430757:0;find $HOME -name " lightl"
+: 1683430760:0;find $HOME -name " lightl*"
+: 1683430799:0;find /etc -name " lightl*"
+: 1683430802:0;sudo find /etc -name " lightl*"\
+
+: 1683431055:0;curl -fsSL https://raw.githubusercontent.com/manilarome/blurredfox/script/install.sh |\
+bash -s -- stable
+: 1683431092:0;cd .local/share/color-schemes
+: 1683431139:0;plasma/look-and-feel/Brise-dark-lightly
+: 1683431148:0;code metadata.desktop
+: 1683431178:0;cd contents/
+: 1683431180:0;cat defaults
+: 1683431243:0;cp defaults defaults.bak
+: 1683431246:0;nano defaults
+: 1683431290:0;code defaults
+: 1683431349:0;ls lo
+: 1683431353:0;ls logout/
+: 1683431361:0;ls layouts/
+: 1683431372:0;cat layouts/org.kde.plasma.desktop-layout.js
+: 1683431392:0;ls previews/
+: 1683431396:0;ls components/
+: 1683431406:0;ls components/artwork/
+: 1683431412:0;ls osd/
+: 1683431419:0;cat osd/Osd.qml
+: 1683431430:0;ls splash/
+: 1683431436:0;cat splash/Splash.qml
+: 1683431440:0;clear
+: 1683431503:0;code ~/.local/share/color-schemes/BriseDarkLightly.colors
+: 1683431707:0;sudo zypper rm lightly
+: 1683431726:0;sudo zypper install cmake gcc-c++ extra-cmake-modules libQt5Gui-devel libQt5DBus-devel libqt5-qttools-devel libqt5-qtx11extras-devel libQt5OpenGL-devel libQt5Network-devel libepoxy-devel kconfig-devel kconfigwidgets-devel kcrash-devel kglobalaccel-devel ki18n-devel kio-devel kservice-devel kinit-devel knotifications-devel kwindowsystem-devel kguiaddons-devel kiconthemes-devel kpackage-devel kwin5-devel xcb-util-devel xcb-util-cursor-devel xcb-util-wm-devel xcb-util-keysyms-devel
+: 1683431739:0;cd Lightly/
+: 1683431756:0;mkdir build && cd build\
+cmake -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_INSTALL_LIBDIR=lib -DBUILD_TESTING=OFF ..\
+make\
+sudo make install
+: 1683431765:0;mkdir build && cd build
+: 1683431782:0;cmake -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_INSTALL_LIBDIR=lib -DBUILD_TESTING=OFF ..
+: 1683431791:0;make\
+sudo make install
+: 1683432248:0;zypper se materia
+: 1683432286:0;sudo zypper in materia-kde materia-gtk-theme materia-kde-decoration materia-kde-konsole materia-kde-sddm materia-kde-style materia-kde-wallpapers materia-kde-yakuake
+: 1683432378:0;sudo zypper in kvantum-manager kvantum-qt5
+: 1683432774:0;ls ~//.local/share/kservices5/
+: 1683432818:0;git clone https://github.com/esjeon/kwin-forceblur.git
+: 1683432820:0;cd kwin-forceblur/
+: 1683432855:0;chmod +x pack.sh
+: 1683433013:0;sudo zypper clean\
+
+: 1683433017:0;yast
+: 1683433041:0;sudo yast
+: 1683433145:0;sudo zypper in zi
+: 1683433147:0;sudo zypper in zip
+: 1683433166:0;./pack.sh
+: 1683433286:0;nano ~/.Xresources
+: 1683433833:0;code ~/.config/kdeglobals
+: 1683434041:0;sudo nano /etc/netconfig
+: 1683434183:0;sudo zypper install git extra-cmake-modules libkdecoration2-devel kcoreaddons-devel kguiaddons-devel kconfig-devel kwindowsystem-devel ki18n-devel kconfigwidgets-devel libQt5DBus-devel libqt5-qtx11extras-devel fftw3-devel
+: 1683434273:0;git clone git clone https://github.com/alex47/BreezeBlurred
+: 1683434279:0;git clone https://github.com/alex47/BreezeBlurred
+: 1683434285:0;cd BreezeBlurred\
+mkdir build\
+cd build\
+cmake .. -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=Release -DKDE_INSTALL_LIBDIR=lib -DBUILD_TESTING=OFF -DKDE_INSTALL_USE_QT_SYS_PATHS=ON\
+sudo make install\
+kwin_x11 --replace &
+: 1683435013:0;cmake .. -DCMAKE_INSTALL_PREFIX=/usr -DCMAKE_BUILD_TYPE=Release -DKDE_INSTALL_LIBDIR=lib -DBUILD_TESTING=OFF -DKDE_INSTALL_USE_QT_SYS_PATHS=ON\
+sudo make install\
+kwin_x11 --replace &
+: 1683435231:0;cat ~/.local/share/color-schemes/BriseDarkLightly.colors
+: 1683435404:0;code /home/qgrep/.local/share/color-schemes
+: 1683435480:0;code ~/.local/share/color-schemes
+: 1683435595:0;git clone https://github.com/rkstrdee/Brise.git
+: 1683435615:0;cd ~/.local/share/plasma/look-and-feel
+: 1683435621:0;cd Brise-dark-lightly/
+: 1683435625:0;cat metadata.desktop
+: 1683435629:0;ls contents/
+: 1683435639:0;cd ~/.local/share/plasma/desktoptheme
+: 1683435972:0;sudo nano /etc/
+: 1683436107:0;ls .gtkrc-2.0
+: 1683436110:0;cat .gtkrc-2.0
+: 1683436305:0;cat ~/.local/share/kservices5/forceblur.desktop
+: 1683436316:0;nano .local/share/applications
+: 1683436324:0;nano .local/share/applications/defaults.list
+: 1683436370:0;qdbus-qt5 org.kde.ksmserver /KSMServer logout 0 3 3
+: 1683436864:0;code ~/.local/share/color-schemes/Harmony.colors
+: 1683437568:0;sudo zypper rm kvantum-manager kvantum-qt5
+: 1683437581:0;sudo zypper ar obs://home:trmdi trmdi\
+sudo zypper in -r trmdi kvantum
+: 1683437628:0;nano .profile
+: 1683437679:0;nano ~/.config/environment.d/qt-theme.conf
+: 1683437693:0;APP -style kvantum
+: 1683443632:0;nano test
+: 1683443648:0;sed -i 's/MenuBar=Disabled/MenuBar=Enabled/' test
+: 1683443652:0;cat test
+: 1683443670:0;cat akonadi_akonotes_resource_0rc akonadi_contactrc akonadi_contacts_resource_0rc akonadi-firstrunrc akonadi_ical_resource_0rc akonadi_imap_resource_0rc akonadi_indexing_agentrc akonadi_maildir_resource_0rc akonadi-migrationrc akonadi_newmailnotifier_agent.notifyrc akonadi_pop3_resource_0rc akonadi_pop3_resource_1rc akonadi_pop3_resource_2rc akonadi_pop3_resource_3rc akonadi_unifiedmailbox_agentrc akregatorrc arkrc auroraerc baloofileinformationrc baloofilerc bluedevilglobalrc breezerc defaultcalendarrc discoverrc dolphinrc drkonqirc eventviewsrc flameshotrc foldermailarchiverc gtkrc gwenviewrc imagewriterrc kabldaprc kactivitymanagerd-pluginsrc kactivitymanagerdrc kactivitymanagerd-statsrc kaddressbookrc kalendaracrc katerc kateschemarc katevirc kcminputrc kconf_updaterc kded5rc kdiff3fileitemactionrc kdiff3rc KeePassXCrc kfontinstuirc kgammarc kglobalshortcutsrc khelpcenterrc khotkeysrc kinfocenterrc kiorc kmail2rc kmailsearchindexingrc kmenueditrc kmixrc kmozillahelperrc komparerc konquerorrc konsolerc kontactrc kontact_summaryrc korganizerrc kreversirc krunnerrc krusaderrc kscreenlockerrc kservicemenurc ksmserverrc ksplashrc ksysguardrc ksystemlogrc ktimezonedrc kwalletmanager5rc kwalletrc kwinrc kwinrulesrc kxkbrc lattedockrc lightlyrc okularpartrc okularrc phishingurlrc plasma.emojierrc plasma-localerc plasmanotifyrc plasma-org.kde.plasma.desktop-appletsrc plasmaparc plasmarc plasmashellrc powermanagementprofilesrc sddmthemeinstallerrc specialmailcollectionsrc spectaclerc systemmonitorrc systemsettingsrc templatesconfigurationrc touchpadxlibinputrc trashrc webengineurlinterceptoradblockrc xdg-desktop-portal-kderc yakuakerc
+: 1683443684:0;cat akonadi_akonotes_resource_0rc akonadi_contactrc akonadi_contacts_resource_0rc akonadi-firstrunrc akonadi_ical_resource_0rc akonadi_imap_resource_0rc akonadi_indexing_agentrc akonadi_maildir_resource_0rc akonadi-migrationrc akonadi_newmailnotifier_agent.notifyrc akonadi_pop3_resource_0rc akonadi_pop3_resource_1rc akonadi_pop3_resource_2rc akonadi_pop3_resource_3rc akonadi_unifiedmailbox_agentrc akregatorrc arkrc auroraerc baloofileinformationrc baloofilerc bluedevilglobalrc breezerc defaultcalendarrc discoverrc dolphinrc drkonqirc eventviewsrc flameshotrc foldermailarchiverc gtkrc gwenviewrc imagewriterrc kabldaprc kactivitymanagerd-pluginsrc kactivitymanagerdrc kactivitymanagerd-statsrc kaddressbookrc kalendaracrc katerc kateschemarc katevirc kcminputrc kconf_updaterc kded5rc kdiff3fileitemactionrc kdiff3rc KeePassXCrc kfontinstuirc kgammarc kglobalshortcutsrc khelpcenterrc khotkeysrc kinfocenterrc kiorc kmail2rc kmailsearchindexingrc kmenueditrc kmixrc kmozillahelperrc komparerc konquerorrc konsolerc kontactrc kontact_summaryrc korganizerrc kreversirc krunnerrc krusaderrc kscreenlockerrc kservicemenurc ksmserverrc ksplashrc ksysguardrc ksystemlogrc ktimezonedrc kwalletmanager5rc kwalletrc kwinrc kwinrulesrc kxkbrc lattedockrc lightlyrc okularpartrc okularrc phishingurlrc plasma.emojierrc plasma-localerc plasmanotifyrc plasma-org.kde.plasma.desktop-appletsrc plasmaparc plasmarc plasmashellrc powermanagementprofilesrc sddmthemeinstallerrc specialmailcollectionsrc spectaclerc systemmonitorrc systemsettingsrc templatesconfigurationrc touchpadxlibinputrc trashrc webengineurlinterceptoradblockrc xdg-desktop-portal-kderc yakuakerc | grep menubar
+: 1683443692:0;cat akonadi_akonotes_resource_0rc akonadi_contactrc akonadi_contacts_resource_0rc akonadi-firstrunrc akonadi_ical_resource_0rc akonadi_imap_resource_0rc akonadi_indexing_agentrc akonadi_maildir_resource_0rc akonadi-migrationrc akonadi_newmailnotifier_agent.notifyrc akonadi_pop3_resource_0rc akonadi_pop3_resource_1rc akonadi_pop3_resource_2rc akonadi_pop3_resource_3rc akonadi_unifiedmailbox_agentrc akregatorrc arkrc auroraerc baloofileinformationrc baloofilerc bluedevilglobalrc breezerc defaultcalendarrc discoverrc dolphinrc drkonqirc eventviewsrc flameshotrc foldermailarchiverc gtkrc gwenviewrc imagewriterrc kabldaprc kactivitymanagerd-pluginsrc kactivitymanagerdrc kactivitymanagerd-statsrc kaddressbookrc kalendaracrc katerc kateschemarc katevirc kcminputrc kconf_updaterc kded5rc kdiff3fileitemactionrc kdiff3rc KeePassXCrc kfontinstuirc kgammarc kglobalshortcutsrc khelpcenterrc khotkeysrc kinfocenterrc kiorc kmail2rc kmailsearchindexingrc kmenueditrc kmixrc kmozillahelperrc komparerc konquerorrc konsolerc kontactrc kontact_summaryrc korganizerrc kreversirc krunnerrc krusaderrc kscreenlockerrc kservicemenurc ksmserverrc ksplashrc ksysguardrc ksystemlogrc ktimezonedrc kwalletmanager5rc kwalletrc kwinrc kwinrulesrc kxkbrc lattedockrc lightlyrc okularpartrc okularrc phishingurlrc plasma.emojierrc plasma-localerc plasmanotifyrc plasma-org.kde.plasma.desktop-appletsrc plasmaparc plasmarc plasmashellrc powermanagementprofilesrc sddmthemeinstallerrc specialmailcollectionsrc spectaclerc systemmonitorrc systemsettingsrc templatesconfigurationrc touchpadxlibinputrc trashrc webengineurlinterceptoradblockrc xdg-desktop-portal-kderc yakuakerc | grep Bar
+: 1683443774:0;sed -i 's/MenuBar=Disabled/MenuBar=Enabled/' *rc
+: 1683447088:0;git clone https://github.com/vinceliuice/Tela-circle-icon-theme
+: 1683447094:0;cd Tela-
+: 1683447097:0;cd Tela-circle-icon-theme/
+: 1683447728:0;sudo zypper in quota
+: 1683450122:0;ls /mnt/mobilessd/btrfs/data/home/qgrep/Bilder\
+
+: 1683450128:0;ls $HOME/Bilder
+: 1683450162:0;sudo btrfs property get $PWD
+: 1683450174:0;sudo btrfs property get /mnt/mobilessd/btrfs/data/home/qgrep/Bilder
+: 1683450184:0;sudo btrfs property get /data
+: 1683450196:0;sudo btrfs property get /mnt/mobilessd/btrfs/data/home
+: 1683450339:0;sudo btrfs property get /mnt/mobilessd/btrfs/data/home ro false
+: 1683450376:0;mkdir screenshots
+: 1683450428:0;sudo btrfs property set /mnt/mobilessd/btrfs/data/home ro true
+: 1683450525:0;rsync -auz --info --info=progress2 --stats --numeric-ids --dry-run /mnt/mobilessd/btrfs/data/home/qgrep/Bilder/ ~/Bilder/
+: 1683450539:0;rsync -auz --info=progress2 --stats --numeric-ids --dry-run /mnt/mobilessd/btrfs/data/home/qgrep/Bilder/ ~/Bilder/
+: 1683453834:0;rsync -auzv --info=progress2 --stats --numeric-ids --dry-run /mnt/mobilessd/btrfs/data/home/qgrep/Bilder/ ~/Bilder/
+: 1683453850:0;rsync -auzv --info=progress2 --stats --numeric-ids --dry-run --delete /mnt/mobilessd/btrfs/data/home/qgrep/Bilder/ ~/Bilder/
+: 1683453907:0;ls Kamera/oneplus/Pictures/MyCollections/
+: 1683453923:0;cd /mnt/mobilessd/btrfs/data/home/qgrep/Bilder/
+: 1683453927:0;cd Kamera/oneplus/Pictures/MyCollections/
+: 1683453937:0;cd Android\ Kamera/
+: 1683453951:0;rsync -auzv --info=progress2 --stats --numeric-ids /mnt/mobilessd/btrfs/data/home/qgrep/Bilder/ ~/Bilder/
+: 1683456800:0;rsync -auzv --info=progress2 --stats --numeric-ids /mnt/mobilessd/btrfs/data/home/qgrep/Dokumente/ ~/Dokumente/
+: 1683456946:0;sudo btrfs property set /mnt/mobilessd/btrfs/data/home ro false
+: 1683457192:0;function bannerSimple() {\
+ local msg="${2} ${1} ${2}"\
+ local edge=$(echo "${msg}" | sed "s/./"${2}"/g")\
+ echo "${edge}"\
+ echo "$(tput bold)${msg}$(tput sgr0)"\
+ echo "${edge}"\
+ echo\
+}
+: 1683457195:0;bannerSimple ls
+: 1683457198:0;bannerSimple was
+: 1683457246:0;./sandi2
+: 1683457260:0;./sandi2 blue fo
+: 1683457267:0;./sandi2 blue
+: 1683457467:0;sudo mv xorg.conf /etc/X11/
+: 1683458307:0;zypper se #2D2D2D
+: 1683458315:0;zypper se qtpos
+: 1683458600:0;stacer
+: 1683458678:0;sudo snapper -c home create --description "beauty_v3 kvantum winos theme no lighly"
+: 1683480243:0;sudo ssh-keygen -A
+: 1683480250:0;sudo service ssh --full-restart
+: 1683480318:0;zypper se openssh
+: 1683480346:0;sudo zypper in -f opennssh openssh-clients openssh-server
+: 1683480432:0;sudo zypper in -f openssh openssh-clients openssh-server
+: 1683480454:0;sudo systemctl enable sshd
+: 1683480463:0;systemctl status sshd.service
+: 1683480930:0;\
+tail -n +1 /sys/devices/system/cpu/vulnerabilities/*
+: 1683480946:0;\
+sudo bash\
+sudo echo performance | tee /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor
+: 1683481277:0;nano code firefox-info.sh
+: 1683481287:0;code firefox-info.sh
+: 1683481398:0;chmod +x firefox-info.sh
+: 1683481400:0;./firefox-info.sh
+: 1683481455:0;qdbus-qt5 org.kde.ActivityManager /ActivityManager/Activities CurrentActivity
+: 1683481473:0;qdbus-qt5 org.kde.ActivityManager /ActivityManager/Activities CurrentActivity\
+
+: 1683482766:0;fastboot devices
+: 1683482788:0;fastboot set_active b
+: 1683482793:0;fastboot reboot
+: 1683499450:0;rm -rf icons.bak/
+: 1683499474:0;mv icons/ icons2
+: 1683499492:0;sudo btrfs subvolume add $PWD/icons
+: 1683499502:0;sudo btrfs subvolume create $PWD/icons
+: 1683499539:0;sudo chown -R qgrep:users icons
+: 1683499542:0;mv icons2/* icons/
+: 1683499553:0;rm -rf icons2/
+: 1683500477:0;sudo snapper -c home delete 3 8
+: 1683500673:0;sudo snapper -c home delete 4 5 6 7
+: 1683505536:0;zypper --no-refresh se -is libyui-qt yast2-contro
+: 1683505898:0;kdesu virt-manager
+: 1683505945:0;virt-manager
+: 1683506000:0;virsh list
+: 1683506039:0;ps aux | grep libvirt
+: 1683506075:0;cat /proc/sys/net/ipv4/ip_forward
+: 1683506104:0;qemu-pr-helper
+: 1683506109:0;sudo qemu-pr-helper\
+
+: 1683506189:0;zypper search kvm
+: 1683506236:0;sudo zypper install -f pattern kvm_server kvm_tools
+: 1683506242:0;sudo zypper install -ft pattern kvm_server kvm_tools
+: 1683506270:0;systemctl status kvm_stat.service
+: 1683506280:0;sudo systemctl enable kvm_stat.service
+: 1683506287:0;sudo systemctl start kvm_stat.service
+: 1683506304:0;systemctl status qemu-kvm.service
+: 1683506341:0;sudo lscpu\
+
+: 1683506375:0;zypper se yast2-vm
+: 1683506473:0;systemctl status libvirtd
+: 1683506492:0;zypper se libvirt
+: 1683506570:0;sudo rpm -i --nosignature libvirt-9.3.0-Virt.1699.1059.3.x86_64.rpm
+: 1683506647:0;sudo zypper install -t pattern kvm_server kvm_tools
+: 1683506772:0;virsh net-autostart --network default
+: 1683506857:0;sudo zypper in virtualbox
+: 1683506919:0;zypper se shotwe
+: 1683507026:0;shotwell --help
+: 1683508969:0;zypper se vmware
+: 1683509217:0;sh VMware-Workstation-Full-17.0.0-20800274.x86_64.bundle
+: 1683509764:0;sudo sh VMware-Workstation-Full-17.0.0-20800274.x86_64.bundle\
+
+: 1683509777:0;sudo sh VMware-Workstation-Full-17.0.0-20800274.x86_64.bundle --help
+: 1683509805:0;sudo sh VMware-Workstation-Full-17.0.0-20800274.x86_64.bundle -l
+: 1683509818:0;sudo sh VMware-Workstation-Full-17.0.0-20800274.x86_64.bundle --uninstall vmware-workstation
+: 1683509834:0;sudo sh VMware-Workstation-Full-17.0.0-20800274.x86_64.bundle --uninstall-product vmware-workstation
+: 1683509888:0;vmware-installer
+: 1683510193:0;cd pure
+: 1683510502:0;sudo zypper refresh\
+
+: 1683510735:0;cat .zlogin
+: 1683510887:0;last | head -5 | tr -s " "
+: 1683510896:0;for user in `ls /home`; do echo -ne "$user\t"; last $user | wc -l; done
+: 1683510912:0;nano .zlogin
+: 1683510936:0;mkdir SANDBOX
+: 1683510939:0;cd S
+: 1683510959:0;touch sandbox
+: 1683510969:0;chmod +x sandbox
+: 1683510972:0;code sandbox
+: 1683511006:0;use: "c"\
+~/SANDBOX
+: 1683511050:0;for user in `ls /home`; do ac $user | sed "s/total/$user\t/" ; done
+: 1683511053:0;./sandbox
+: 1683511482:0;sudo sh VMware-Workstation-Full-17.0.0-20800274.x86_64.bundle
+: 1683549430:0;sudo zypper in shotwell
+: 1683549475:0;shotwell
+: 1683549701:0;zypper se shotwell
+: 1683549767:0;zypper verify
+: 1683549769:0;sudo zypper verify\
+
+: 1683549811:0;sudo zypper in shotwell-lang
+: 1683550936:0;cd android/
+: 1683550946:0;cd XiaomiADBFastbootTools/
+: 1683550969:0;src/xiaomiadbfastboottools/XiaomiADBFastbootTools.java
+: 1683550977:0;java -jar src/xiaomiadbfastboottools/XiaomiADBFastbootTools.java
+: 1683550990:0;cd xiaomiadbfastboottools/
+: 1683551001:0;sudo java -jar XiaomiADBFastbootTools.jar
+: 1683551020:0;java -jar XiaomiADBFastbootTools.java
+: 1683551396:0;ls $HOME/Downloads/Firefox/
+: 1683551417:0;cd uad_gui-linux-opengl
+: 1683551422:0;./uad_gui-linux-opengl
+: 1683559002:0;flatpak run com.rtosta.zapzap
+: 1683559069:0;flatpak rm com.rtosta.zapzap
+: 1683559074:0;flatpak removem com.rtosta.zapzap
+: 1683559086:0;flatpak remove com.rtosta.zapzap
+: 1683559096:0;flatpak search whats
+: 1683560650:0;flatpak run whatsie
+: 1683560692:0;flatpak run org.mozilla.Thunderbird
+: 1683560705:0;flatpak install com.ktechpit.whatsie
+: 1683560766:0;flatpak install org.kde.Platform/x86_64/5.15-22.08
+: 1683560846:0;flatpak run com.ktechpit.whatsie
+: 1683561720:0;zypper se Thumbnails
+: 1683561768:0;sudo zypper in tumbler-folder-thumbnaile
+: 1683561770:0;sudo zypper in tumbler-folder-thumbnailer
+: 1683561783:0;tumbler-folder-thumbnaile
+: 1683561790:0;folder-thumbnailer
+: 1683561795:0;folder-thumbnailer --hep
+: 1683561798:0;folder-thumbnailer --help
+: 1683561887:0;sudo zypper remove tumbler-folder-thumbnailer
+: 1683565076:0;zypper se Thumbnail
+: 1683567292:0;curl cheat.sh/ffmpegthumbnailer
+: 1683567451:0;hdparm -N /dev/nvme0
+: 1683567454:0;sudo hdparm -N /dev/nvme0\
+
+: 1683567465:0;sudo hdparm /dev/nvme0
+: 1683567475:0;sudo hdparm -N /dev/nvme0n1
+: 1683567478:0;sudo hdparm -N /dev/nvme0n1p4
+: 1683572011:0;kdialog --version\
+
+: 1683572017:0;ffmpeg -version\
+
+: 1683572023:0;convert --version\
+
+: 1683572155:0;keneric
+: 1683572311:0;zypper se gir1.2-gnomedesktop-3.0
+: 1683572320:0;zypper se gir
+: 1683572365:0;zypper se gnome-menus
+: 1683572370:0;sudo zypper in gnome-menus
+: 1683572439:0;code shell/thumnailer.py
+: 1683572477:0;chmod +x shell/thumnailer.py
+: 1683572585:0;cd shell
+: 1683572626:0;which python
+: 1683572700:0;pip install pillow
+: 1683572705:0;pip3 install pillow
+: 1683572735:0;which python3.10
+: 1683572741:0;/bin/python3.10
+: 1683572755:0;./thumnailer.py
+: 1683572813:0;zypper se libgnome
+: 1683572904:0;ls $XDG_CACHE_HOME/thumbnails/
+: 1683572968:0;zypper se python3-pip
+: 1683572977:0;zypper se evince
+: 1683572996:0;zypper se gnomedesktop
+: 1683573012:0;pip3 install gir1.2-gnomedesktop-3.0
+: 1683573380:0;zypper se gnome
+: 1683573548:0;zypper se gnome-directory-thumbnailer
+: 1683573569:0;sudo zypper in gnome-directory-thumbnailer
+: 1683573592:0;gnome-directory-thumbnailer
+: 1683574321:0;zypper in typelib-1_0-GnomeDesktop-3_0typelib-1_0-GnomeDesktop-3_0
+: 1683574327:0;sudo zypper in typelib-1_0-GnomeDesktop-3_0
+: 1683574346:0;gnome-directory-thumbnailer $HOME/Bilder
+: 1683574352:0;python3.10 thumnailer.py
+: 1683574761:0;ls ~/.cache/*
+: 1683574772:0;python3.10 thumnailer.py /data/sync/12t/DCIM/oneplus/Camera/
+: 1683574850:0;ls ~/.cache
+: 1683574943:0;sudo zypper in thunar
+: 1683575438:0;nano thumnailer.sh
+: 1683575461:0;chmod +x shell/thumnailer.sh
+: 1683575497:0;chmod +x thumnailer.sh
+: 1683575501:0;./thumnailer.sh
+: 1683575543:0;./thumnailer.sh /data/sync/12t/DCIM/oneplus/Camera/
+: 1683576274:0;zypper se kdegraphics-thumbnailers
+: 1683576428:0;kdegraphics-thumbnailers
+: 1683576435:0;kstart5 plasmashell --replace\
+
+: 1683576486:0;kdeconnect-cli -l
+: 1683576731:0;git clone https://github.com/AntonioNarcilio/generate-thumbnails.git
+: 1683576744:0;cd generate-thumbnails/
+: 1683576749:0;chmod +x install.sh
+: 1683576771:0;nano install.sh
+: 1683577071:0;zypper se nautilus
+: 1683577246:0;cd .cache/
+: 1683577256:0;ls gnome-desktop-thumbnailer/
+: 1683577259:0;ls thumbnails/
+: 1683577264:0;ls thumbnails/normal/
+: 1683577269:0;ls thumbnails/normal/ | wc -l
+: 1683577424:0;python3.10 thumnailer.py /data/sync/12t/DCIM/
+: 1683577530:0;code mkthumb.sh
+: 1683577535:0;chmod +x mkthumb.sh
+: 1683577604:0;./mkthumb.sh -s /data/sync/12t/DCIM/
+: 1683577677:0;zypper se libgirepository1.0-dev gcc libcairo2-dev pkg-config
+: 1683577686:0;sudo zypper in libgirepository1.0-dev gcc libcairo2-dev pkg-config
+: 1683577696:0;pip install thumbgen
+: 1683577711:0;thumbgen -w 4 -r -d /data/sync/12t/DCIM/
+: 1683577733:0;thumbgen -w 4 -r -d /data/sync/12t/DCIM/Camera/
+: 1683577745:0;thumbgen -w 4 -r -d /data/sync/12t/DCIM/oneplus/Camera/
+: 1683578148:0;thumbgen -w 4 -r -d /data/sync/12t/DCIM/oneplus/
+: 1683578173:0;thumbgen -w 4 -r -d /data/sync/12t/DCIM/oneplus/OpenCamera/
+: 1683578312:0;for i in `find /data/sync/12t/DCIM/ -type d`; do thumbgen -w 4 -r -d $i ; done
+: 1683579328:0;rm mkthumb.sh
+: 1683583136:0;cd /data/work/ebay/nvidia/
+: 1683583153:0;touch artikelbeschreibung
+: 1683583162:0;mv artikelbeschreibung artikelbeschreibung.md
+: 1683583170:0;nano artikelbeschreibung.md
+: 1683583184:0;zypper se obsi
+: 1683583195:0;zypper se markt
+: 1683583208:0;zypper se mark
+: 1683583224:0;flatpak search marktext
+: 1683583235:0;flatpak install marktext
+: 1683583268:0;whatis
+: 1683583346:0;2>/dev/null
+: 1683583444:0;cat /etc/network/interfaces
+: 1683583499:0;cd
+: 1683583571:0;cat /etc/dhcp/dhclient.conf
+: 1683583708:0;zypper se knot
+: 1683583730:0;zypper info knot
+: 1683583744:0;sudo zypper in knot
+: 1683583781:0;sudo systemctl enable knot.service
+: 1683583786:0;nano /etc/knot-resolver/kresd.conf
+: 1683583792:0;sudo systemctl start knot.service
+: 1683583798:0;sudo systemctl info knot.service
+: 1683583802:0;sudo systemctl status knot.service
+: 1683583829:0;firewall-cmd --get-services
+: 1683583848:0;firewall-cmd --state
+: 1683583871:0;sudo nano /etc/knot-resolver/kresd.conf
+: 1683583881:0;ls /etc/knot/
+: 1683584531:0;zypper se Konqueror
+: 1683584541:0;zypper se falkon
+: 1683584551:0;sudo zypper in falkon
+: 1683584632:0;sudo zypper in qutebrowser
+: 1683584701:0;qutebrowser
+: 1683585148:0;sudo netconfig -f update
+: 1683585177:0;cat /etc/sysconfig/network/config
+: 1683585189:0;sudo nano /etc/sysconfig/network/config
+: 1683585244:0;flatpak install com.github.marktext.marktext
+: 1683587514:0;flatpak list --runtime
+: 1683587522:0;flatpak list --app
+: 1683587567:0;flatpak list --columns=application | sort
+: 1683587648:0;_flatpak() {\
+ read -l\
+ local cl="$REPLY"\
+ read -ln\
+ local cp="$REPLY"\
+ local cur=""\
+\
+ for ((i=${cp}-1; i>=0; --i)); do\
+ [[ x${cl[$i,$i]}x == "x x" ]] && cur=${cl[$i+1,$cp-1]} && break;\
+ done\
+\
+ reply=($(flatpak complete "${cl}" "${cp}" "${cur}"))\
+}\
+\
+compctl -K _flatpak flatpak
+: 1683587901:0;PASS="$PASS${MATRIX:$(($RANDOM%${#MATRIX})):1}"
+: 1683587926:0;code sandBOX
+: 1683588141:0;sudo zypper in mplayer
+: 1683588242:0;./sandBOX
+: 1683588254:0;./sandBOX $PWD
+: 1683588370:0;flatpak run com.github.marktext.marktext artikelbeschreibung.md
+: 1683588383:0;cat artikelbeschreibung.md
+: 1683588479:0;flatpak remove com.github.marktext.marktext artikelbeschreibung.md
+: 1683589032:0;touch ebay.html
+: 1683589951:0;echo "" > ebay.html
+: 1683589953:0;nano ebay.html
+: 1683589957:0;firefox ebay.html
+: 1683590145:0;code ~/.zsh/zshrc.d/20-completion.zsh
+: 1683590152:0;code ~/.zsh/zshrc.d/11-zplugin-shell.zsh
+: 1683590173:0;zi module
+: 1683590175:0;zi module info
+: 1683590232:0;su -c zi whoami
+: 1683590276:0;sudo -c zi ls
+: 1683590283:0;sudo --help
+: 1683590290:0;sudo -u zi ls
+: 1683590296:0;sudo -u zi whoami
+: 1683590305:0;sudo zi
+: 1683590354:0;cd ~/.zsh/.zi/
+: 1683590362:0;plugins/z-shell---nb/bin/nb
+: 1683590370:0;cd plugins/z-shell---nb/bin/nb
+: 1683590376:0;plugins/z-shell---nb
+: 1683590392:0;./nv
+: 1683590394:0;./nb
+: 1683590398:0;cd nb
+: 1683590400:0;sh nb
+: 1683590406:0;cat nb
+: 1683590413:0;cd src/
+: 1683590436:0;echo $PATH | grep plugins
+: 1683590456:0;zi help
+: 1683590491:0;zi delete nb
+: 1683590589:0;exec zsh -ul
+: 1683591250:0;nb search markdown
+: 1683591267:0;nb browse --gui
+: 1683591336:0;code artikelbeschreibung.md
+: 1683591348:0;code artikelbeschreibung.html
+: 1683591360:0;cd /data/work/SANDBOX/
+: 1683591365:0;cat ebay.html
+: 1683591387:0;firefox artikelbeschreibung.md
+: 1683596157:0;mkdir html_css_live_editor_browser
+: 1683596160:0;cd html_css_live_editor_browser/
+: 1683596164:0;git clone https://github.com/markhillard/Editor.git
+: 1683596168:0;cd Editor/
+: 1683596306:0;pip install iqery
+: 1683596317:0;pip install jQuery
+: 1683596441:0;rm -rf html_css_live_editor_browser/
+: 1683596884:0;QT_QPA_PLATFORM=wayland dbus-run-session kwin_wayland "plasmashell -p org.kde.plasma.mycroft.bigscreen"
+: 1683597420:0;cd ebay/
+: 1683597425:0;firefox artikelbeschreibung.html
+: 1683598380:0;zap remove obsidianmd/obsidian-releases
+: 1683598503:0;obsidian-releases artikelbeschreibung.md
+: 1683598567:0;nb notebooks add ebay
+: 1683598586:0;nb notebooks remove ebay
+: 1683598596:0;nb notebooks add sonstiges
+: 1683598600:0;nb notebooks add sonstiges/ebay
+: 1683598627:0;nb 1
+: 1683598632:0;nb use ebay
+: 1683598646:0;nb add --title "Artikelbeschreibung"
+: 1683599388:0;cd /data/work/ebay/
+: 1683599391:0;cd nvidia/
+: 1683599395:0;mkdir founders
+: 1683599396:0;cd founders/
+: 1683599442:0;wget https://www.ign.com/articles/nvidia-geforce-rtx-3060-ti-founders-edition-review
+: 1683599568:0;sudo zypper in exif exiftool
+: 1683599594:0;exif
+: 1683599613:0;rm -rf founders/
+: 1683599615:0;exif nvidia.jpg
+: 1683599628:0;exif IMG20220210211529.jpg
+: 1683599725:0;exiftool -all= nvidia.jpg
+: 1683599731:0;identify -verbose nvidia.jpg
+: 1683599965:0;zypper se Photopea
+: 1683600192:0;git clone https://github.com/landsman/photopea-desktop
+: 1683600196:0;cd photopea-desktop/
+: 1683600489:0;flatpak remove com.github.vikdevelop.photopea_app
+: 1683601495:0;top -b -n 2 -d 0.2 -p 6962 | tail -1 | awk '{print $9}'
+: 1683601613:0;plasma-discover
+: 1683601782:0;zap install --github --from spooknik/Photopea-Appimage
+: 1683601855:0;cd /data/work/maintenance/installer/opensuse/extra-package-from-repo/photopea-desktop/
+: 1683601882:0;npm install -g npm@latest
+: 1683601898:0;sudo npm install -g npm@latest
+: 1683601914:0;sudo npm fund\
+
+: 1683602003:0;npm run start
+: 1683602509:0;op master* 39s\
+âƒ½¯ npm run start
+: 1683602693:0;npm i create-desktop-shortcuts
+: 1683602697:0;npm install --save create-desktop-shortcuts
+: 1683602748:0;npm t
+: 1683602965:0;npm --help
+: 1683603003:0;firefox RE
+: 1683603008:0;firefox README.md
+: 1683603022:0;marktext README.md
+: 1683603234:0;cd /data/work/maintenance/installer/opensuse/extra-package-from-repo/photopea-desktop && npm run start
+: 1683603857:0;which npm
+: 1683603944:0;/bin/npm
+: 1683604032:0;sudo nano /home/qgrep/.local/share/applications/Photopea.desktop
+: 1683604393:0;npm start --prefix /data/work/maintenance/installer/opensuse/extra-package-from-repo/photopea-desktop
+: 1683604485:0;flatpak install com.github.vikdevelop.photopea_app
+: 1683604585:0;rm .nvidia-settings-rc
+: 1683604667:0;nvidia-xconfig
+: 1683607540:0;cat .zshrc.jo
+: 1683607742:0;zi wait pack atload=+"zicompinit; zicdreplay" for system-completions
+: 1683608263:0;zypper in ag
+: 1683608265:0;sudo zypper in ag
+: 1683608276:0;zypper se ag
+: 1683608405:0;mkdir bak
+: 1683609329:0;autoload -Uz compinit\
+compinit\
+zi cdreplay -q \
+zi cdlist # look at gathered compdefs
+: 1683609492:0;zi ice lucid wait as'program' from"gh-r" has'fzf'\
+zi light denisidoro/navi
+: 1683610064:0;killall plasmashell; kstart plasmashell; exit
+: 1683610863:0;qdbus-qt5 org.kde.plasmashell /PlasmaShell org.kde.PlasmaShell.showInteractiveKWinConsole
+: 1683610868:0;plasma-interactiveconsole --kwin
+: 1683611076:0;zypper se readconfig
+: 1683611136:0;pip install readconfig5
+: 1683611173:0;readconfig5 --file kwinrc --group Plugins --key bismuthEnabled
+: 1683611225:0;kwriteconfig5 --file kwinrc --group Plugins --key bismuthEnabled "$(\
+    case $(kreadconfig5 --file kwinrc --group Plugins --key bismuthEnabled) in\
+        "true")\
+            echo "false";;\
+        "false")\
+            echo "true";;\
+    esac\
+)"\
+qdbus org.kde.KWin /KWin reconfigure
+: 1683611307:0;qdbus-qt5 org.kde.kglobalaccel /component/bismuth org.kde.kglobalaccel.Component.invokeShortcut toggle_float_layout
+: 1683611312:0;qdbus org.kde.kglobalaccel /component/bismuth org.kde.kglobalaccel.Component.invokeShortcut toggle_float_layout
+: 1683611359:0;cp template-bash.sh bismuth.sh
+: 1683611362:0;chmod +x bismuth.sh
+: 1683611365:0;code bismuth.sh
+: 1683611508:0;./bismuth.sh#
+: 1683614939:0;latte-dock --replace &
+: 1683647861:0;[200~readconfig5 --file kwinrc --group Plugins --key bismuthEnabled
+: 1683647863:0;~
+: 1683647870:0;readconfig5 --file kwinrc --group Plugins --key bismuthEnabled\
+
+: 1683648159:0;kwriteconfig5 --file kwinrc --group Plugins --key bismuthEnabled true\
+qdbus org.kde.KWin /KWin reconfigure
+: 1683648209:0;kwriteconfig5 --file kwinrc --group Plugins --key bismuthEnabled false\
+qdbus org.kde.KWin /KWin reconfigure
+: 1683648313:0;notify-send 'text'\
+kdialog --passivepopup 'text' 5
+: 1683648321:0;notify-send 'text'\
+kdialog --passivepopup 'text' 5\
+qdbus org.kde.knotify /Notify event "event" 'app' "(" ")" 'title' 'text' 'pixmap' '' 5 0\
+
+: 1683648334:0;qdbus org.kde.knotify /Notify event "event" 'app' "(" ")" 'title' 'text' 'pixmap' '' 5 0
+: 1683648345:0;kdialog --passivepopup 'text' 5\
+qdbus org.kde.knotify /Notify event "event" 'app' "(" ")" 'title' 'text' 'pixmap' '' 5 0
+: 1683648390:0;gdbus call --session --dest=org.freedesktop.Notifications --object-path=/org/freedesktop/Notifications --method=org.freedesktop.Notifications.Notify "" 0 "" 'Hello world!' 'This is an example notification.' '[]' '{"urgency": <1>}' 5000
+: 1683648438:0;notify-send 'Hello world!' 'This is an example notification.' --icon=dialog-information\
+
+: 1683648457:0;./bismuth.sh
+: 1683656518:0;top
+: 1683656847:0;mv bismuth.sh bismuth-state.sh
+: 1683657004:0;code
+: 1683665299:0;which bash
+: 1683665584:0;code bismuth-state.sh
+: 1683665670:0;qdbus-qt5 org.kde.KWin /KWin reconfigure
+: 1683665674:0;kreadconfig5 --file kwinrc --group Plugins --key bismuthEnabled
+: 1683665877:0;setsid kwin_x11 --replace &
+: 1683665904:0;kstart5 plasmashell
+: 1683666105:0;DISPLAY=:0 kwin_x11 --replace
+: 1683666189:0;pkill -ABRT plasmashell
+: 1683666302:0;touch rr.sh
+: 1683666306:0;chmod +x rr.sh
+: 1683666404:0;./rr.sh
+: 1683666604:0;cat /etc/X11/xorg.conf.d/10-nvidia.conf
+: 1683666608:0;cat /etc/X11/xorg.conf
+: 1683666630:0;sudo nvidia-settings
+: 1683666639:0;kdesu nvidia-settings
+: 1683667551:0;flatpak run --branch=stable --arch=x86_64 --command=normcap com.github.dynobo.normcap
+: 1683667659:0;code rr.sh
+: 1683667669:0;kquitapp5 plasmashell && plasmashell &\
+
+: 1683667693:0;killall plasmashell && kstart5 plasmashell
+: 1683667707:0;killall plasmashell && plasmashell
+: 1683667711:0;plasmashell
+: 1683667728:0;plasmashell &
+: 1683667784:0;cd home/zshrd/
+: 1683669812:0;code ~/.vscode/settings.json
+: 1683670174:0;cat permafix_home.sh
+: 1683670209:0;find -not \( -user ${USER} -group ${GROUP} \)
+: 1683670224:0;code permafix_home.sh
+: 1683670265:0;sudo ./permafix_home.sh qgrep:users 755 644 /home/qgrep
+: 1683670294:0;exa ~/.vscode
+: 1683670303:0;find -not \( -user ${USER} -group ${GROUP} \) \
+
+: 1683670311:0;find -not \( -user ${USER} -group users \) \
+
+: 1683670421:0;ls q
+: 1683670422:0;echo $?
+: 1683670505:0;build.sh
+: 1683670514:0;cd bin
+: 1683670522:0;code/shell/skripte/build.sh
+: 1683670568:0;./permafix_home.sh
+: 1683671585:0;rm -rf .zsh/.zi/
+: 1683672448:0;avi
+: 1683672625:0;whereis zsh
+: 1683672658:0;cat /etc/shells
+: 1683672690:0;cat /etc/passwd
+: 1683672847:0;sudo nano /etc/passwd
+: 1683672978:0;zsg
+: 1683673074:0;[200~compaudit | xargs chown -R "$(whoami)" "$ZI[HOME_DIR]"
+: 1683673076:0;compaudit | xargs chmod -R go-w "$ZI[HOME_DIR]"~
+: 1683673155:0;autoload -Uz _zi\
+(( ${+_comps} )) && _comps[zi]=_zi
+: 1683681044:0;\
+zi depth'1' lucid light-mode for nocd atinit'POWERLEVEL9K_DISABLE_CONFIGURATION_WIZARD=true' atload'source $ZDOTDIR/.p10k.zsh' romkatv/powerlevel10k\
+\
+zi wait lucid light-mode for z-shell/{zui,zi-console,zbrowse,zzcomplete} Aloxaf/fzf-tab atload'zicompinit; zicdreplay' z-shell/F-Sy-H davidde/git blockf atpull'zi creinstall -q ..' zsh-users/zsh-completions atinit'bindkey "^W" autopair-delete' hlissner/zsh-autopair atload'_zsh_autosuggest_start' zsh-users/zsh-autosuggestions\
+\
+zi wait lucid is-snippet for OMZL::{key-bindings,spectrum,functions,clipboard}.zsh OMZP::sudo OMZP::{extract,universalarchive,safe-paste,copypath,copyfile,history,lol,npm,nvm,alias-finder,web-search,frontend-search,pip} atclone'gh completion --shell zsh > _gh' OMZP::gitignore as'completion' OMZP::fd/_fd as'completion' OMZP::ripgrep/_ripgrep\
+zi wait lucid is-snippet svn for OMZP::aliases
+: 1683681122:0;fd
+: 1683681394:0;\
+#\
+zstyle ':completion:*:*:git:*' fzf-search-display true\
+#\
+zstyle ':completion:*' fzf-search-display true\
+\
+#\
+zstyle ':fzf-tab:complete:cd:*' fzf-preview 'exa -1 --icons --group-directories-first --color=always $realpath'\
+#\
+zstyle ':completion:complete:*:options' sort false\
+#\
+zstyle ':fzf-tab:complete:_zlua:*' query-string input\
+zstyle ':fzf-tab:*' single-group ''\
+#\
+#\
+zstyle ':fzf-tab:complete:git-(add|diff|restore):*' fzf-preview 'git diff $word | delta'\
+zstyle ':fzf-tab:complete:git-log:*' fzf-preview 'git log --color=always $word'\
+zstyle ':fzf-tab:complete:git-help:*' fzf-preview 'git help $word | bat -plman --color=always'\
+zstyle ':fzf-tab:complete:git-show:*' fzf-preview 'case "$group" in\
+	"commit tag") git show --color=always $word ;;\
+	*) git show --color=always $word | delta ;;\
+	esac'\
+zstyle ':fzf-tab:complete:git-checkout:*' fzf-preview 'case "$group" in\
+	"modified file") git diff $word | delta ;;\
+	"recent commit object name") git show --color=always $word | delta ;;\
+	*) git log --color=always $word ;;\
+	esac'
+: 1683681403:0;zi light-mode for atinit"zicompinit; zicdreplay" zsh-users/zsh-syntax-highlighting atload"_zsh_autosuggest_start" zsh-users/zsh-autosuggestions blockf atpull'zi creinstall -q .' zsh-users/zsh-completions\
+
+: 1683681538:0;nsvi
+: 1683681547:0;1
+: 1683681549:0;2
+: 1683681550:0;3
+: 1683717060:0;eval "$(navi widget zsh)"
+: 1683717170:0;rsync -au --human-readable --info=progress2 --stats --numeric-ids 12t:/storage/emulated/0/ /data/sync/12t
+: 1683718524:0;cat
+: 1683719037:0;rsync -au --human-readable --info=progress2 --stats 12t:/storage/emulated/0/DCIM/Camera/ /data/sync/12t/DCIM/Camera/
+: 1683719270:0;cd DCIM/Camera/
+: 1683719279:0;ls | wc -l
+: 1683719915:0;cat dwagent.sh
+: 1683719925:0;chmod +x dwagent.sh
+: 1683719927:0;./dwagent.sh
+: 1683720013:0;sudo ./dwagent.sh
+: 1683720524:0;sudo systemctl disable firewalld
+: 1683720714:0;sudo systemctl enable firewalld
+: 1683759786:0;nb add --title "zi"
+: 1683764723:0;sudo nano /etc/ssh/sshd_config.d/
+: 1683764798:0;sudo nano /etc/ssh/sshd_config
+: 1683764855:0;cat /usr/etc/ssh
+: 1683764872:0;cat /usr/etc/ssh/sshd_config
+: 1683764876:0;sudo cat /usr/etc/ssh/sshd_config\
+
+: 1683765373:0;rcsshd restart
+: 1683765740:0;cat .ssh/autorized_keys
+: 1683765746:0;cat .ssh/authorized_keys
+: 1683766110:0;sudo systemctl restart network-online.targe
+: 1683768382:0;sudo service sshd restart
+: 1683769344:0;firewalld
+: 1683769353:0;firewalld -h
+: 1683769489:0;sudo firewall-cmd --zone=home --add-port=6000/
+: 1683769501:0;sudo firewall-cmd --zone=home --add-port=6000/tco
+: 1683769505:0;sudo firewall-cmd --zone=home --add-port=6000/tcp
+: 1683769509:0;sudo firewall-cmd --zone=home --add-port=6000/udp
+: 1683769524:0;sudo firewall-cmd --zone=home --add-port=60000/tcp
+: 1683769530:0;sudo firewall-cmd --zone=home --add-port=60000/udp
+: 1683769533:0;sudo firewall-cmd --zone=home --add-port=61000/udp
+: 1683769540:0;sudo firewall-cmd --zone=home --add-port=61000/tcp
+: 1683769774:0;sudo systemctl restart firewalld.service
+: 1683769779:0;mosh --ssh="ssh -p 8022" 10.10.99.200
+: 1683770051:0;mosh 10.10.99.200 --ssh="ssh -p 2222"
+: 1683770271:0;sudo systemctl stop firewalld.service
+: 1683770276:0;MOSH_KEY=jibYC6vF9SN0ynhXmsYW6A mosh-client 10.10.99.200 8022
+: 1683770406:0;echo "hello world" | nc -4vu 46.46.46.46 60001
+: 1683770420:0;nc -4ulv 60001
+: 1683770649:0;curl cheat.sh/tar
+: 1683773612:0;echo "$(date +'%a %F %T %Z')"
+: 1683773620:0;echo "$(date +'%a %F %T')"
+: 1683777572:0;cd /data/work/android
+: 1683777575:0;git clone https://github.com/termux/termux-tasker
+: 1683777605:0;git clone https://github.com/agnostic-apollo/tudo.git
+: 1683777614:0;mosh 10.10.99.200 --ssh="ssh -p 8022"
+: 1683778770:0;eval "$(navi widget zsh)"\
+
+: 1683778789:0;ly
+: 1683778795:0;zmodload
+: 1683778840:0;nano ~/.zshenv
+: 1683778934:0;sshd
+: 1683779453:0;sudo systemctl status sshd.service
+: 1683780829:0;cat \
+
+: 1683780838:0;cat /proc/sys/vm/swappiness
+: 1683780862:0;nano /etc/sysctl.d/99-sysctl.conf
+: 1683780868:0;sudo nano /etc/sysctl.d/99-sysctl.conf
+: 1683780918:0;cat /sys/block/nvme0n1/queue/scheduler
+: 1683781020:0;sudo nano /etc/fstab
+: 1683781082:0;cat /proc/mounts
+: 1683781088:0;cat /proc/mounts | grep nvm
+: 1683781257:0;journalctl | grep nvme
+: 1683781308:0;sudo smartctl info /dev/nvme0n1p2
+: 1683781320:0;sudo smartctl -A /dev/nvme0n1p1
+: 1683781325:0;sudo smartctl -A /dev/nvme0
+: 1683781360:0;sudo smartctl -A /dev/nvme0n1
+: 1683781533:0;sudo smartctl -a /dev/nvme1n1
+: 1683781556:0;sudo smartctl -a /dev/nvme0n1
+: 1683781599:0;journalctl | grep timeout
+: 1683782002:0;lsattr /etc/resolv.conf
+: 1683782021:0;lsattr /etc/x
+: 1683782023:0;lsattr /etc/X11/
+: 1683782081:0;nvme get-feature /dev/nvme0 -f 0x0c -H
+: 1683782091:0;sudo nvme get-feature /dev/nvme0 -f 0x0c -H\
+
+: 1683782096:0;sudo nvme get-feature /dev/nvme1 -f 0x0c -H
+: 1683799138:0;cat config
+: 1683799384:0;echo $PATH | greo bin
+: 1683799391:0;echo $PATH | grep bin
+: 1683799978:0;rm tee $
+: 1683800056:0;zi csearch
+: 1683800113:0;nb use zi
+: 1683800119:0;nb edit zi
+: 1683802780:0;sudo systemctl stop sshd
+: 1683802791:0;rm $SSH_AUTH_SOCK
+: 1683802796:0;ssh-agent -a $SSH_AUTH_SOCK
+: 1683802806:0;sudo systemctl start sshd
+: 1683802811:0;sudo systemctl status sshd
+: 1683802928:0;sudo rcsshd restart
+: 1683848659:0;mkdir sonstiges
+: 1683848661:0;cd sonstiges/
+: 1683848666:0;git clone https://github.com/adi1090x/kitty-cat.git
+: 1683850380:0;zi cdisable cmake\
+
+: 1683850741:0;cd zipure/
+: 1683851753:0;cd .themes/
+: 1683851802:0;cat *css
+: 1683851828:0;find $PWD -name "*css"
+: 1683851835:0;tree | grep css
+: 1683851874:0;ls Local\ Storage/
+: 1683851877:0;tree
+: 1683851881:0;exa2
+: 1683851900:0;exa4 | grep css
+: 1683851904:0;exa4
+: 1683851951:0;find $PWD -name "*liber*"
+: 1683852014:0;wget https://raw.githubusercontent.com/marktext/marktext/develop/src/renderer/assets/themes/export/academic.theme.css
+: 1683852071:0;cd thumbleweed/
+: 1683852077:0;cd leap/
+: 1683852091:0;ls backup/
+: 1683852096:0;ls backup/restore/
+: 1683852110:0;ls backup/qgrep_emty/
+: 1683852114:0;ls backup/qgrep_emty/ --all
+: 1683852125:0;ls backup/qgrep_emty/.config/ --all
+: 1683852381:0;cd .config/marktext/
+: 1683852397:0;find $PWD -name "*dark*"
+: 1683852437:0;mkdir -p themes/export/
+: 1683852448:0;mv academic.theme.css themes/export/
+: 1683852520:0;cd themes/export/
+: 1683852522:0;wget https://raw.githubusercontent.com/marktext/marktext/develop/src/renderer/assets/themes/export/liber.theme.css
+: 1683852525:0;cat academic.theme.css
+: 1683852700:0;killall marktext
+: 1683853237:0;code ~/workspace/home/zipure/
+: 1683853413:0;code ~/workspace/home/pure/
+: 1683853523:0;rm -rf ~/workspace/home/zipure/
+: 1683853570:0;piper
+: 1683854457:0;cd .zsh/
+: 1683854466:0;cd bak/
+: 1683854489:0;cat .zshrc.bak.preold
+: 1683854605:0;cd $HOME/workspace/home/zshrd/
+: 1683854641:0;cd zshrc.d/
+: 1683854651:0;cat 45-bindkey.zsh
+: 1683855371:0;zi bindmap'^R -> ^G' for denisidoro/navi\
+
+: 1683855410:0;zi bindmap'^R -> ^G' for z-shell/history-search-multi-word
+: 1683855429:0;zi bindmap'^R -> ^G' for echo f
+: 1683856142:0;docker exec -it d64bc004f877 bash
+: 1684002367:0;docker exec -it d64bc004f877 zsh
+: 1684011686:0;nano ~/.vscode/settings.json
+: 1684012098:0;nb view 1
+: 1684012118:0;nb edit 182
+: 1684012125:0;nb edit 192
+: 1684012351:0;ls home/qgrep_old/
+: 1684012380:0;cd home/qgrep_old/
+: 1684012383:0;cd xorg.conf.new
+: 1684012399:0;cd .config
+: 1684012424:0;ls qgrep
+: 1684012431:0;ls qgrep/export/
+: 1684012467:0;find $PWD -name "*markt*"
+: 1684012524:0;find $PWD -name "*academic-theme-css *"
+: 1684012751:0;gparted
+: 1684013912:0;marktext-user-data
+: 1684013922:0;marktext --user-data-dir
+: 1684013933:0;marktext --help
+: 1684013967:0;marktext --user-data-dir ~/.config/marktext
+: 1684014025:0;cd ~/.config/marktext
+: 1684014033:0;nani themes/export/
+: 1684014053:0;nano themes/export/liber.theme.css
+: 1684014135:0;nano themes/export/academic.theme.css
+: 1684014247:0;mkdir -p /themes/exports
+: 1684014262:0;cp -r export/ exports
+: 1684015107:0;zap remove marktext
+: 1684015160:0;cd /da
+: 1684015176:0;git clone git clone https://github.com/marktext/marktext.git
+: 1684015210:0;zypper se libfontconfig
+: 1684015241:0;zypper se libsecret
+: 1684015514:0;sudo zypper in libx11-dev libxkbfile-dev libsecret-1-dev\
+
+: 1684015549:0;sudo zypper in libX11-devel libxkbfile-devel libsecret-devel fontconfig-devel
+: 1684015591:0;sudo npm install npm@latest -g
+: 1684015890:0;npm install core-js@<3.23.3
+: 1684015929:0;npm cache clean --force\
+npm install -g @angular/cli@latest
+: 1684016031:0;npm clean-install
+: 1684016042:0;npm --legacy-peer-deps
+: 1684016127:0;[ERROR] Please use yarn to install dependencies. npm -v
+: 1684016186:0;npm install eslint@"^8.11.0"
+: 1684016236:0;npm i reactstrap --legacy-peer-deps
+: 1684016313:0;npm install eslint-plugin-promise@"^5.0.0"
+: 1684016324:0;npm install eslint-plugin-promise@"^5.0.0" --legacy-peer-deps
+: 1684016386:0;npm install eslint-config-standard@"^16.0.3" --legacy-peer-deps
+: 1684016408:0;npm install eslint-plugin-promise@"^5.2.0" --legacy-peer-deps
+: 1684016416:0;npm audit fix --force
+: 1684016452:0;nb search "npm" --all
+: 1684016459:0;nb search "nvm" --all
+: 1684016479:0;npm audit fix
+: 1684016499:0;npm cache clear --force
+: 1684016596:0;npm set audit false
+: 1684016726:0;npm init @eslint/config\
+
+: 1684016786:0;npm install --frozen-lockfile
+: 1684016814:0;npm run build
+: 1684016834:0;build
+: 1684016848:0;zypper se yarn
+: 1684016865:0;zypper se nvm
+: 1684016907:0;yarn install --frozen-lockfile
+: 1684016958:0;_yarn run build
+: 1684017010:0;npm install --save-dev webpack-shell-plugin-next
+: 1684017138:0;yarn â€ƒ³version
+: 1684017154:0;npm install â€ƒ³global yarn
+: 1684017165:0;yarn set version latest
+: 1684017213:0;yarn set version latest\
+
+: 1684017241:0;sudo yarn run build
+: 1684017257:0;sudo arn instal
+: 1684017259:0;sudo yarn instal
+: 1684017263:0;sudo yarn install
+: 1684017282:0;yarn electron-vue/preinstall.js
+: 1684017289:0;node electron-vue/preinstall.js
+: 1684017300:0;sh -c node .electron-vue/preinstall.js
+: 1684017326:0;rm -rf marktext/
+: 1684017339:0;sudo rm -rf marktext/
+: 1684017362:0;yarn install
+: 1684019445:0;zap --help
+: 1684019456:0;whereis stacer
+: 1684019464:0;ls /home/qgrep/.local/bin/
+: 1684019473:0;ls /home/qgrep/.local/bin/stacer
+: 1684019515:0;ls build/
+: 1684019518:0;cd build/
+: 1684019523:0;yarn run build
+: 1684019573:0;npx browserslist@latest --update-db
+: 1684019603:0;yarn browserslist@latest --update-db
+: 1684022107:0;install-latest-npm
+: 1684022112:0;yarn install-latest-npm
+: 1684022158:0;npm install-latest-npm
+: 1684022493:0;zsj
+: 1684022502:0;rm -rf yarn.lock
+: 1684022509:0;rm -rf marktext
+: 1684022514:0;git clone https://github.com/marktext/marktext.git
+: 1684022594:0;whereis npm
+: 1684022603:0;nvm
+: 1684022612:0;nvm version
+: 1684022653:0;zypper se npm
+: 1684022667:0;sudo zypper rm npm19 yarn
+: 1684022786:0;mv ~/.config/marktext/ ~/.config/marktext2
+: 1684023073:0;npm --version
+: 1684023082:0;npm version
+: 1684023092:0;nvm install-latest-npm
+: 1684023122:0;nvm current
+: 1684023130:0;nvm install
+: 1684023161:0;nvm install node
+: 1684023178:0;nvm use node
+: 1684023225:0;cd marktext/
+: 1684023372:0;zypper se electron
+: 1684023387:0;sudo zypper in nodejs-electron
+: 1684023496:0;if (.]*\.js$/.test(process.env.npm_execpath)) {
+: 1684023510:0;node .electron-vue/preinstall.js
+: 1684023641:0;electron-builder --linux deb tar.xz
+: 1684023647:0;electron --help
+: 1684023764:0;zypper se libX11-xcb
+: 1684023775:0;zypper se libxkbfile
+: 1684023789:0;sudo zypper in libxkbfile-devel-32bit
+: 1684023825:0;sudo rpm -i --nosignature marktext-x86_64.rpm
+: 1684023891:0;cd marktext-x
+: 1684023902:0;cd marktext-x64/
+: 1684024027:0;ls resources
+: 1684024087:0;mv marktext2/themes/ marktext/
+: 1684024093:0;cd -
+: 1684024096:0;./marktext
+: 1684024178:0;./chrome_crashpad_handler
+: 1684024187:0;ls locales/
+: 1684024365:0;flatpak install flathub com.github.marktext.marktext
+: 1684024520:0;flatpak run com.github.marktext.marktext
+: 1684024599:0;flatpak remove com.github.marktext.marktext
+: 1684024609:0;flatpak install canberra-gtk-modul
+: 1684024628:0;zap install --github --from marktext/marktext
+: 1684024672:0;marktext
+: 1684024706:0;cd ~/.config
+: 1684024712:0;cd marktext
+: 1684024721:0;ls themes/
+: 1684024727:0;ls themes/export/
+: 1684024738:0;cat preferences.json
+: 1684025083:0;cat a
+: 1684025085:0;rm a
+: 1684025094:0;nano theme.css
+: 1684025153:0;rm theme.css
+: 1684025195:0;ls plugins/
+: 1684025218:0;mv obsidian-default-theme.css plugins/obsidian-style-settings/
+: 1684025991:0;cd plugins/
+: 1684025996:0;git clone git@github.com:jgauth/obsidian-system-theme.git && cd obsidian-system-theme
+: 1684026058:0;npm run build\
+
+: 1684026416:0;c ..
+: 1684026430:0;cd deeper\ work/
+: 1684026770:0;c
+: 1684026783:0;wget https://raw.githubusercontent.com/mgmeyers/obsidian-style-settings/main/obsidian-default-theme.css
+: 1684031588:0;npm install sass@latest
+: 1684031876:0;code --add vscode vscode-docs
+: 1684033262:0;docker exec -it 38718b9e76c1 zsh
+: 1684043720:0;which navi
+: 1684043728:0;cat /home/qgrep/.zsh/.zi/plugins/denisidoro---navi/navi
+: 1684055753:0;zi subcmds
+: 1684055823:0;ls -l $ZPFX/bin/ | awk '{print $(NF-2),$(NF-1),$NF}'
+: 1684056398:0;zi zstatus
+: 1684056479:0;nb add --title "cmd befehle"
+: 1684057009:0;zi snippet OMZP::colored-man-pages
+: 1684057011:0;man
+: 1684057028:0;setopt prompt_subst\
+\
+#\
+zi snippet OMZL::git.zsh\
+\
+#\
+zi ice atload"unalias grv"\
+zi snippet OMZP::git\
+\
+#\
+zi for OMZL::prompt_info_functions.zsh OMZT::gnzh\
+\
+#\
+zi snippet OMZP::colored-man-pages\
+\
+#\
+zi ice as"completion"\
+zi snippet OMZP::docker/_docker\
+\
+#\
+zi ice atinit"zicompinit; zicdreplay"\
+zi light z-shell/F-Sy-H
+: 1684057036:0;man docker
+: 1684057451:0;zi clist
+: 1684060215:0;cat zi-helper.sh
+: 1684061044:0;git clone https://github.com/0xacx/chatGPT-shell-cli.git
+: 1684061057:0;cd chatGPT-shell-cli/
+: 1684061061:0;./install.sh
+: 1684061067:0;sudo ./install.sh
+: 1684061104:0;cat .env
+: 1684061369:0;OPENAI_KEY=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
+: 1684061381:0;chatgpt muttertags gedicht
+: 1684061399:0;echo muttertags gedicht | chatgpt
+: 1684061533:0;echo muttertags gedicht von 30 jÃ¤hrigen sohn | chatgpt
+: 1684798142:0;mkdir Gesichtserkennung
+: 1684798159:0;mkdir gesichtserkennung
+: 1684798161:0;cd gesichtserkennung
+: 1684798181:0;git clone https://github.com/ageitgey/face_recognition.git\
+
+: 1684798199:0;wget https://www.linux-magazin.de/ausgaben/2018/06/snapshot-3/
+: 1684798213:0;firefox index.html
+: 1684798239:0;code face-box.py
+: 1684798320:0;python face-box.py
+: 1684798379:0;mkdir face-search.py
+: 1684798385:0;code face-search.py/
+: 1684798483:0;zypper se XnView
+: 1684798489:0;zypper dup
+: 1684798533:0;flatpak search obs
+: 1684798571:0;flatpak install com.obsproject.Studio.Plugin.OBSVkCapture
+: 1684798592:0;flatpak install com.obsproject.Studio
+: 1684806006:0;cd workspace/home/pure/
+: 1684806200:0;ls "${ZI[HOME_DIR]}"
+: 1684806213:0;ls $ZDOTDIR
+: 1684806227:0;cat $ZDOTDIR/bootstrap.sh
+: 1684806615:0;zi-info
+: 1684806623:0;zi-info () {\
+  echo\
+  echo "VervollstÃ¤ndigungenalle Plugins" \\
+   && zi clist \ \
+   && echo \\
+   && echo "Befehl zi csearch durchsucht alle Plugin  Verzeichnisse nach verfÃ¼gbaren VervollstÃ¤ndigungen:" \\
+   && zi csearch\
+}
+: 1684806912:0;if [[ ! -d "${ZI[HOME_DIR]}"/bin ]]; then\
+ print -P "%F{33}âƒ¶ƒ³âƒ¶ƒ²âƒ¶ƒ± %F{220}Installing %F{33}ZI%F{220} Initiative Plugin Manager (%F{33}z-shell/zi%F{220})â€¦%f"\
+ command mkdir -p "$HOME/.zi" && command chmod g-rwX "$HOME/.zi"\
+ command git clone https://github.com/z-shell/zi "$HOME/.zi/bin" && print -P "%F{33}âƒ¶ƒ³âƒ¶ƒ²âƒ¶ƒ± %F{34}Installation successful.%f%b" || print -P "%F{160}âƒ¶ƒ³âƒ¶ƒ²âƒ¶ƒ± The clone has failed.%f%b"\
+soure $ZDOTDIR/bootstrap.sh\
+fi
+: 1684811343:0;docker exec -it 3fe1aec21037 zsh pure
+: 1684811346:0;docker exec -it 3fe1aec21037 zsh
+: 1684812278:0;rm -rf home/zsh*
+: 1684812393:0;echo ~/.zshenv
+: 1684812835:0;git clone https://github.com/z-shell/playground.git
+: 1684812842:0;playground/
+: 1684814524:0;pyenv shell 3.7.5
+: 1684814533:0;echo $ZPFX
+: 1684814546:0;echo $ZI[ZMODULES_DIR]
+: 1684814554:0;echo ZI[HOME_DIR]=
+: 1684814557:0;echo $ZI[HOME_DIR]=
+: 1684814598:0;echo $ZI[COMPLETIONS_DIR]
+: 1684814646:0;echo $ZI[BIN_DIR]
+: 1684814660:0;ls .zi/
+: 1684814771:0;rm -rf .zi/
+: 1684814777:0;rm -rf .zi
+: 1684814794:0;git clone https://github.com/z-shell/zi.git --depth 1 "ZI[BIN_DIR]"\
+
+: 1684814868:0;cd $HOME/workspace/home/
+: 1684814875:0;cd empty/
+: 1684814920:0;typeset -Ag ZI\
+typeset -gx ZI[HOME_DIR]="${HOME}/.zi" ZI[BIN_DIR]="${ZI[HOME_DIR]}/bin"\
+if [[ ! -d "${ZI[HOME_DIR]}"/bin ]]; then\
+#\
+sh -c "$(curl -fsSL get.zshell.dev)" -- -a annex\
+fi\
+source "${ZI[HOME_DIR]}"/bin/zi.zsh\
+
+: 1684815219:0;cd sandbox/
+: 1684815229:0;cat .zshrc
+: 1684816536:49;nano ~/.zsh/.zshrc
+: 1684816604:0;rm -rf ZI\[BIN_DIR\]/
+: 1684816613:1;nano .zshenv
+: 1684816619:0;nano .zsh/.zshrc
+: 1684817484:0;cd zsh
+: 1684817553:0;rm -rf zsh
+: 1684818404:0;cd zsh2
+: 1684818417:0;code --help
+: 1684818427:0;code --help | grep up
+: 1684819519:0;rm -rf zz zzz/
+: 1684819525:0;rm -rf zsh*
+: 1684819840:0;zypper se code
+: 1684819845:0;zypper se vscode
+: 1684819940:0;sudo zypper up
+: 1684823088:0;cd extensions/
+: 1684823105:0;rm -rf attosol.colorify-1.0.3/
+: 1684823520:0;cp -r home/pure/.devcontainer/ $PWD
+: 1684823543:0;cp -rf home/pure/.devcontainer/ $PWD
+: 1684823636:0;cd home/pure/
+: 1684823738:0;rm -rf .devcontainer
+: 1684823890:0;cd home/aaaaaaaa/
+: 1684824276:0;sudo rm -rf workspace/
+: 1684824302:0;./workspace/vscode-docker-workspace-deploy.sh
+: 1684824416:0;exa workspace/
+: 1684824426:0;exa3 workspace/
+: 1684824527:0;sudo zypper in -f code
+: 1684824710:0;cat /etc/environment
+: 1684824715:0;cat /etc/net
+: 1684824762:0;ls .vscode-cli/
+: 1684824768:0;rm -rf .vscode-cli/
+: 1684824774:0;rm -rf workspace/
+: 1684824819:0;killall code
+: 1684824836:0;cd home/abcd/
+: 1684824854:0;cd .vscode
+: 1684824895:0;rm -rf ~/.cache/*
+: 1684825019:0;ls .devcontainer
+: 1684825286:0;code ~/workspace/home/abcd/
+: 1684826594:0;code home/abcd/
+: 1684827564:0;ls -all .devcontainer/
+: 1684827579:0;cat .vscode/
+: 1684827587:0;cat .vscode/settings.json
+: 1684827600:0;rm .vscode/settings.json
+: 1684827763:0;cd install/
+: 1684827768:0;cd backup/
+: 1684827776:0;rm vs_code_extensions_list.txt
+: 1684827841:0;ls ~/.vscode/extensions/
+: 1684827859:0;rm -rf ~/.vscode/extensions/*
+: 1684827890:0;sudo rm -rf ~/.vscode/extensions/*
+: 1684827986:0;sudo zypper in yarn
+: 1684828004:0;yarn global add yarn
+: 1684828525:0;code backup-vscode.sh
+: 1684828539:0;./backup-vscode.sh
+: 1684828645:0;npm
+: 1684829175:0;\
+owner, pack, ping, pkg, prefix, profile, prune, publish,
+: 1684829235:0;zinit load ellie/atuin
+: 1684829347:0;bash <(curl https://raw.githubusercontent.com/ellie/atuin/main/install.sh)
+: 1684829389:0;bash <(curl https://raw.githubusercontent.com/ellie/atuin/main/install.sh)\
+ \
+atuin import auto
+: 1684829492:0;atuin
+: 1684829504:0;zi light z-shell/z-a-rust\
+zi ice rustup cargo'!atuin'\
+zi load z-shell/0\
+eval "$(atuin init zsh)"\
+
+: 1684829529:0;rm -rf .zsh/.zi
+: 1684829530:0;zi light z-shell/z-a-rust\
+zi ice rustup cargo'!atuin'\
+zi load z-shell/0
+: 1684829536:0;zi
+: 1684829548:0;rm -rf ~/.zsh/.zi
+: 1684829773:0;docker images
+: 1684831536:0;dbus-launch /usr/share/code/code --unity-launch
+: 1684831957:0;code home/a
+: 1684832036:0;[200~sed  -i -e "s/\$MASCHINE/$MASCHINE/" ${SCRIPT_DIR}/home/$MASCHINE/" .devcontainer/Dockerfile \
+
+: 1684832054:0;sed -i -e "s/\$MASCHINE/$MASCHINE/" ${SCRIPT_DIR}/home/$MASCHINE/.devcontainer/Dockerfile \
+
+: 1684832077:0;MASCHINE=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+: 1684832098:0;cat .devcontainer/Dockerfile
+: 1684832106:0;MASCHINE=a
+: 1684832109:0;sed -i -e "s/\$MASCHINE/$MASCHINE/" ${SCRIPT_DIR}/home/$MASCHINE/.devcontainer/Dockerfile
+: 1684832125:0;sed -i -e "s/\$MASCHINE/$MASCHINE/" $PWD/.devcontainer/Dockerfile
+: 1684832567:0;echo /home/$(whoami)
+: 1684832782:0;rm -rf home/zsh
+: 1684833188:0;unset MASCHINE
+: 1684833376:0;code vs
+: 1684833544:0;rm -rf a aBC abcd aabb/ h\#/ g/ zi
+: 1684834022:0;sudo snapper create -c home --description "viele feinheiten" && sudo snapper -c home list
+: 1684834070:0;cat ~/.zshenv
+: 1684834158:0;sudo snapper create -c home --description "viele feinheiten"
+: 1684834297:0;sudo snapper -c home create --description "viele feinheiten"
+: 1684834322:0;sudo snapper create -c home --description "viele feinheiten" && echo ok
+: 1684834400:0;cd home/zi
+: 1684834409:0;cat .zshenv
+: 1684834444:0;chmod 755 .zshenv
+: 1684835565:0;code home/zi
+: 1684835633:0;sudo rm -rf home/zi
+: 1684835767:0;exa --all
+: 1684835823:0;docker stop 761a6cebb76e
+: 1684835825:0;docker rm 761a6cebb76e
+: 1684835893:0;echo (whoami)/.zsh
+: 1684835898:0;echo $(whoami)/.zsh
+: 1684835914:0;echo /home/$(whoami)/.zsh
+: 1684836189:0;code ~/.zshenv
+: 1684836213:0;rm -rf zi
+: 1684836331:0;whoami+
+: 1684836332:0;whoami
+: 1684836526:0;cd pure/
+: 1684836532:0;cd .subversion/
+: 1684836540:0;cd .devcontainer/
+: 1684836546:0;cat Dockerfile
+: 1684836622:0;code zi
+: 1684836716:0;code develop/
+: 1684836723:0;code develop/.devcontainer/
+: 1684838045:0;code .devcontainer
+: 1684838098:0;rm -rf home/zi
+: 1684838123:0;code $HOME
+: 1684838158:0;code $HOME/.zsh
+: 1684838305:0;docker exec 1839a43587d2 bash
+: 1684838310:0;docker exec -it 1839a43587d2 bash
+: 1684838313:0;docker exec -it 1839a43587d2 zsh
+: 1684838352:0;docker exec -it 5c5ebefc032c zsh
+: 1684843029:0;cd workspace/home/
+: 1684843042:0;ls empty/
+: 1684843046:0;ls empty/ -all
+: 1684843054:0;ls -all vscode/
+: 1684843064:0;cd vscode/
+: 1684843115:0;ls zipure/
+: 1684843117:0;ls zipure/ --all
+: 1684843123:0;ls zipure/.zsh
+: 1684843125:0;ls zipure/.zsh --all
+: 1684843146:0;ls --all zshrd
+: 1684843162:0;ls --all zshrd/.zsh
+: 1684843171:0;cd zshrd/
+: 1684844413:0;cd .devcontainer
+: 1684844428:0;code vscode-docker-workspace-deploy.sh
+: 1684844557:0;./vscode-docker-workspace-deploy.sh
+: 1684844805:0;cd aa/
+: 1684844814:0;nano .devcontainer/Dockerfile
+: 1684866919:0;cd workspace/
+: 1684866942:0;cd zi
+: 1684867034:0;nano ~/.env
+: 1684867169:0;export OPENAI_KEY=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
+: 1684867173:0;echo linux home verzeichnis user Ã¤ndern | chatgpt
+: 1684867267:0;curl cheat.sh/usermod
+: 1684867336:0;echo linux home existierentes verzeichnis user Ã¤ndern befehl | chatgpt
+: 1684867398:0;echo linux home existierentes verzeichnis user Ã¤ndern datei in etc | chatgpt
+: 1684867406:0;echo linux home existierentes verzeichnis user Ã¤ndern datei | chatgpt
+: 1684867805:0;speedtest
+: 1684867862:0;source ~/.env
+: 1684867863:0;echo linux shell skript internet speed qualitÃ¤t | chatgpt
+: 1684867880:0;echo linux shell script erweitert internet speed qualitÃ¤t | chatgpt
+: 1684868534:0;./qdbusfornm --system org.freedesktop.NetworkManagerUserSettings /org/freedesktop/NetworkManagerSettings/0\
+org.freedesktop.NetworkManagerSettings.Connection.GetSettings
+: 1684868631:0;sudo nano /etc/NetworkManager/conf.d/
+: 1684868779:0;curl cheat.sh/chattr
+: 1684868791:0;sudo chattr -i /etc/resolv.conf
+: 1684868845:0;sudo nano /etc/resolv.conf
+: 1684868884:0;ping 192.168.1.1
+: 1684868887:0;ping 192.168.2.1
+: 1684870738:0;code .vscode/settings.json
+: 1684870930:0;locale
+: 1684883830:0;ping https://wiki.zshell.dev/
+: 1684883839:0;ping wiki.zshell.dev
+: 1684885397:0;su zi
+: 1684892440:0;sudo modprobe tuxedo-keyboard
+: 1684892986:0;sudo snapper create -c home --description "kleine feinheiten & zi" && echo ok
+: 1684893003:0;sudo snapper -c home list
+: 1684893209:0;sudo snapper -c home create --description "kleine feinheiten & zi"
+: 1684955037:0;ping TUF-AX5400-FD30
+: 1684955287:0;rsync -au --human-readable --info=progress2 --stats --dry-run 12t:/storage/emulated/0/ /data/sync/12t
+: 1684955383:0;rsync -au --human-readable --info=progress2 --stats --dry-run --out-format="%t %f %'''b" 12t:/storage/emulated/0/ /data/sync/12t
+: 1684955441:0;rsync -au --human-readable --info=progress2 --stats --out-format="%t %f %'''b" 12t:/storage/emulated/0/ /data/sync/12t
+: 1684955493:0;rsync -au --human-readable --info=progress2 --stats 12t:/storage/emulated/0/ /data/sync/12t
+: 1684955802:0;find $PWD -name "biene"
+: 1684955821:0;sudo find $PWD -name "biene"
+: 1684955902:0;flatpak run com.github.vikdevelop.photopea_app
+: 1684963108:0;zypper se plasmatube
+: 1684972305:0;killall photopea
+: 1684973392:0;rsync -e "ssh -c arcfour" --human-readable --info=progress2 --stats 12t:/storage/emulated/0/ /data/sync/12t
+: 1684973401:0;rsync -e "ssh -c arcfour" 12t:/storage/emulated/0/ /data/sync/12t
+: 1684973481:0;$LOG 2>&1
+: 1684975896:0;nb use zsh
+: 1684979170:0;cd /data/work/qq/lib/nb
+: 1684979179:0;cat and
+: 1684979181:0;rm and
+: 1684979187:0;cat notes.sqlite
+: 1684979244:0;sudo snapper -c home create --description "zi"
+: 1684979518:0;sudo snapper -c work create-config /data/work
+: 1684979531:0;snapper list-configs
+: 1684979594:0;sudo snapper -c work list
+: 1684979635:0;sudo nano /etc/snapper/configs/work
+: 1684979715:0;cat obsidian-default-theme.css
+: 1684979782:0;sudo btrfs-list
+: 1684979797:0;kdesu btrfs-list
+: 1684979879:0;mkdir qqbak
+: 1684979901:0;mv qq/* qqbak/
+: 1684979914:0;ls qq
+: 1684979916:0;ls qqbak/
+: 1684979960:0;sudo btrfs subvolume list | grep qq
+: 1684979969:0;sudo btrfs subvolume delete @/data/work/qq
+: 1684979973:0;sudo $(which btrfs-list) -q . | grep qq
+: 1684979991:0;rm -rf qq
+: 1684979998:0;mv qqbak qq
+: 1684980017:0;sudo snapper -c work create
+: 1684982556:0;cd .
+: 1684982597:0;nano test.css
+: 1684982990:0;mkdir snippets
+: 1684983003:0;cd snippets/
+: 1684983007:0;nano t.css
+: 1684983185:0;mv snippets/t.css themes/Minimal/
+: 1684983296:0;mv themes/Minimal/t.css snippets/
+: 1684984278:0;rm -rf snippets/
+: 1684984349:0;cd themes/Minimal/
+: 1684984357:0;rm -rf test.css
+: 1684987421:0;while true; do (echo "%CPU %MEM ARGS $(date)" && ps -e -o pcpu,pmem,args --sort=pcpu | cut -d" " -f1-5 | tail)
+: 1684990475:0;#1684987424
+: 1684990475:0;while true; do (echo "%CPU %MEM ARGS $(date)" && ps -e -o pcpu,pmem,args --sort=pcpu | cut -d" " -f1-5 | tail); 
+: 1684990475:0;#1684987430
+: 1684987449:0;chmod +x cpu-time.sh
+: 1684987453:0;nano cpu-time.sh
+: 1684987485:0;./cpu-time.sh
+: 1684987521:0;\
+13.7 1.1 /tmp/.mount_obsidiyMXnDb/obsidian --type=gpu-pro
+: 1684987532:0;ps -e -o pcpu,pmem,args --sort=pcpu
+: 1684987920:0;nb edit 2
+: 1684990481:0;zypper in cmake gcc-c++ extra-cmake-modules qt5-qttools-devel qt5-qttools-static qt5-qtx11extras-devel kf5-kconfigwidgets-devel kf5-kcrash-devel kf5-kguiaddons-devel kf5-kglobalaccel-devel kf5-kio-devel kf5-ki18n-devel kf5-knotifications-devel kf5-kinit-devel kwin-devel qt5-qtbase-devel libepoxy-devel
+: 1684990485:0;sudo zypper in cmake gcc-c++ extra-cmake-modules qt5-qttools-devel qt5-qttools-static qt5-qtx11extras-devel kf5-kconfigwidgets-devel kf5-kcrash-devel kf5-kguiaddons-devel kf5-kglobalaccel-devel kf5-kio-devel kf5-ki18n-devel kf5-knotifications-devel kf5-kinit-devel kwin-devel qt5-qtbase-devel libepoxy-devel
+: 1684993978:0;echo test > test.md
+: 1684994357:0;wget "https://github.com/AppImage/AppImageKit/releases/download/continuous/appimagetool-x86_64.AppImage"\
+chmod a+x appimagetool-x86_64.AppImage
+: 1684994385:0;zypper se wget "https://github.com/AppImage/AppImageKit/releases/download/continuous/appimagetool-x86_64.AppImage"\
+chmod a+x appimagetool-x86_64.AppImage
+: 1684994393:0;zypper se linuxdeployqt
+: 1684994531:0;echo ${SELF%/*}
+: 1684994559:0;cd SANDBOX/
+: 1684994579:0;chmod +x sandBOX4
+: 1684994616:0;nano sandBOX4
+: 1684994637:0;./sandBOX4
+: 1684994708:0;/home/qgrep/.local/bin/obsidian-releases test.md
+: 1684994856:0;APPDIR=$(PWD)
+: 1684994880:0;$PWD
+: 1684994896:0;APPDIR=
+: 1684994899:0;ïƒ¤ƒµ desktop/ ïƒ¥ƒ» marktext-x86_64.AppImage* ïƒ¥ƒ» Obsidian-1.2.7.AppImage* ïƒ¥ƒ» Photop
+: 1684994909:0;APPDIR=/home/qgrep/Applications
+: 1684994912:0;echo $PWD
+: 1684994916:0;echo $APPDIR
+: 1684995084:0;zypper se libpcre3
+: 1684995822:0;zypper se photop
+: 1684996231:0;cd /data/sync
+: 1684996307:0;cd mobilephone/
+: 1684996337:0;mkdir storage
+: 1684996369:0;ln -s /data/sync/p30/storage/dcim /home/qgrep/Bilder/mobilephone/p30/storage
+: 1684996394:0;unlink dcim
+: 1684996401:0;cd p30
+: 1684996406:0;ls emulated/
+: 1684996409:0;ls self/
+: 1684996412:0;ls 9016-4EF8/
+: 1684996416:0;ls dcim
+: 1684996467:0;ln -s /home/qgrep/Bilder/mobilephone/p30/storage
+: 1684996501:0;cd sdcard
+: 1684996534:0;cd sdcard0/
+: 1684996566:0;ln -s $PWD/DCIM/ ~/Bilder/mobilephone/p30/storage/sdcard0
+: 1684996602:0;ln -s $PWD/DCIM/ ~/Bilder/mobilephone/p30/storage/sdcard1
+: 1684996606:0;ls DCIM/
+: 1684996634:0;unlink DCIM/
+: 1684996662:0;ls DCIM/Camera/
+: 1684996835:0;fzf
+: 1684996846:0;ls leap/
+: 1684996851:0;ls home/
+: 1684996855:0;ls home/qgrep
+: 1684996887:0;ls thumbleweed/
+: 1684996889:0;ls var
+: 1684996894:0;ls media/
+: 1684996904:0;cd work/
+: 1684996916:0;cd docker
+: 1684996968:0;nano docker-command.sh
+: 1684997691:0;zypper se \
+
+: 1684997698:0;zypper se nvidia
+: 1684997711:0;zypper se nvidia-container-toolkit
+: 1684997767:0;/usr/bin/ffmpeg -i originals/2022/03/20220307_022629_7792822B.mp4 -pix_fmt yuv420p -c:v h264_nvenc -c:a aac -preset 15 -pixel_format yuv420p -gpu any -vf format=yuv420p -rc:v constqp -cq 0 -tune 2 -r 30 -b:v 50M -profile:v 1 -coder:v 1 -f mp4 -y /test.avc
+: 1684998093:0;mv docker-command.sh photoprism-docker-command.sh
+: 1684998096:0;ks
+: 1684998101:0;chmod +x photoprism-docker-command.sh
+: 1684998143:0;./photoprism-docker-command.sh
+: 1684998155:0;nano photoprism-docker-command.sh
+: 1684998162:0;docker run -d \
+--name photoprism --security-opt seccomp=unconfined --security-opt apparmor=unconfined -p 2342:2342 -e PHOTOPRISM_UPLOAD_NSFW="true" -e PHOTOPRISM_ADMIN_PASSWORD="qqwertz123" -v /photoprism/storage -v ~/Bilder:/photoprism/originals -e 'NVIDIA_VISIBLE_DEVICES'='all' -e 'NVIDIA_DRIVER_CAPABILITIES'='all' -e 'PHOTOPRISM_FFMPEG_ENCODER'='nvidia' photoprism/photoprism
+: 1684998186:0;code photoprism-docker-command.sh
+: 1684998216:0;docker run -d \
+ --name photoprism --security-opt seccomp=unconfined --security-opt apparmor=unconfined -p 2342:2342 -e PHOTOPRISM_UPLOAD_NSFW="true" -e PHOTOPRISM_ADMIN_PASSWORD="qqwertz123" -v /photoprism/storage -v ~/Bilder:/photoprism/originals -e NVIDIA_VISIBLE_DEVICES=all -e NVIDIA_DRIVER_CAPABILITIES=all -e PHOTOPRISM_FFMPEG_ENCODER=nvidia \ \
+photoprism/photoprism
+: 1684998232:0;\
+docker run -d \
+ --name photoprism --security-opt seccomp=unconfined --security-opt apparmor=unconfined -p 2342:2342 -e PHOTOPRISM_UPLOAD_NSFW="true" -e PHOTOPRISM_ADMIN_PASSWORD="qqwertz123" -v /photoprism/storage -v ~/Bilder:/photoprism/originals -e NVIDIA_VISIBLE_DEVICES=all -e NVIDIA_DRIVER_CAPABILITIES=all -e PHOTOPRISM_FFMPEG_ENCODER=nvidia \
+photoprism/photoprism\
+
+: 1684998541:0;touch docker-compose.yml
+: 1684998752:0;docker-compose
+: 1684998856:0;sudo snapper list --all-configs
+: 1684998930:0;code /etc/snapper/configs/
+: 1684998937:0;cd /etc/snapper/configs/
+: 1684999017:0;sudo snapper -c Bilder create --description ""
+: 1684999062:0;exa /data/media/ --all
+: 1684999071:0;exa /data/media/Bilder/ --all
+: 1684999082:0;exa /data/media/Bilder/.snapshots/ --all
+: 1684999289:0;sudo snapper -c Bilder delete 1
+: 1684999293:0;sudo snapper -c Bilder delete 0
+: 1684999310:0;kdesu snapper -c Bilder create
+: 1684999333:0;sudo snapper -c Bilder create
+: 1684999367:0;sudo snapper -c Bilder list
+: 1684999921:0;cd /data/sync/
+: 1684999933:0;cd sdcard1/
+: 1684999959:0;docker stop 24226088826f
+: 1684999967:0;docker stop 4c892cda62ec
+: 1685000032:0;cd /data/work/docker/
+: 1685000530:0;cd photoprism/originals
+: 1685000544:0;mkdir p30
+: 1685000558:0;cd p30/
+: 1685000564:0;mkdir sdcard1
+: 1685000567:0;mkdir sdcard0
+: 1685000585:0;ln -s $PWD/DCIM/ ~/Bilder/photoprism/originals/p30/sdcard1/
+: 1685000593:0;ls sdcard1
+: 1685000596:0;ls sdcard1/DCIM/
+: 1685000602:0;ls sdcard1/DCIM/Camera/
+: 1685000697:0;cd storage/
+: 1685000716:0;ls /data/work/docker/storage
+: 1685000768:0;mv docker-compose.yml photoprism
+: 1685000771:0;docker compose up -d1
+: 1685000774:0;docker compose up -d
+: 1685008005:0;cd /data/work
+: 1685008015:0;mkdir photoprism
+: 1685008033:0;mv docker/photoprism/docker-compose.yml photoprism/
+: 1685008060:0;docker stop 12687e7e1b40
+: 1685008064:0;docker rm 12687e7e1b40
+: 1685008068:0;rm -rf docker
+: 1685008071:0;sudo rm -rf docker
+: 1685008077:0;mkdir docker
+: 1685008102:0;find /data -name "docker-compose*"
+: 1685008127:0;cat /data/home/qgrep/workspace/home/zshrd/.zshOLD/.oh-my-zsh/plugins/docker-compose
+: 1685008172:0;cat /data/home/qgrep/workspace/home/zshrd/.zshOLD/.oh-my-zsh/plugins/docker-compose/ | grep photo
+: 1685008182:0;find /data -name "docker-compose*" | grep photo
+: 1685008189:0;find /data -name "docker-compose*" | grep docker
+: 1685008724:0;cat ~/.config/kdeglobals | wheel
+: 1685008836:0;kdesu piper#
+: 1685008844:0;kdesu piper
+: 1685008920:0;cd /data/sync/p30/storage/sdcard0/DCIM/ls
+: 1685049263:0;cd Bilder/photoprism/
+: 1685049269:0;ls storage/
+: 1685049271:0;ls originals/
+: 1685049280:0;unlink originals/p30/
+: 1685049293:0;exa originals/
+: 1685049308:0;ls -l originals/
+: 1685049357:0;exa /home/qgrep/Bilder/photoprism/originals/p30/sdcard1/
+: 1685049372:0;ls -l /home/qgrep/Bilder/photoprism/originals/p30/sdcard1/
+: 1685049392:0;cd --
+: 1685049410:0;cd Bilder
+: 1685049416:0;rm -rf photoprism/
+: 1685049469:0;cd /data/work/
+: 1685049471:0;ls photoprism/
+: 1685049474:0;cd photoprism/
+: 1685049617:0;cc $HOME
+: 1685049627:0;cd $HOME/Bilder
+: 1685049631:0;ls mobilephone/
+: 1685049664:0;mkdir -p photoprism/originals
+: 1685049671:0;mkdir -p photoprism/storage
+: 1685049687:0;cp -r screenshots/ photoprism/originals/
+: 1685049812:0;rm -rf photoprism/originals/screenshots/
+: 1685049979:0;lsmod
+: 1685050012:0;sudo modprobe tuxedo_keyboard\
+
+: 1685050047:0;zypper se -i tuxedo
+: 1685050060:0;cat /etc/fonts/conf.d/70-reject.conf
+: 1685050133:0;zypper refresh
+: 1685050139:0;sudo zypper refresh
+: 1685050284:0;sudo depmod
+: 1685050440:0;zypper info tuxedo-keyboard
+: 1685050501:0;sudo rpm -i --nosignature tuxedo-keyboard-*
+: 1685050638:0;sudo rpm -i --nosignature tuxedo-keyboard-kmp-default-v3.1.4_k6.3.2_1-1.40.x86_64.rpm
+: 1685050664:0;sudo rpm -i --nosignature tuxedo-keyboard-v3.1.4-1.40.x86_64.rpm
+: 1685050671:0;zypper info tuxed
+: 1685050681:0;zypper se tux
+: 1685050944:0;sudo modprobe tuxedo_keyboard
+: 1685051049:0;lsmod | grep key
+: 1685051077:0;ls -all | grep tux
+: 1685051123:0;git clone https://github.com/tuxedocomputers/tuxedo-control-center\
+\
+cd tuxedo-control-center\
+\
+npm install
+: 1685051219:0;npm install -g npm@9.6.7 && npm install
+: 1685051263:0;npm install npm@latest -g.
+: 1685051293:0;npm install npm@latest -g. --fore
+: 1685051302:0;npm install --force npm@latest -g.
+: 1685051312:0;npm fund
+: 1685051324:0;npm install -g npm-check-updates
+: 1685051345:0;nb search nbm
+: 1685051361:0;nb searchh npm
+: 1685051370:0;nb view 120
+: 1685051379:0;npm install sass@latest\
+\
+npm install -g npm-check-updates\
+ncu -u\
+npm install
+: 1685051416:0;npm install sass@latest\
+\
+npm install -g npm-check-updates\
+ncu -u\
+npm install --force
+: 1685055827:0;zypper se libudev
+: 1685055940:0;sudo rpm -i --nosignature libudev0-182-5.14.1.src.rpm
+: 1685055959:0;npm install
+: 1685055975:0;npm install --force
+: 1685056006:0;npm install --forc
+: 1685056010:0;npm install --legacy-peer-deps
+: 1685056039:0;sudo zypper rm tuxedo-keyboard-kmp-default tuxedo-keyboard
+: 1685056098:0;zypper cleanr
+: 1685056101:0;zypper clean
+: 1685056105:0;sudo zypper clean
+: 1685056108:0;sudo zypper ref
+: 1685056116:0;zypper se -s tuxedo
+: 1685056156:0;rm -rf tuxedo-keyboard-*
+: 1685059213:0;cd /data/sync/p30/storage/sdcard0/DCIM/
+: 1685059430:0;ls ~/Bilder/
+: 1685059635:0;ls /data/sync/p30/storage/sdcard1/DCIM/
+: 1685059668:0;cd /data/sync/12t
+: 1685059702:0;ls Pictures/
+: 1685059709:0;ls Pictures/Gallery/
+: 1685059713:0;ls Pictures/Gallery/owner/
+: 1685059717:0;cd D
+: 1685059737:0;cd DCIM/
+: 1685064095:0;docker compose logs --tail=100
+: 1685064370:0;cd /data/work/photoprism/
+: 1685064377:0;code docker-compose.yml
+: 1685064460:0;nvidia-ctk --version
+: 1685065163:0;ffmpeg -codecs
+: 1685065253:0;zypper se nvtop
+: 1685065261:0;sudo zypper in nvtop
+: 1685065500:0;iftop
+: 1685065505:0;sudo zypper in iftop
+: 1685065718:0;nvidia-smi -q -g 0 -d UTILIZATION -l 1
+: 1685065962:0;whereis obsidian-releases
+: 1685066353:0;xdg-mime default obsidian*.destkop x-scheme-handler/obsidian\
+update-desktop-database
+: 1685066376:0;cd /tmo
+: 1685066382:0;touch a.txt
+: 1685066388:0;obsidian-releases a.txt
+: 1685066462:0;zap
+: 1685066482:0;zap init
+: 1685066536:0;zypper se obsidian
+: 1685066820:0;cd ~/Downloads/Firefox/
+: 1685066921:0;/opt/Obsidian/obsidian
+: 1685066941:0;/opt/Obsidian/obsidian a.txt
+: 1685066954:0;sudo zypper rm obsidian
+: 1685080355:0;flatpak run md.obsidian.Obsidian
+: 1685080385:0;flatpak run md.obsidian.Obsidian /data
+: 1685080951:0;nvtop
+: 1685081743:0;docker-compose up -d
+: 1685081836:0;nvidia-smi
+: 1685082027:0;ls ~/.local/share/applications/
+: 1685082174:0;appimaged Obsidian-1.3.4.AppImage
+: 1685082219:0;./Obsidian-1.3.4.AppImage
+: 1685082251:0;ls ~/Applications/
+: 1685082597:0;zypper se fuse
+: 1685082659:0;obsidian-releases $PWD
+: 1685083206:0;obsidian-releases --help
+: 1685086801:0;zypper se xdg
+: 1685087283:0;code ~/.local/share/applications/obsidian-releases.desktop
+: 1685087930:0;xdg-settings get default-url-scheme-handler?
+: 1685087943:0;cat ~/.config/mimeapps.list
+: 1685095834:0;cat ~/.local/share/applications/obsidian.desktop
+: 1685095908:0;cat /home/qgrep/.local/bin/obsidian
+: 1685096156:0;sudo mv ~/.local/share/applications/obsidian.desktop /usr/share/applications/
+: 1685096199:0;sudo nano /usr/share/applications/obsidian.desktop
+: 1685096330:0;xdg-settings get default-url-scheme-handler
+: 1685096414:0;sudo mv /usr/share/applications/obsidian.desktop ~/.local/share/applications/obsidian.desktop
+: 1685096553:0;zap list
+: 1685096773:0;rm ~/.local/share/applications/obsidian.desktop
+: 1685096792:0;mv ~/.local/share/applications/obsidian-releases.desktop ~/.local/share/applications/obsidian.desktop
+: 1685096796:0;nano ~/.local/share/applications/obsidian-releases.desktop
+: 1685096895:0;nano ~/.config/mimeapps.list:
+: 1685096976:0;xdg-mime query default x-scheme-handler/obsidian and xdg-settings get default-url-scheme-handler
+: 1685097269:0;obsidian-releases test.md
+: 1685097381:0;obsidian
+: 1685097444:0;upd
+: 1685097449:0;update-desktop-database /usr/share/applications/
+: 1685097482:0;sudo update-desktop-database /usr/share/applications/
+: 1685097545:0;~/.local/share/applications/obsidian.desktop
+: 1685097692:0;mv ~/Downloads/Firefox/Obsidian-1.3.4.AppImage $PWD
+: 1685098016:0;xdg-open "obsidian://open?vault=nb
+: 1685098024:0;xdg-open obsidian://open?vault=nb
+: 1685098086:0;xdg-open "obsidian://search?vault=
+: 1685098092:0;xdg-open obsidian://search?vault=
+: 1685098155:0;ls /tmp/
+: 1685098177:0;xdg-open obsidian:////tmp/a.txt
+: 1685128093:0;touch open-in-obsidian.sh
+: 1685128098:0;chmod +x open-in-obsidian.sh
+: 1685128127:0;ls /data/work/qq/lib/nb/
+: 1685128207:0;open-in-obsidian.sh
+: 1685128212:0;echo $PATH
+: 1685128219:0;echo $PATH | grep shell
+: 1685128233:0;code ~/.zsh
+: 1685128241:0;export PATH=$HOME/shell/:$PATH\
+
+: 1685128385:0;cd .obsidian/
+: 1685128423:0;find $HOME -name "obsidian.json"
+: 1685128453:0;open-in-obsidian.sh a.txt
+: 1685132474:0;flatpak search obsidia
+: 1685132484:0;flatpak install md.obsidian.Obsidian
+: 1685132829:0;obsidian-releases
+: 1685132861:0;sh /home/qgrep/Applications/Obsidian-1.3.4.AppImage
+: 1685132869:0;.//home/qgrep/Applications/Obsidian-1.3.4.AppImage
+: 1685132873:0;rm -rf /home/qgrep/Applications/Obsidian-1.3.4.AppImage
+: 1685132878:0;zap install --github --from obsidianmd/obsidian-releases
+: 1685132979:0;xdg-open obsidian://advanced-uri?vault=nb&filepath=my-file&data=Hello%2520World
+: 1685133151:0;killall nb
+: 1685133225:0;nb edit 194
+: 1685442582:0;systemctl suspend
+: 1685566561:0;nb use coding
+: 1685566678:0;nb view 72
+: 1685568566:0;killall yakuake
+: 1685574031:0;zypper se tele
+: 1685574057:0;sudo zypper in telegram-desktop
+: 1685574122:0;sudo zypper in telegram-qt5
+: 1685577648:0;cd /data/work/qq/lib/nb/.obsidian/
+: 1685577652:0;cd themes/
+: 1685577655:0;cd Minimal/
+: 1685577659:0;code theme.css
+: 1685582930:0;ls obsidian
+: 1685582966:0;mv * obsidian-snippets/
+: 1685582974:0;mv obsidian-snippets/theme.css $PWD
+: 1685582979:0;mv obsidian-snippets/manifest.json $PWD
+: 1685582985:0;exa obsidian-snippets/
+: 1685583025:0;mv obsidian-snippets/ /data/work/qq/lib/nb/.obsidian/snippets/
+: 1685583034:0;cd /data/work/qq/lib/nb/.obsidian/snippets/
+: 1685583038:0;mv obsidian-snippets/ $PWD
+: 1685583463:0;cd /home/qgrep/sandbox_obsidian/.obsidian/snippets/
+: 1685583465:0;git clone https://github.com/deathau/obsidian-snippets.git
+: 1685583471:0;mv obsidian-snippets/* $PWD
+: 1685583573:0;zap remove obsidian-releases
+: 1685583580:0;flatpak list | grep obsi
+: 1685583587:0;flatpak remove md.obsidian.Obsidian
+: 1685588238:0;sudo rpm -i --nosignature obsidian-0.15.9-12.1.x86_64.rpm
+: 1685588436:0;sudo find / -name "obsidian*"
+: 1685588477:0;cat /usr/share/applications/obsidian.desktop
+: 1685588484:0;ls /opt
+: 1685588488:0;cd /opt
+: 1685588490:0;cd Obsidian/
+: 1685588640:0;nb add notebook test
+: 1685588661:0;nb notebooks add test
+: 1685588814:0;cd $HOME/Downloads/Firefox/
+: 1685588818:0;appimaged -i Obsidian-1.3.4.AppImage
+: 1685588834:0;cd $HOME/Applications/
+: 1685588858:0;ls App
+: 1685588861:0;ls Applications/
+: 1685588891:0;mv Downloads/Firefox/obsidian-0.15.9-12.1.x86_64.rpm Applications/
+: 1685588910:0;appimaged --help
+: 1685588926:0;appimaged -u /home/qgrep/Downloads/Firefox/Obsidian-1.3.4.AppImage
+: 1685588967:0;appimaged -h
+: 1685588973:0;appimaged -i
+: 1685588990:0;appimaged -i obsidian-0.15.9-12.1.x86_64.rpm
+: 1685589008:0;appimaged -u obsidian.desktop
+: 1685590051:0;strace -echdir -f nano
+: 1685590136:0;curl cheat.sh/appimaged
+: 1685590153:0;zypper se appimage
+: 1685590171:0;zypper info appimaged
+: 1685590185:0;find ~/.local/share -name 'appimagekit_*' -exec rm {} \ 
+: 1685590210:0;appimaged -u obsidian
+: 1685590216:0;appimaged -u obsidianf
+: 1685590221:0;appimaged -u
+: 1685590255:0;find ~/.local/share -name 'appimagekit_*'
+: 1685590261:0;appimaged
+: 1685590271:0;cd /home/qgrep/Downloads/Firefox/
+: 1685590276:0;ls | grep obs
+: 1685590284:0;cd /home/qgrep/Applications/
+: 1685590337:0;find $PWD -name "obs*"
+: 1685590344:0;find $PWD -name "obsidian.de*"
+: 1685590351:0;cd .local/share/
+: 1685590487:0;find /usr -name "obsidian.de*"
+: 1685590496:0;rm /usr/share/applications/obsidian.desktop
+: 1685590500:0;sudo rm /usr/share/applications/obsidian.desktop
+: 1685590563:0;cd home/
+: 1685590565:0;Ã¶s
+: 1685590580:0;Ã¶ls
+: 1685590669:0;xdg-settings get default-url-scheme-handler obsidian
+: 1685590758:0;xdg-mime default obsidian.destkop x-scheme-handler/obsidian\
+update-desktop-database
+: 1685590856:0;xdg-mime default obsidian-releases.destkop x-scheme-handler/obsidian\
+update-desktop-database
+: 1685590863:0;xdg-mime query default x-scheme-handler/obsidian
+: 1685591069:0;wget https://github.com/obsidianmd/obsidian-releases/releases/download/v1.3.4/Obsidian-1.3.4.AppImage
+: 1685591123:0;/home/qgrep/Applications/Obsidian-1.3.4.AppImage
+: 1685591126:0;cat /home/qgrep/Applications/Obsidian-1.3.4.AppImage
+: 1685591202:0;chmod +x /home/qgrep/Applications/Obsidian-1.3.4.AppImage
+: 1685591261:0;xdg-open obsidian://home/fastboot.md
+: 1685591349:0;xdg-open "obsidian:/nb=test=note&content=content"
+: 1685591382:0;xdg-open "obsidian://nb=notes&name=note&content=content"
+: 1685591394:0;xdg-open "obsidian://new?vault=notes&name=note&content=content"
+: 1685591443:0;xdg-open obsidian://data/work/qq/lib/nb/home/fastboot.md
+: 1685591623:0;xdg-open obsidian://open?vault
+: 1685591683:0;xdg-open obsidian://open-vault?vault=nb
+: 1685591710:0;xdg-open obsidian://open-vault?vault=sandbox_obsidian
+: 1685591768:0;xdg-open obsidian://open-vault?vault=sandbox_obsidian&filename=test2
+: 1685591902:0;xdg-open obsidian://obsidian://new-note?vault=sandbox_obsidian&filename=ORDNER%2Ftest o
+: 1685591910:0;xdg-open obsidian://obsidian://new-note?vault=sandbox_obsidian&filename=ORDNER%2Ftest
+: 1685591923:0;ls obsidian://open?vault=sandbox_obsidian&file=ORDNER%2Ftest
+: 1685591949:0;xdg-open obsidian://open?vault=sandbox_obsidian&file=test2
+: 1685592031:0;xdg-open obsidian://append?vault=sandbox_obsidian&filename=some-note-title
+: 1685592187:0;xdg-open obsidian://obsidian://search?vault=sandbox_obsidian
+: 1685592229:0;xdg-open obsidian://obsidian://search?vault=sandbox_obsidian&query=test
+: 1685592397:0;xdg-open obsidian://sandbox_obsidian/test
+: 1685592453:0;xdg-open obsidian://open?vault=sandbox_obsidian&file=ORDNER%2Ftest
+: 1685592561:0;xdg-open obsidian://search?vault=sandbox_obsidian&&query=^block-reference-id
+: 1685592584:0;#1685590243
+: 1685592584:0;find ~/.local/share -name 'appimagekit_*' -exec rm {} \;
+: 1685592584:0;#1685590250
+: 1685592591:0;code open-in-obsidian.sh
+: 1685592648:0;cat test.md
+: 1685592708:0;nb edit 86
+: 1685592793:0;obsidian://advanced-uri?vault=sandbox_obsidian&filepath=my-file&data=Hello%2520World
+: 1685592801:0;xdg-open obsidian://advanced-uri?vault=sandbox_obsidian&filepath=my-file&data=Hello%2520World
+: 1685592818:0;xdg-open "obsidian://advanced-uri?vault=sandbox_obsidian&filepath=my-file&data=Hello%2520World"
+: 1685592844:0;xdg-open "obsidian://advanced-uri?vault=nb&filepath=my-file&data=Hello%2520World"
+: 1685593381:0;sudo nano /usr/etc/ssh/sshd_config
+: 1685593734:0;ls /usr/etc/ssh/sshd_config.d/
+: 1685593748:0;nano ~/.ssh/authorized_keys
+: 1685593758:0;rm ~/.ssh/authorized_keys
+: 1685593783:0;touch ~/.ssh/authorized_keys
+: 1685593791:0;tail -f ~/.ssh/authorized_keys
+: 1685593978:0;sh
+: 1685599152:0;#1685593981
+: 1685594002:0;sshh 12t
+: 1685594086:0;sudo cat r /var/log/ssh
+: 1685594090:0;sudo cat /var/log/ssh
+: 1685594183:0;ls -all .ssh
+: 1685594206:0;exa .ssh
+: 1685594293:0;xdg-open "obsidian://advanced-uri?vault=nb&daily=true&clipboard=true&mode=append"
+: 1685595281:0;xdg-open "obsidian://daily-notes?action=open&date=today"
+: 1685595292:0;xdg-open "obsidian://advanced-uri?vault=nb&daily=true&data=Hello%2520World&mode=append"
+: 1685595580:0;code ~/.config/mimeapps.list
+: 1685595807:0;sudo update-desktop-database
+: 1685596218:0;mkdir ~/Downloads/MarkDownload
+: 1685596247:0;ls ~/Downloads/MarkDownload
+: 1685596732:0;nano ~/.local/share/applications/appimagekit_00b25de9542f53f0e74cd3a5d7b6ee0b-obsidian.desktop
+: 1685596833:0;cd Applications/
+: 1685596841:0;rm obsidian-0.15.9-12.1.x86_64.rpm
+: 1685596959:0;Obsidian-1.3.4.AppImage --appimage-extract
+: 1685596965:0;$PWD/Obsidian-1.3.4.AppImage --appimage-extract
+: 1685596978:0;ls desktop/
+: 1685597043:0;ls squashfs-root/
+: 1685597049:0;cd squashfs-root/
+: 1685597052:0;./obsidian
+: 1685597087:0;mv squashfs-root/ obsidian
+: 1685597089:0;cd obsidian/
+: 1685597105:0;nano ~/.local/share/applications/obsidian.desktop
+: 1685597132:0;code ~/.local/share/applications/obsidian.desktop
+: 1685597189:0;code ~/.local/share/applications/appimagekit_00b25de9542f53f0e74cd3a5d7b6ee0b-obsidian.desktop
+: 1685597221:0;/home/qgrep/Applications/obsidian/obsidian
+: 1685597270:0;update-desktop-database ~/.local/share/applications/
+: 1685599082:0;zypper se firefox
+: 1685599103:0;sudo systemctl restart sshd.service
+: 1685599108:0;ssh 12t
+: 1685599378:0;sudo zypper in MozillaFirefox
+: 1685599408:0;sudo zypper in firefox-uget-integrator
+: 1685599439:0;xdg-mime query default x-scheme-handler/https
+: 1685599592:0;nano ~/.config/mimeapps.list
+: 1685599653:0;cat ~/.local/share/applications/mimeinfo.cache
+: 1685599675:0;nano ~/.local/share/applications/mimeinfo.cache
+: 1685599682:0;code ~/.local/share/applications/mimeinfo.cache
+: 1685600225:0;cd $HONME
+: 1685600234:0;cd firefox/
+: 1685600446:0;sudo snapper -c home create --description "usr"
+: 1685600461:0;sudo snapper list
+: 1685603076:0;cp places.sqlite favicons.sqlite search.json.mozlz4 permissions.sqlite formhistory.sqlite handlers.json ~/.mozilla/firefox/djgzlkku.qgrep
+: 1685603246:0;ls extension
+: 1685603249:0;ls extensions/
+: 1685603318:0;ls configuration
+: 1685603320:0;ls configuration/user.js
+: 1685603329:0;cat configuration/user.js
+: 1685603712:0;cd djgzlkku.qgrep/
+: 1685603718:0;rm -r extensions/*
+: 1685603876:0;ycd ..
+: 1685603885:0;cp -r extensions ~/.mozilla/firefox/djgzlkku.qgrep
+: 1685604300:0;find $HOME -name "ublock**"
+: 1685604536:0;cat ~/.config/copyq
+: 1685604544:0;find $HOME -name "copyq*"
+: 1685604585:0;cat copyq
+: 1685604604:0;ls copyq
+: 1685604630:0;copyq/
+: 1685604835:0;zypper se copy
+: 1685608214:0;QtWarning: Qt: Session management error: Could not open network socket
+: 1685608768:0;sudo systemctl restart ratbagd.service
+: 1685609560:0;cd /home/qgrep/.var/app/com.github.hluk.copyq/data/copyq
+: 1685609567:0;cat copyq.log
+: 1685609673:0;tail -f copyq.log
+: 1685609706:0;echo $SESSION_MANAGER
+: 1685610806:0;#1685609735
+: 1685610806:0;export -n SESSION_MANAGER=local/localhost.localdomain:@/tmp/.ICE-unix/3638,unix/localhost.localdomain:/tmp/.ICE-unix/3638
+: 1685610806:0;#1685609813
+: 1685610307:0;cat \
+drwxr-xr-x 1 qgrep 1000 0 Apr 21 23:15 flatpak-cache-FI9331
+: 1685610314:0;cat ~/.config/autostart/copyq.desktop
+: 1685610320:0;cat ~/.config/autostart/com.github.hluk.copyq.desktop copyq
+: 1685610817:0;sudo zypper in cmake extra-cmake-modules gcc-c++ git libXfixes-devel libXtst-devel qt5-qtbase-devel qt5-qtdeclarative-devel qt5-qtsvg-devel qt5-qttools-devel qt5-qtwayland-devel qt5-qtx11extras-devel wayland-devel kf5-knotifications-devel
+: 1685610864:0;cat /var/log/zypper.log
+: 1685610873:0;sudo cat /var/log/zypper.log
+: 1685611538:0;git clone https://github.com/hluk/CopyQ.git\
+cd CopyQ\
+cmake .\
+make
+: 1685611590:0;cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/usr/local .\
+make\
+make install
+: 1685611605:0;cmake -DCMAKE_PREFIX_PATH="$(brew --prefix qt5)" .\
+cmake --build .\
+cpack
+: 1685611666:0;flatpak list
+: 1685611676:0;flatpak remove com.github.hluk.copyq
+: 1685611909:0;nb search obsidian --all
+: 1685611919:0;nb search obsidian --all -l
+: 1685611927:0;nb search "obsidi" --all -l
+: 1685611969:0;nb search --all "obsidi"
+: 1685611976:0;nb use cheat
+: 1685611981:0;nb edit 45
+: 1685611982:0;nb edit 43
+: 1685615263:0;copyq info config
+: 1685615269:0;copyq config
+: 1685615295:0;copyq copy TEXT
+: 1685615312:0;copyq --help | bat
+: 1685615398:0;copyq tab notes add "This is the first note."
+: 1685615426:0;copyq menu
+: 1685615468:0;copyq info logs
+: 1685615510:0;notify-send 'Hello world!' 'This is an example notification.' --icon=dialog-information
+: 1685615538:0;echo $XDG_CURRENT_DESKTOP
+: 1685615546:0;echo $KDE_FULL_SESSION
+: 1685615783:0;sudo -u qgrep env QT_QPA_PLATFORM=xcb copyq exitâ€ƒ«
+: 1685615828:0;sudo -u qgrep QT_QPA_PLATFORM=xcb bash -lc copyq &
+: 1685615896:0;ldd /usr/lib64/qt5/plugins/platforms/libqxcb.so
+: 1685615938:0;zypper se libqt5x11extras
+: 1685615956:0;ls /usr/lib/x86_64-linux-gnu/qt5/plugins/platforms/
+: 1685615971:0;zypper se libqt5dbus5
+: 1685615984:0;sudo zypper in -f libqt5dbus5 libqt5widgets5 libqt5network5 libqt5gui5 libqt5core5a libdouble-conversion1 libxcb-xinerama0
+: 1685616015:0;ls /usr/lib/x86_64-linux-gnu/qt5/plugins/
+: 1685616069:0;echo $DBUS_SESSION_BUS_ADDRESSâ€ƒ«
+: 1685616094:0;ps -u qgrep e | grep -Eo 'dbus-daemon.*ADDRESS=unix:abstract=/tmp/dbus-[A-Za-z0-9]{10}' | tail -c35
+: 1685616115:0;if test -z "$DBUS_SESSION_BUS_ADDRESS" ; then\
+ eval `dbus-launch --sh-syntax`\
+fi\
+echo "D-Bus daemon address is:"\
+echo "$DBUS_SESSION_BUS_ADDRESS"
+: 1685616119:0;sudo -u qgrep env DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus copyq --start-serverâ€ƒ«
+: 1685616147:0;sudo -u qgrep env QT_QPA_PLATFORM=xcb copyq &â€ƒ«
+: 1685616276:0;sudo zypper in --recommends -t pattern devel_qt5
+: 1685622307:0;nb use sonstiges
+: 1685622433:0;nano ~/.local/share/applications/marktext.desktop
+: 1685622521:0;mn
+: 1685622539:0;nb delete 196
+: 1685622543:0;nb use test
+: 1685622545:0;nb add AAAA
+: 1685622562:0;nb view 3
+: 1685628535:0;dbus-send --session --dest=org.freedesktop.DBus --type=method_call --print-reply /org/freedesktop/DBus org.freedesktop.DBus.ListNames | grep -v '":'
+: 1685628784:0;\
+sudo journalctl -b -u display-manager.service
+: 1685628870:0;q printenv | grep KDE
+: 1685628881:0;printenv | grep XDG
+: 1685629088:0;sudo zypper se -si wayland
+: 1685629229:0;cat xorg.conf
+: 1685629237:0;cat xorg.conf | grep gs
+: 1685629246:0;sudo mv xorg.conf /etc/X11/xorg.conf
+: 1685629259:0;sudo chattr +i /etc/X11/xorg.conf
+: 1685629785:0;nano .xinitrc.template
+: 1685629819:0;sudo chattr -i /etc/X11/xorg.conf
+: 1685629898:0;journalctl
+: 1685629974:0;sudo shutdown -h now
+: 1685639763:0;kdesu /var/log/zypper.log
+: 1685639791:0;sudo cp /var/log/zypper.log /tmp
+: 1685639796:0;cd /tmp
+: 1685639819:0;sudo chown -R qgrep:users /tmp/zypper.log
+: 1685639822:0;code zypper.log
+: 1685639917:0;cd .mozilla/
+: 1685639930:0;cd firefox/c9y9rrym.default-release-1/
+: 1685639967:0;cp places.sqlite favicons.sqlite search.json.mozlz4 permissions.sqlite formhistory.sqlite handlers.json ~/.mozilla/firefox/pd9ny75z.qg/
+: 1685640178:0;cp places.sqlite ~/.mozilla/firefox/pd9ny75z.qg/
+: 1685640308:0;cat bookmarks.html
+: 1685650308:0;zypper se exif
+: 1685650378:0;exiftool
+: 1685650385:0;cd Bilder/
+: 1685656564:0;cp places.sqlite placesbak.sqlite
+: 1685656590:0;rm places.sqlite
+: 1685656601:0;rm xulstore.json
+: 1685656743:0;find $PWD -name "use*"
+: 1685656785:0;find $PWD -name "user*"
+: 1685656798:0;cat /home/qgrep/.mozilla/firefox/c9y9rrym.default-release-1/configuration/user.js
+: 1685656803:0;cat /home/qgrep/.mozilla/firefox/9eza1qie.default-release/user.js
+: 1685656807:0;cat /home/qgrep/.mozilla/firefox/9eza1qie.default-release/chrome/user.js
+: 1685656814:0;cat /home/qgrep/.mozilla/firefox/9eza1qie.default-release/chrome/userContent.css
+: 1685656870:0;ls 3wu3hj4u.cc33abea-cc40-47f3-a9a7-151647178e52/
+: 1685656900:0;cd c9y9rrym.default-release-1/
+: 1685656913:0;meld
+: 1685656998:0;cd lb7w62v5.qq/
+: 1685657004:0;touch user.js
+: 1685659123:0;mv ~/Downloads/Firefox/ublock-sicherung_2023-06-02_00.37.49.txt $PWD
+: 1685659415:0;cd /home/qgrep/.mozilla/firefox/c9y9rrym.default-release-1/
+: 1685659422:0;find $PWD -name "ublo*"
+: 1685659430:0;find $HOME -name "ublo*"
+: 1685659606:0;sudo snapper -c home create --description "after firefox settings"
+: 1685659704:0;sudo zypper in -f --
+: 1685659712:0;sudo zypper in -f gcc-c++ git libXfixes-devel libXtst-devel qt5-qtbase-devel qt5-qtdeclarative-devel qt5-qtsvg-devel qt5-qttools-devel qt5-qtwayland-devel qt5-qtx11extras-devel wayland-devel kf5-knotifications-devel
+: 1685661291:0;sudo cp xorg.conf /etc/X11/xorg.conf.d/20-nvidia.conf
+: 1685661306:0;diff xorg.conf /etc/X11/xorg.conf.d/20-nvidia.conf
+: 1685661974:0;sudo rm /etc/X11/xorg.conf.d/20-nvidia.conf
+: 1685661983:0;sudo reboot
+: 1685662091:0;rm xorg.conf
+: 1685662109:0;sudo mv xorg.conf /etc/X11/xorg.conf.d/20-nvidia.conf && reboot
+: 1685662355:0;env | grep x11
+: 1685662358:0;env | grep way
+: 1685662457:0;inxi
+: 1685662463:0;inxi --usb -Dxxz
+: 1685662490:0;cat /var/log/Xorg.0.log
+: 1685662505:0;cat /var/log/Xorg.0.log | grep nvi
+: 1685662529:0;cat /var/log/Xorg.0.log | grep nmodese
+: 1685662533:0;dmesg | grep modese
+: 1685662542:0;systemctl get-default
+: 1685662560:0;glxgears
+: 1685662600:0;\
+lsmod | grep nvidia
+: 1685662625:0;cd /etc/modprobe.d/
+: 1685662632:0;cat nvidia.conf
+: 1685662664:0;sudo nano nvidia.conf
+: 1685662679:0;sudo nano /etc/default/grub
+: 1685662733:0;ls | grep ben
+: 1685662742:0;ls $HOME/Downloads/Firefox/ | grep ben
+: 1685662751:0;ls $HOME/bin/
+: 1685662758:0;cd $HOME/bin
+: 1685662763:0;cd Unigine_Heaven-4.0/
+: 1685662768:0;./heaven
+: 1685667515:0;systemctl reboot -i
+: 1685667840:0;nvidia-settings -q AllowGSYNC
+: 1685667895:0;nvidia-settings -a AllowGSYNC=0
+: 1685667906:0;nvidia-settings -a AllowVRR=0
+: 1685667913:0;nvidia-settings -q AllowVRR
+: 1685668055:0;nb add "kde plasma autostart env und shutdown script"
+: 1685668065:0;nb add --title "kde plasma autostart env und shutdown script"
+: 1685668115:0;ls `$HOME/.config/plasma-workspace/env`
+: 1685668121:0;ls $HOME/.config/plasma-workspace/env
+: 1685668185:0;chmod +x nvidia-gsync
+: 1685668187:0;reboor
+: 1685668299:0;nano nvidia-gsync
+: 1685668480:0;cat nvidia-gsync
+: 1685668504:0;ls | grep log
+: 1685668518:0;killall kde5
+: 1685668649:0;ls .config/autostart
+: 1685668659:0;cd $HOME/.config/plasma-workspace/env
+: 1685668662:0;./nvidia-gsync
+: 1685668744:0;sudo nano /etc/environment
+: 1685668821:0;cd .config/autostart/
+: 1685669052:0;nano .nv
+: 1685669055:0;nano .nvidia-settings-rc
+: 1685669141:0;sudo nano /etc/X11/xorg.conf
+: 1685669242:0;env | grep vr
+: 1685669247:0;env | grep gl
+: 1685669333:0;nvidia-settings -l
+: 1685669336:0;nvidia-settings -h
+: 1685669349:0;nvidia-settings -q all
+: 1685669414:0;nvidia-settings -q gpucoretemp -t \
+
+: 1685669447:0;qdbus org.kde.kwin /KWin supportInformation \
+
+: 1685669461:0;lspci -k | grep -A 2 -E "(VGA|3D)"
+: 1685673041:0;cat /etc/X11/xorg.conf.d/20-nvidia.conf
+: 1685673052:0;cat .nvidia-settings-rc
+: 1685673486:0;sudo journalctl -b -1
+: 1685673510:0;kcmshell5 kwineffects
+: 1685673516:0;kcmshell5 --list
+: 1685673538:0;kcmshell5 kcm_energyinfo
+: 1685673615:0;dmesg
+: 1685673853:0;copyq logs
+: 1685673938:0;sudo zypper rm copyq
+: 1685673955:0;zypper se clipboard
+: 1685674087:0;kcmshell5 kwincompositing
+: 1685674281:0;flatpak search clipboard
+: 1685674527:0;sudo zypper install libgda-6_0-sqlite typelib-1_0-Gda-6_0 typelib-1_0-GSound-1_0
+: 1685674663:0;cd /data/work/maintenance/installer/opensuse/extra-package-from-repo
+: 1685674666:0;git clone https://github.com/oae/gnome-shell-pano.git\
+cd ./gnome-shell-pano
+: 1685674686:0;yarn install\
+yarn build\
+ln -s "$PWD/dist" "$HOME/.local/share/gnome-shell/extensions/pano@elhan.io"
+: 1685674971:0;klipper
+: 1685688308:0;ls | grep co
+: 1685688353:0;cd /tmp/
+: 1685688355:0;wget https://github.com/hluk/CopyQ/releases/download/v7.0.0/copyq_7.0.0_openSUSE_Tumbleweed.x86_64.rpm
+: 1685688362:0;sudo rpm -i --nosignature copyq_7.0.0_openSUSE_Tumbleweed.x86_64.rpm
+: 1685688890:0;nb notebooks add hackepeter
+: 1685688897:0;nb use hackepeter
+: 1685688918:0;nb add --title "edit EXIF metadata via the command line with ExifTool"
+: 1685689036:0;touch test.md
+: 1685689039:0;open-in-obsidian.sh test.md
+: 1685689060:0;nano /home/qgrep/shell/open-in-obsidian.sh
+: 1685689120:0;cd $HOME
+: 1685689202:0;cd /data/work/qq/lib/nb/
+: 1685689224:0;nb edit 1
+: 1685689349:0;flatpak search digikam
+: 1685689359:0;flatpak install org.kde.digikam
+: 1685689805:0;cd .config/
+: 1685689816:0;find $HOME -name "dig*
+: 1685689824:0;find $HOME -name "dig*"
+: 1685689829:0;find $HOME -name "digic*"
+: 1685689848:0;mkdir digikam
+: 1685689850:0;cd digikam/
+: 1685689866:0;cd /home/qgrep/.config/digikam
+: 1685690768:0;cd $HOME/Bilder/
+: 1685690797:0;exiftool -AllDates=2022:12:21T21:53 logitel.jpg
+: 1685690859:0;exiftool -AllDates=2022:12:21T21:53:13 logitel.jpg
+: 1685690863:0;exiftool logitel.jpg
+: 1685691007:0;sudo rm /run/media/qgrep/361BBBE60AF68271/Users/xmg/Desktop/logitel.jpg
+: 1685691017:0;cp logitel.jpg /run/media/qgrep/361BBBE60AF68271/Users/xmg/Desktop/
+: 1685691021:0;sudo cp logitel.jpg /run/media/qgrep/361BBBE60AF68271/Users/xmg/Desktop/
+: 1685696093:0;sudo cp '/home/qgrep/Dokumente/Harz4/Alg II Anlage VM - 9_AnlageVM_ba013070.pdf' /run/media/qgrep/361BBBE60AF68271/Users/xmg/Desktop/
+: 1685696103:0;ls /run/media/qgrep/361BBBE60AF68271/Users/xmg/Desktop/
+: 1685696109:0;ls /run/media/qgrep/361BBBE60AF68271/Users/xmg/Desktop/ | grep an
+: 1685696125:0;ls /run/media/qgrep/361BBBE60AF68271/Users/xmg/Desktop/ | grep An
+: 1685701280:0;journalctl -f
+: 1685701821:0;cd .mozilla/firefox/pd9ny75z.qg/
+: 1685701825:0;code user.js
+: 1685701846:0;find $HOME -name "user*"
+: 1685701853:0;find $HOME -name "user.js*"
+: 1685701871:0;cat /home/qgrep/.mozilla/firefox/lb7w62v5.qq/user.js
+: 1685701875:0;code /home/qgrep/.mozilla/firefox/lb7w62v5.qq/user.js
+: 1685704966:0;ls \
+qgrep@localhost ° ~ ° rsync -avz /backup/alpha/plesk/backup_2301192156/domains/mond-tag.de/mond-tag-backup/backup_user-data_2301192156/httpdocs/
+: 1685704979:0;ls /backup/alpha/plesk/backup_2301192156/domains/mond-tag.de/mond-tag-backup/backup_user-data_2301192156/httpdocs/
+: 1685708098:0;cd /data/backup/alpha/plesk/backup_2301192156/domains/mond-tag.de/mond-tag-backup/backup_user-data_2301192156/wordpress-backups/mond-tag.de__2023-01-08T21_58_14+0100/files/
+: 1685708105:0;nano wp-config.php
+: 1685708223:0;rsync -avz /data/backup/alpha/plesk/backup_2301192156/domains/mond-tag.de/mond-tag-backup/backup_user-data_2301192156/wordpress-backups/mond-tag.de__2023-01-08T21_58_14+0100/files/ mond-tag@202.61.200.50:/home/mond-tag/public_html/
+: 1685708321:0;rsync -avz --delete /data/backup/alpha/plesk/backup_2301192156/domains/mond-tag.de/mond-tag-backup/backup_user-data_2301192156/wordpress-backups/mond-tag.de__2023-01-08T21_58_14+0100/files/ mond-tag@202.61.200.50:/home/mond-tag/public_html/
+: 1685728417:0;rsync -avz --delete /data/backup/alpha/plesk/backup_2301192156/domains/mond-tag.de/mond-tag-backup/backup_user-data_2301192156/wordpress-backups/mond-tag.de__2023-01-08T21_58_14+0100/files/wp-content/plugins/ mond-tag@202.61.200.50:/home/mond-tag/public_html/wp-content/plugins/
+: 1685780203:0;ssh alpha#
+: 1685781173:0;cat ~/.config/kdeglobals
+: 1685781180:0;cat ~/.config/kdeglobals | grep wheel
+: 1685781187:0;kwriteconfig5 --file ~/.config/kdeglobals --group KDE --key WheelScrollLines 5
+: 1685781198:0;kwriteconfig5 --file ~/.config/kdeglobals --group KDE --key WheelScrollLines 2
+: 1685781223:0;ls /etc/X11/xorg.conf.d/
+: 1685781246:0;sudo nano /etc/X11/xorg.conf.d/50-mouse-acceleration.conf\
+
+: 1685781292:0;lsusb -v | grep -e idProduct -e idVendor
+: 1685781330:0;sudo nano /etc/X11/xorg.conf.d/50-mouse-acceleration.conf
+: 1685781360:0;zypper se xinput
+: 1685781371:0;sudo zypper in xinput
+: 1685781419:0;xinput list
+: 1685781440:0;xinput --list-props 16
+: 1685781460:0;ls /dev/input/event7
+: 1685781466:0;cat /dev/input/event7
+: 1685781469:0;sudo cat /dev/input/event7
+: 1685781525:0;xinput --set-prop 17 'libinput Accel Speed' 0.3
+: 1685781544:0;xinput --set-prop 17 libinput Accel Speed 0.3
+: 1685781591:0;xinput --set-prop 17 "Device Accel Constant Deceleration" 2
+: 1685781696:0;cd .kde4/share/config/
+: 1685781700:0;ls kdeglobals
+: 1685781703:0;cat kdeglobals
+: 1685781746:0;xinput --set-prop 17 "Device Accel Constant Deceleration" 1.2
+: 1685781800:0;xinput --list-props 17
+: 1685781882:0;bluetoothctl
+: 1685781954:0;cat /etc/webmin/miniserv.conf
+: 1686007448:0;sudo chattr +i /etc/resolv.conf
+: 1686007454:0;nano /etc/resolv.conf
+: 1686008946:0;cat ~/.ssh/config
+: 1686009084:0;sudo systemctl restart network-online.target
+: 1686009085:0;ifconfig
+: 1686014339:0;sudo cp /data/media/Downloads/Firefox/ /run/media/qgrep/361BBBE60AF68271/Users/qgrep/Desktop/
+: 1686014350:0;sudo cp /data/media/Downloads/Firefox/Screenshot_20230523_133457_Gallery.jpg /run/media/qgrep/361BBBE60AF68271/Users/qgrep/Desktop/
+: 1686018069:0;xrandr --output HDMI-0 --scale 0.5x0.5
+: 1686020915:0;cat .local/share/kscreen
+: 1686020922:0;cat .local/share/kscreen/outputs/
+: 1686020926:0;cat .local/share/kscreen/outputs/76efdc70eb686c891b08d9fbbb75d1f3
+: 1686020942:0;cat .local/share/kscreen/outputs/*
+: 1686021154:0;cat ~/.Xresources
+: 1686021164:0;xrandr --dpi 96 --fb 7040x3960 --output eDP-1 --mode 3200x1800 --output DP-1-2 --scale 2x2 --pos 3200x0 --panning 3840x2160+3200+0
+: 1686021176:0;xrandr --dpi 276 --fb 7040x3960 --output eDP-1 --mode 3200x1800 --output DP-1-2 --scale 2x2 --pos 3200x0 --panning 3840x2160+3200+0
+: 1686021187:0;xdpyinfo | grep -B 2 resolution
+: 1686021240:0;echo $QT_QPA_PLATFORMTHEME
+: 1686021256:0;\
+xrandr --output eDP1 --scale 1x1 --mode 3840x2160 --output DP1 --off
+: 1686021382:0;xrandr --output HDMI-0 --scale 1.5x1.5
+: 1686021389:0;xrandr --output HDMI-0 --scale 1.5
+: 1686021394:0;xrandr --output HDMI-0 --scale 2
+: 1686021427:0;xrandr --output HDMI-0 --scale 2 --mode 1920x1080
+: 1686021450:0;xrandr --output HDMI-0 --scale 2 --mode 1920x1080 --pos 0x0 --rotate normal
+: 1686021489:0;xrandr --output HDMI-0 --scale 0.5 --mode 1920x1080 --pos 0x0 --rotate normal
+: 1686021616:0;xrandr --output HDMI-0 --scale 0.5 --mode 1920x1080 --pos 0x0 --rotate normal --fb 7040x3960
+: 1686021623:0;xrandr --output HDMI-0 --scale 1.5 --mode 1920x1080 --pos 0x0 --rotate normal --fb 7040x3960
+: 1686021785:0;xrandr
+: 1686021947:0;xrandr --output HDMI-0 --scale 2.5 --mode 1920x1080 --mode 3200x1800 --output DP-1-2 --scale 2x2 --pos 3200x0 --panning 3840x2160+3200+0
+: 1686021959:0;xrandr --output HDMI-0 --scale 2.5 --mode 1920x1080 - --output DP-1-2 --scale 2x2 --pos 3200x0 --panning 3840x2160+3200+0
+: 1686021965:0;xrandr --output HDMI-0 --scale 2.5 --mode 1920x1080 --output DP-1-2 --scale 2x2 --pos 3200x0 --panning 3840x2160+3200+0
+: 1686022064:0;xrandr --output HDMI-0 --scale 2.5 --mode 1920x1080
+: 1686084878:0;sudo snapper rollback
+: 1686324745:0;sudo dpkg-reconfigure -phigh xserver-xorg
+: 1686326523:0;nano .Xresources
+: 1686356021:0;ssh sh alpha
+: 1686362174:0;mv .Xresources .Xresources.bak
+: 1686364246:0;nb search --all "portainer"
+: 1686364884:0;ssh h alpha
+: 1686370343:0;webmin
+: 1686370675:0;cd virtualmin/
+: 1686370690:0;mkdir 2023-02-11
+: 1686370697:0;mv * 2023-02-11/
+: 1686370714:0;mkdir 2023-06-10
+: 1686370716:0;cd 2023-0
+: 1686370719:0;cd 2023-06-10/
+: 1686371699:0;cd /data/backup/alpha/virtualmin/2023-06-10/
+: 1686371861:0;ssh admin@10.10.99.1
+: 1686374491:0;rsync -au --human-readable --info=progress2 --stats root@202.61.200.50:/backup/2023-06-02 $PWD
+: 1686375855:0;rsync -au --human-readable --info=progress2 --stats root@202.61.200.50:/home/alpha $PWD
+: 1686376747:0;netdiscover
+: 1686376822:0;samsungctl
+: 1686376859:0;cd /$HOME
+: 1686376861:0;c shell/
+: 1686376877:0;cd bin/
+: 1686376888:0;cd cod
+: 1686376890:0;cd code/
+: 1686376902:0;ls skripte/
+: 1686376905:0;cd skripte/
+: 1686376919:0;./samsungtvremote.sh
+: 1686376951:0;mv samsungtvremote.sh $HOME/shell/
+: 1686376964:0;cd $HOME/shell/
+: 1686376967:0;nano samsungtvremote.sh
+: 1686377002:0;ping -c1 10.10.99.2
+: 1686377021:0;SAMSUNG_IP="10.10.99.2"
+: 1686377024:0;echo $SAMSUNG_IP
+: 1686377027:0;ping -c1 $SAMSUNG_IP && echo -e "\033[32m\u2714\033[0mbold OK[COLOREXITCODE] â®ƒª ${FUNCNAME[1]} res" || echo "Tv not found.. IP?" && read -p "IP? " -ei "10.10.99." SAMSUNG_IP
+: 1686377252:0;ssh 168234@46.38.225.190:/
+: 1686377254:0;ssh 168234@46.38.225.190
+: 1686377261:0;ssh -p 2222 168234@46.38.225.190
+: 1686380451:0;ssh --help | grep pass
+: 1686380651:0;samsungtvremote.sh
+: 1686380657:0;samsungTVSCREENconnect.sh
+: 1686380790:0;firewall-cmd --get-default-zone
+: 1686380882:0;gdbus call --system --dest fi.w1.wpa_supplicant1 --object-path /fi/w1/wpa_supplicant1 --method org.freedesktop.DBus.Properties.Get fi.w1.wpa_supplicant1 Capabilities
+: 1686380890:0;gdbus call --system --dest fi.w1.wpa_supplicant1 --object-path /fi/w1/wpa_supplicant1 --method org.freedesktop.DBus.Properties.Get fi.w1.wpa_supplicant1 WFDIEs
+: 1686380896:0;sudo su
+: 1686381953:0;lsblk
+: 1686381970:0;btrfs-list
+: 1686381984:0;sudo $(which btrfs-list) -q .
+: 1686407948:0;startx
+: 1686408092:0;killall plasmashell
+: 1686408096:0;killall xinit
+: 1686408283:0;sudo netdiscover
+: 1686408694:0;cd /data/
+: 1686408701:0;find $HOME -name "urlaub*"
+: 1686439789:0;find $HOME -name "yubikey*"
+: 1686439800:0;cat /home/qgrep/bin/code/shell/skripte/yubikey_gpg.sh
+: 1686439824:0;.//home/qgrep/bin/code/shell/skripte/yubikey_gpg.sh
+: 1686439828:0;./home/qgrep/bin/code/shell/skripte/yubikey_gpg.sh
+: 1686439891:0;nb use home
+: 1686439901:0;nb settings
+: 1686452056:0;zypper se copyq
+: 1686469014:0;rm debian-12.0.0-amd64-netinst.iso
+: 1686469230:0;sha512sum debian-12.0.0-amd64-netinst.iso
+: 1686487256:0;cat /etc/fstab
+: 1686490023:0;ssh-copy-id 202.61.200.50
+: 1686490033:0;ssh-copy-id root@202.61.200.50
+: 1686490062:0;ssh-copy-id alpha@202.61.200.50
+: 1686490085:0;nb search "system"
+: 1686490090:0;nb search "sudo"
+: 1686515521:0;navi
+: 1686515635:0;journalctl -p err -b
+: 1686516014:0;btrfs device stats /
+: 1686516018:0;sudo btrfs device stats /
+: 1686519795:0;hostname
+: 1686519836:0;firewall-cmd --help | get stop
+: 1686519840:0;firewall-cmd --help stop
+: 1686522384:0;ssh-keygen
+: 1686522451:0;nano .ssh/config
+: 1686522466:0;cd .ssh/
+: 1686523397:0;rsync -au --human-readable --info=progress2 --stats /data/backup/alpha/virtualmin/2023-06-10/ root@202.61.200.50:/backup
+: 1686641506:0;cat /etc/default/grub
+: 1686645043:0;ssh-keygen -R 202.61.200.50 -f /home/qgrep/.ssh/known_hosts
+: 1686653359:0;
+: 1686653366:0;rsync -au --human-readable --info=progress2 --stats /data/backup/alpha/virtualmin/2023-06-10/ alpha@202.61.200.50:/backup
+: 1687251781:0;nano /home/qgrep/.zsh/zshrc.d/99-end.zsh
+: 1687429428:0;ssh-copy-id alpha
+: 1687429497:0;cat .zsh/.zshrc
+: 1687429501:0;cat .zsh/.zshrc | grep exa
+: 1687430031:0;code ./zsh
+: 1687430081:0;ls -all grep zs
+: 1687430236:0;bash .zlogin
+: 1687431996:0;cd alpha
+: 1687432012:0;cd plesk
+: 1687432528:0;rsync -au --human-readable --info=progress2 --stats alpha@202.61.200.50:/backup
+: 1687432588:0;rsync -au --human-readable --info=progress2 --stats --dry-run /data/backup/alpha/virtualmin/2023-02-11/mond-tag.de.tar.gz alpha@202.61.200.50:/backup/2023-02-11/
+: 1687432602:0;rsync -au --human-readable --info=progress2 --stats /data/backup/alpha/virtualmin/2023-02-11/mond-tag.de.tar.gz alpha@202.61.200.50:/backup/2023-02-11/
+: 1687437380:0;nb use webmin
+: 1687438176:0;nb notebooks add webmin
+: 1687438348:0;nb add --title "Tutorial Einfaches Backup von Debian mit Webmin, CurlFtpFS, Dump und Tar - 1manfactory.com - Blog of JÃ¼rgen Schulze"
+: 1687438651:0;ssh mond-tag
+: 1687482209:0;nb use webmin:
+: 1687482211:0;#nb
+: 1687482239:0;nb add --title "webmin apache proxy"
+: 1687482525:0;nano /etc/httpd/conf/httpd.conf
+: 1687482659:0;su .
+: 1687484410:0;cat /etc/bind/named.conf.options
+: 1687484433:0;systemd-resolve --status
+: 1687484455:0;dig raphael-christopher.de
+: 1687486191:0;copyq --help
+: 1687486197:0;curl cheat.sh/copyq
+: 1687486211:0;copyq read 0 1 2
+: 1687486220:0;copyq read 0 1 11
+: 1687486237:0;copyq read 0 1 15
+: 1687486337:0;ls /mnt/docker-aio-config
+: 1687486465:0;cd shell/
+: 1687486484:0;nano docker-reset-factory-defaults.sh
+: 1687486492:0;code docker-reset-factory-defaults.sh
+: 1687508236:0;KVafIlagIlahI1unJFOaIVmlJFafIlScIVmmJFagIlehI1mmJFScIVikI1ScIl+uJ2CxKFehI1agI1uoJFafIl6sJ1WeIlunJFehI1SdIVWeIlahI2CxKFWeIl6tJ1uoJVObIV
+: 1687508248:0;ip a | grep "scope global" | grep docker0 | awk '{print $2}' | sed 's|/.*||'
+: 1687508281:0;nb add --title "localhost docker ip adress"
+: 1687508311:0;killall copyq
+: 1687508317:0;copyq &
+: 1687513700:0;cd /data/work/qq/lib/nb/webmin/
+: 1687513703:0;curl https://github.com/nextcloud/all-in-one/blob/main/readme.md
+: 1687513717:0;wget https://github.com/nextcloud/all-in-one/blob/main/readme.md
+: 1687513751:0;nb
+: 1687513793:0;rm nextcloud_docker_container_aio.md
+: 1687513796:0;wget https://raw.githubusercontent.com/nextcloud/all-in-one/main/readme.md
+: 1687513801:0;mv readme.md nextcloud_docker_container_aio.md
+: 1687517096:0;cd .config/copyq/
+: 1687517106:0;cat copyq.conf
+: 1687517114:0;code copyq.conf
+: 1687517160:0;cpupower frequency-info
+: 1687517180:0;cpupower -c all frequency-info
+: 1687517974:0;nb view 4
+: 1687517982:0;nb edit 4
+: 1687549168:0;code ~/.ssh/config
+: 1687549294:0;exec zsh -il
+: 1687549376:0;ssh-copy-id rootalpha
+: 1687763088:0;sudo zypper dup
+: 1687770292:0;flatpak update
+: 1687771361:0;cd /data/backup/
+: 1687771365:0;cd alpha/
+: 1687771382:0;rm -rf *
+: 1687771426:0;y
+: 1687771446:0;cd ..
+: 1687789637:0;netstat -luntap | grep LISTEN
+: 1687891233:0;ssh root@202.61.200.50
+: 1687902763:0;ssh root
+: 1687905886:0;cat /etc/modules
+: 1687905903:0;ls /etc/modules-load.d/
+: 1687905945:0;modprobe tuxedo-keyboard
+: 1687905958:0;modprobe -r tuxedo-keyboard
+: 1687906037:0;zypper se tuxedo
+: 1687906081:0;sudo zypper -ir tuxedo-control-center tuxedo-keyboard tuxedo-keyboard-kmp-default
+: 1687906100:0;sudo zypper -i tuxedo-control-center tuxedo-keyboard tuxedo-keyboard-kmp-default
+: 1687906111:0;zypper --help | grep rein
+: 1687906126:0;curl cheat.sh/zypper
+: 1687906567:0;ping raphael-christopher.de
+: 1687907002:0;cd Downloads/Firefox/
+: 1687907005:0;ls tuxedo-
+: 1687907009:0;ls tuxedo*
+: 1687907017:0;dolphin $PWD
+: 1687907082:0;sleep 60 && shutdown -h now
+: 1687907132:0;sleep 1 && shutdown -h now
+: 1687933430:0;e
+: 1687933443:0;echo 100 > /sys/devices/platform/tuxedo_keyboard/brightness
+: 1687933447:0;sudo cho 100 > /sys/devices/platform/tuxedo_keyboard/brightness
+: 1687933450:0;sudo echo 100 > /sys/devices/platform/tuxedo_keyboard/brightness
+: 1687933462:0;qqwertz123
+: 1687936503:0;curl ifconfig.me
+: 1688034697:0;shutdown -h now
+: 1688073701:0;ssh -p 2223 root@202.61.200.50
+: 1688073717:0;ssh-keygen -R [202.61.200.50]:2224 -f /home/qgrep/.ssh/known_hosts
+: 1688073718:0;ssh -p 2224 root@202.61.200.50
+: 1688073858:0;ssh alpha
+: 1688075871:0;systemctl restart apache2
+: 1688075906:0;su -
+: 1688075917:0;exit
+: 1688075923:0;ssh rootalpha
+: 1688078154:0;htop
+: 1688078253:0;ls -all
+: 1688078256:0;exa
+: 1688078314:0;cd workspace/home/zi/
+: 1688078346:0;docker ps
+: 1688103418:0;reboot
+: 1688103549:0;docker exec -it cbc40162be70 zsh
+: 1688110983:0;ping google.de
+: 1688112972:0;cd .zsh
+: 1688112975:0;code $PWD
+: 1688121527:0;bindkey - | grep fzf
+: 1688121564:0;bindkey -M
+: 1688121633:0;zle -al
+: 1688121683:0;zle -al | grep zle
+: 1688121686:0;zle -al | grep fzf
+: 1688122241:0;zle -al | grep mark
+: 1688122409:0;\exa -g --octal-permissions --icons --long --tree --sort=changed -L=1
+: 1688122441:0;bindkey -l
+: 1688122463:0;bindkey -
+: 1688122465:0;bindkey
+: 1688122502:0;lsl
+: 1688124431:0;pwd
+: 1688124447:0;grep -r $PWD "alias-expension"
+: 1688124462:0;grep -r $PWD "lucid"
+: 1688124470:0;grep -r $PWD "zi"
+: 1688124502:0;grep -r "zi" $PWD
+: 1688124509:0;sqlitebrowser $HOME/.local/share/atuin/history.db
+: 1688124665:0;grep -r "alias-expension" $PWD
+: 1688125131:0;grep -r "beginning-of-line" $PWD
+: 1688125846:0;bash
+: 1688127596:0;r-delregion() {\
+ if ((REGION_ACTIVE)) then\
+ zle kill-region\
+ else \
+ local widget_name=$1\
+ shift\
+ zle $widget_name -- $@\
+ fi\
+}\
+\
+r-deselect() {\
+ ((REGION_ACTIVE = 0))\
+ local widget_name=$1\
+ shift\
+ zle $widget_name -- $@\
+}\
+\
+r-select() {\
+ ((REGION_ACTIVE)) || zle set-mark-command\
+ local widget_name=$1\
+ shift\
+ zle $widget_name -- $@\
+}\
+\
+for key kcap seq mode widget (\
+ sleft kLFT $'\e[1;2D' select backward-char\
+ sright kRIT $'\e[1;2C' select forward-char\
+ sup kri $'\e[1;2A' select up-line-or-history\
+ sdown kind $'\e[1;2B' select down-line-or-history\
+\
+ send kEND $'\E[1;2F' select end-of-line\
+ send2 x $'\E[4;2~' select end-of-line\
+\
+ shome kHOM $'\E[1;2H' select beginning-of-line\
+ shome2 x $'\E[1;2~' select beginning-of-line\
+\
+ left kcub1 $'\EOD' deselect backward-char\
+ right kcuf1 $'\EOC' deselect forward-char\
+\
+ end kend $'\EOF' deselect end-of-line\
+ end2 x $'\E4~' deselect end-of-line\
+\
+ home khome $'\EOH' deselect beginning-of-line\
+ home2 x $'\E1~' deselect beginning-of-line\
+\
+ csleft x $'\E[1;6D' select backward-word\
+ csright x $'\E[1;6C' select forward-word\
+ csend x $'\E[1;6F' select end-of-line\
+ cshome x $'\E[1;6H' select beginning-of-line\
+\
+ cleft x $'\E[1;5D' deselect backward-word\
+ cright x $'\E[1;5C' deselect forward-word\
+
+: 1688127605:0;r-delregion() {\
+ if ((REGION_ACTIVE)) then\
+ zle kill-region\
+ else \
+ local widget_name=$1\
+ shift\
+ zle $widget_name -- $@\
+ fi\
+}\
+\
+r-deselect() {\
+ ((REGION_ACTIVE = 0))\
+ local widget_name=$1\
+ shift\
+ zle $widget_name -- $@\
+}\
+\
+r-select() {\
+ ((REGION_ACTIVE)) || zle set-mark-command\
+ local widget_name=$1\
+ shift\
+ zle $widget_name -- $@\
+}\
+\
+for key kcap seq mode widget (\
+ sleft kLFT $'\e[1;2D' select backward-char\
+ sright kRIT $'\e[1;2C' select forward-char\
+ sup kri $'\e[1;2A' select up-line-or-history\
+ sdown kind $'\e[1;2B' select down-line-or-history\
+\
+ send kEND $'\E[1;2F' select end-of-line\
+ send2 x $'\E[4;2~' select end-of-line\
+\
+ shome kHOM $'\E[1;2H' select beginning-of-line\
+ shome2 x $'\E[1;2~' select beginning-of-line\
+\
+ left kcub1 $'\EOD' deselect backward-char\
+ right kcuf1 $'\EOC' deselect forward-char\
+\
+ end kend $'\EOF' deselect end-of-line\
+ end2 x $'\E4~' deselect end-of-line\
+\
+ home khome $'\EOH' deselect beginning-of-line\
+ home2 x $'\E1~' deselect beginning-of-line\
+\
+ csleft x $'\E[1;6D' select backward-word\
+ csright x $'\E[1;6C' select forward-word\
+ csend x $'\E[1;6F' select end-of-line\
+ cshome x $'\E[1;6H' select beginning-of-line\
+\
+ cleft x $'\E[1;5D' deselect backward-word\
+ cright x $'\E[1;5C' deselect forward-word
+: 1688127758:0;r-delregion() {\
+ if ((REGION_ACTIVE)) then\
+ zle kill-region\
+ else \
+ local widget_name=$1\
+ shift\
+ zle $widget_name -- $@\
+ fi\
+}\
+\
+r-deselect() {\
+ ((REGION_ACTIVE = 0))\
+ local widget_name=$1\
+ shift\
+ zle $widget_name -- $@\
+}\
+\
+r-select() {\
+ ((REGION_ACTIVE)) || zle set-mark-command\
+ local widget_name=$1\
+ shift\
+ zle $widget_name -- $@\
+}\
+\
+for key kcap seq mode widget (\
+ sleft kLFT $'\e[1;2D' select backward-char\
+ sright kRIT $'\e[1;2C' select forward-char\
+ sup kri $'\e[1;2A' select up-line-or-history\
+ sdown kind $'\e[1;2B' select down-line-or-history\
+\
+ send kEND $'\E[1;2F' select end-of-line\
+ send2 x $'\E[4;2~' select end-of-line\
+\
+ shome kHOM $'\E[1;2H' select beginning-of-line\
+ shome2 x $'\E[1;2~' select beginning-of-line\
+\
+ left kcub1 $'\EOD' deselect backward-char\
+ right kcuf1 $'\EOC' deselect forward-char\
+\
+ end kend $'\EOF' deselect end-of-line\
+ end2 x $'\E4~' deselect end-of-line\
+\
+ home khome $'\EOH' deselect beginning-of-line\
+ home2 x $'\E1~' deselect beginning-of-line\
+\
+ csleft x $'\E[1;6D' select backward-word\
+ csright x $'\E[1;6C' select forward-word\
+ csend x $'\E[1;6F' select end-of-line\
+ cshome x $'\E[1;6H' select beginning-of-line\
+\
+ cleft x $'\E[1;5D' deselect backward-word\
+ cright x $'\E[1;5C' deselect forward-word\
+\
+ del kdch1 $'\E[3~' delregion delete-char\
+ bs x $'^?' delregion backward-delete-char\
+\
+ ) {\
+ eval "key-$key() {\
+    r-$mode $widget \$@\
+  }"\
+ zle -N key-$key\
+ bindkey ${terminfo[$kcap]-$seq} key-$key\
+}
+: 1688127808:0;shift-arrow() {\
+ ((REGION_ACTIVE)) || zle set-mark-command\
+ zle $1\
+}\
+for key kcap seq widget (\
+ left LFT $'\e[1;2D' backward-char\
+ right RIT $'\e[1;2C' forward-char\
+ up ri $'\e[1;2A' up-line-or-history\
+ down ind $'\e[1;2B' down-line-or-history\
+ ) {\
+ functions[shift-$key]="shift-arrow $widget"\
+ zle -N shift-$key\
+ bindkey ${terminfo[k$kcap]-$seq} shift-$key\
+}
+: 1688127836:0;shift-arrow() {\
+ ((REGION_ACTIVE)) || zle set-mark-command\
+ zle $1\
+}\
+shift-left() shift-arrow backward-char\
+shift-right() shift-arrow forward-char\
+shift-up() shift-arrow up-line-or-history\
+shift-down() shift-arrow down-line-or-history\
+zle -N shift-left\
+zle -N shift-right\
+zle -N shift-up\
+zle -N shift-down\
+\
+bindkey $terminfo[kLFT] shift-left\
+bindkey $terminfo[kRIT] shift-right\
+bindkey $terminfo[kri] shift-up\
+bindkey $terminfo[kind] shift-down\
+
+: 1688127940:0;alias pbcopy="xclip -selection clipboard"\
+\
+shift-arrow() {\
+\
+\
+((REGION_ACTIVE)) || zle set-mark-command \
+ zle $1\
+}\
+for key kcap seq widget (\
+ left LFT $'\e[1;2D' backward-char\
+ right RIT $'\e[1;2C' forward-char\
+ up ri $'\e[1;2A' up-line-or-history\
+ down ind $'\e[1;2B' down-line-or-history\
+ super sup $'\ec' widget::copy-selection\
+ ) {\
+ functions[shift-$key]="shift-arrow $widget"\
+ zle -N shift-$key\
+ bindkey ${terminfo[k$kcap]-$seq} shift-$key\
+}\
+ \
+zle -N widget::copy-selection\
+\
+\
+#\
+function widget::copy-selection {\
+ if ((REGION_ACTIVE)); then\
+ zle copy-region-as-kill\
+ printf "%s" $CUTBUFFER | objcopy\
+ fi\
+}\
+
+: 1688127949:0;zsh
+: 1688127952:0;ls
+: 1688127962:0;alias pbcopy="xclip -selection clipboard"\
+\
+shift-arrow() {\
+\
+\
+((REGION_ACTIVE)) || zle set-mark-command \
+ zle $1\
+}\
+for key kcap seq widget (\
+ left LFT $'\e[1;2D' backward-char\
+ right RIT $'\e[1;2C' forward-char\
+ up ri $'\e[1;2A' up-line-or-history\
+ down ind $'\e[1;2B' down-line-or-history\
+ super sup $'\ec' widget::copy-selection\
+ ) {\
+ functions[shift-$key]="shift-arrow $widget"\
+ zle -N shift-$key\
+ bindkey ${terminfo[k$kcap]-$seq} shift-$key\
+}\
+ \
+zle -N widget::copy-selection\
+\
+\
+#\
+function widget::copy-selection {\
+ if ((REGION_ACTIVE)); then\
+ zle copy-region-as-kill\
+ printf "%s" $CUTBUFFER | pbcopy\
+ fi\
+}\
+
+: 1688129239:0;zle -al
+: 1688129276:0;zsh
+: 1688377936:0;sudo zypper dup
+: 1688378293:0;reboot
+: 1688378437:0;docker exec -it cbc40162be70 zsh
+: 1688400986:0;nn
+: 1688400987:0;nb
+: 1688401104:0;nb use home
+: 1688401105:0;nb
+: 1688401133:0;sudo hwinfo --keyboard
+: 1688407472:0;sonja
+: 1688407494:0;cd shell/
+: 1688407497:0;ls
+: 1688407498:0;cd ..
+: 1688407502:0;cd bin/
+: 1688407504:0;ls
+: 1688407511:0;ls | grep ma
+: 1688407514:0;trr
+: 1688407516:0;tree
+: 1688407525:0;tree | grep matri
+: 1688407529:0;ls
+: 1688407537:0;ls code
+: 1688407545:0;cd code/shell/
+: 1688407546:0;ls
+: 1688407548:0;cd skripte/
+: 1688407550:0;ls
+: 1688407555:0;./matrix.sh
+: 1688407568:0;ls
+: 1688407572:0;./matrix2.sh
+: 1688407584:0;ls
+: 1688407597:0;ls | grep ma
+: 1688407602:0;nano matrix.sh
+: 1688407628:0;./matrix.sh
+: 1688408771:0;reboot
+: 1688422874:0;docker exec -it cbc40162be70 zsh
+: 1688431204:0;sudo zypper in xsel
+: 1688445977:0;ping
+: 1688468043:0;zi wait lucid for \\
+    atinit:"ZI[COMPINIT_OPTS]=-C; zicompinit; zicdreplay" \\
+        "z-shell/fast-syntax-highlighting" \\
+           "z-shell/F-Sy-H" \\
+             OMZP::colored-man-pages \\
+    as"completion" \\
+    blockf atpull:"zi creinstall zsh-users/zsh-completions"\\
+        "zsh-users/zsh-completions" \\
+    atload:" \\
+        "zsh-users/zsh-autosuggestions" \\
+        "zpm-zsh/ls" \\
+        "le0me55i/zsh-extract" \\
+        "z-shell/nb" \
+zi wait lucid for \\
+    atinit:"ZI[COMPINIT_OPTS]=-C; zicompinit; zicdreplay" \\
+        "z-shell/fast-syntax-highlighting" \\
+           "z-shell/F-Sy-H" \\
+             OMZP::colored-man-pages \\
+    as"completion" \\
+    blockf atpull:"zi creinstall zsh-users/zsh-completions"\\
+        "zsh-users/zsh-completions" \\
+    atload:"!_zsh_autosuggest_start" \\
+        "zsh-users/zsh-autosuggestions" \\
+        "zpm-zsh/ls" \\
+        "le0me55i/zsh-extract" \\
+        "z-shell/nb" \
+
+: 1688468060:0;zi wait lucid for \\
+    atinit:"ZI[COMPINIT_OPTS]=-C; zicompinit; zicdreplay" \\
+        "z-shell/fast-syntax-highlighting" \\
+           "z-shell/F-Sy-H" \\
+             OMZP::colored-man-pages \\
+    blockf atpull:"zi creinstall zsh-users/zsh-completions"\\
+        "zsh-users/zsh-completions" \\
+    atload:" \\
+        "zsh-users/zsh-autosuggestions" \\
+        "zpm-zsh/ls" \\
+        "le0me55i/zsh-extract" \\
+        "z-shell/nb" \
+
+: 1688468097:0;zi wait lucid for \\
+    atinit"zicompinit; zicdreplay" \\
+    z-shell/fast-syntax-highlighting \\
+  OMZP::colored-man-pages \ 
+: 1688468099:0;zi wait lucid for atinit"zicompinit; zicdreplay" z-shell/fast-syntax-highlighting OMZP::colored-man-pages
+: 1688468950:0;[200~ zi wait lucid for atinit:OMZP::colored-man-pages ~
+: 1688469510:0;zi wait lucid for \\
+  atinit'AUTOCD=1' zplugin/zsh-exa \\
+   "ZI[COMPINIT_OPTS]=-C; zicompinit; zicdreplay" \\
+        "z-shell/fast-syntax-highlighting" \\
+        "z-shell/F-Sy-H" \\
+           OMZP::colored-man-pages \\
+    blockf atpull:"zi creinstall zsh-users/zsh-completions"\\
+        "zsh-users/zsh-completions" \\
+    atload:" \\
+        "zsh-users/zsh-autosuggestions" \\
+        "zpm-zsh/ls" \\
+        "le0me55i/zsh-extract" \\
+        "z-shell/nb" 
+: 1688469536:0;\
+zi wait lucid for \\
+  atinit"AUTOCD=1" zplugin/zsh-exa \\
+   "ZI[COMPINIT_OPTS]=-C; zicompinit; zicdreplay" \\
+        "z-shell/fast-syntax-highlighting" \\
+        "z-shell/F-Sy-H" \\
+           OMZP::colored-man-pages \\
+    blockf atpull:"zi creinstall zsh-users/zsh-completions"\\
+        "zsh-users/zsh-completions" \\
+    atload:" \\
+        "zsh-users/zsh-autosuggestions" \\
+        "zpm-zsh/ls" \\
+        "le0me55i/zsh-extract" \\
+        "z-shell/nb" 
+: 1688471369:0;ls $HOME/.docker
+: 1688471455:0;ls $HOME/Android/Sdk
+: 1688471462:0;ls $HOME/.android/
+: 1688471477:0;env
+: 1688471483:0;env | grep android
+: 1688471506:0;ls $HOME/go
+: 1688471787:0;echo $XDG_DATA_HOME
+: 1688471836:0;cd .zsh
+: 1688471840:0;cat R
+: 1688471845:0;tree
+: 1688471850:0;tree | grep read
+: 1688471853:0;tree | grep readme
+: 1688471858:0;tree -a
+: 1688471861:0;cd ..
+: 1688471879:0;ls | grep readme
+: 1688471883:0;cd .zsh
+: 1688471893:0;touch README.md
+: 1688471898:0;nano README.md
+: 1688471940:0;open-in-obsidian.sh README.md
+: 1688472070:0;tree -a / | grep init.sh
+: 1688472088:0;find / -name "git_init.sh"
+: 1688472103:0;cat /home/qgrep/bin/code/shell/skripte/git_init.sh
+: 1688472339:0;chsh
+: 1688472344:0;chsh --help
+: 1688472865:0;touch init.sh
+: 1688472870:0;cd init.sh
+: 1688472876:0;code init.sh
+: 1688473169:0;whereis git
+: 1688473810:0;bindkey -s '^G' ' | grep '
+: 1688473910:0;for i in $( find $PWD/home -maxdepth 1 -mindepth 1 ); do\
+ HOMEFILE="$HOME/$( basename $i )"\
+ if [[ -e $HOMEFILE ]] ; then\
+ if [[ "$i" != "$( readlink $HOMEFILE)" ]] ; then\
+ echo $HOMEFILE{,.bak-$(date +%Y%m%d)}\
+ fi\
+ fi\
+ echo $i $HOME/\
+done
+: 1688473927:0;xs ..
+: 1688473928:0;cd ..
+: 1688473930:0;for i in $( find $PWD/home -maxdepth 1 -mindepth 1 ); do\
+ HOMEFILE="$HOME/$( basename $i )"\
+ if [[ -e $HOMEFILE ]] ; then\
+ if [[ "$i" != "$( readlink $HOMEFILE)" ]] ; then\
+ echo $HOMEFILE{,.bak-$(date +%Y%m%d)}\
+ fi\
+ fi\
+ echo $i $HOME/\
+done
+: 1688473945:0;for i in $( find $PWD -maxdepth 1 -mindepth 1 ); do\
+ HOMEFILE="$HOME/$( basename $i )"\
+ if [[ -e $HOMEFILE ]] ; then\
+ if [[ "$i" != "$( readlink $HOMEFILE)" ]] ; then\
+ echo $HOMEFILE{,.bak-$(date +%Y%m%d)}\
+ fi\
+ fi\
+ echo $i $HOME/\
+done
+: 1688474084:0;ls $HOME
+: 1688474179:0;echo -e 'zsh_dotfiles\ncomplete -F _complete_alias config'\
+
+: 1688474194:0;echo -e '#zsh_dotfiles\ncomplete -F _complete_alias config'\
+
+: 1688474227:0;echo -e '#dotfiles\ncomplete -F _complete_alias dotfiles'\
+
+: 1688474304:0;echo -e '\n#dotfiles alias\ncomplete -F _complete_alias dotfiles'
+: 1688474405:0;git init --bare ~/.dotfiles
+: 1688474518:0;mv .zsh/init.sh $PWD
+: 1688474537:0;nb
+: 1688474540:0;nb use home
+: 1688474549:0;nb add --title "dotfiles bare"
+: 1688474577:0;mv .zsh/README.md $PWD
+: 1688474581:0;open-in-obsidian.sh README.md
+: 1688474612:0;marktext README.md
+: 1688474657:0;marktext README.md &
+: 1688474665:0;nb
+: 1688474670:0;nb edit 200
+: 1688474766:0;echo ".dotfiles" >> .gitignore
+: 1688474776:0;dotfiles config --local status.showUntrackedFiles no
+: 1688474939:0;alias dotfiles="git --git-dir=$XDG_DATA_HOME/.dotfiles/ --work-tree=$HOME"
+: 1688474942:0;dotfiles config --local status.showUntrackedFiles no
+: 1688474959:0;cd .dotfiles/
+: 1688474961:0;dotfiles config --local status.showUntrackedFiles no
+: 1688474963:0;cd ..
+: 1688474968:0;git init --bare ~/.dotfiles
+: 1688474972:0;alias dotfiles="git --git-dir=$XDG_DATA_HOME/.dotfiles/ --work-tree=$HOME"
+: 1688474976:0;dotfiles config --local status.showUntrackedFiles no
+: 1688475008:0;git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME checkout
+: 1688475025:0;zsh
+: 1688475031:0;git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME checkout
+: 1688475183:0;git init --bare $HOME/.dotfiles\
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'\
+config dotfiles --local status.showUntrackedFiles no\
+echo "alias dotfiles='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'"
+: 1688475298:0;alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'\
+
+: 1688475341:0;git init --bare $HOME/.dotfiles\
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'\
+dotfiles config --local status.showUntrackedFiles no
+: 1688475353:0;dotfiles status
+: 1688475449:0;\
+\
+âƒ½¯   alias dotfiles='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME
+: 1688475466:0;alias dotfiles='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+: 1688475472:0;dotfiles config --local status.showUntrackedFiles no
+: 1688475476:0;dotfiles status
+: 1688475560:0;dotfiles checkout
+: 1688475619:0;git add .zsh
+: 1688475646:0;alias dotfiles='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+: 1688475649:0;git add .zsh
+: 1688475655:0;dotfiles add .zsh

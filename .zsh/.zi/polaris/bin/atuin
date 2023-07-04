@@ -1,0 +1,14 @@
+#!/usr/bin/env zsh
+
+function atuin {
+    local bindir="/home/qgrep/.zsh/.zi/plugins/z-shell---0/bin"
+    local -x PATH="/home/qgrep/.zsh/.zi/plugins/z-shell---0"/bin:"$PATH"
+    local -x RUSTUP_HOME="/home/qgrep/.zsh/.zi/plugins/z-shell---0"/rustup CARGO_HOME="/home/qgrep/.zsh/.zi/plugins/z-shell---0"
+    
+    
+    
+      "$bindir"/"atuin" "$@"
+
+  }
+
+atuin "$@"
