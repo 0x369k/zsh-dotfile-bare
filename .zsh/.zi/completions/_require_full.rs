@@ -1,1 +1,0 @@
-/home/qgrep/.zsh/.zi/plugins/z-shell---0/registry/src/github.com-1ecc6299db9ec823/tokio-util-0.7.8/tests/_require_full.rs
