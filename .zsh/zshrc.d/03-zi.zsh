@@ -3,7 +3,6 @@
 #fi
 
 
-
 #❯■■■■■■■■■❯zi❮init❯■■■■■■■■■❯
 if [[ ! -d "${ZI[HOME_DIR]}"/bin ]]; then
 # bootstrap
@@ -22,13 +21,21 @@ autoload -Uz _zi
 #❯■■■■■■■■■❯info❮help function❯■■■■■■■■■❯
 zi-info () {
   clear 
-    print -P "\n%F{122}■ Vervollständigungen alle Plugins%f%b" 
+    print -P "\n%F{122}■ zi cdlist ❯ Vervollständigungen alle Plugins%f%b" 
       printf '\033[1;42m%-*s\033[0m\n' "${COLUMNS:-$(tput cols || true)}" "▓▒░ ★ » $1" | tr ' ' ' '
-  zi clist 
+  zi cdlist
   echo 
-  print -P "%F{122}■ Befehl zi csearch durchsucht alle Plugins Verzeichnisse nach verfügbaren Vervollständigungen:%f%b"
+  print -P "%F{122}■ zi zstatus ❯ Overall ZI status"
     printf '\033[1;42m%-*s\033[0m\n' "${COLUMNS:-$(tput cols || true)}" "▓▒░ ★ » $1" | tr ' ' ' '
-  zi csearch 
+  zi zstatus 
+    echo 
+  print -P "%F{122}■ zi loaded ❯ Show loaded plugins"
+    printf '\033[1;42m%-*s\033[0m\n' "${COLUMNS:-$(tput cols || true)}" "▓▒░ ★ » $1" | tr ' ' ' '
+  zi loaded 
+      echo 
+  print -P "%F{122}■ zi times ❯ Statistics on plugin load times, sorted in order of loading. -s – use seconds instead of milliseconds. -m – show plugin loading moments and -a both."
+    printf '\033[1;42m%-*s\033[0m\n' "${COLUMNS:-$(tput cols || true)}" "▓▒░ ★ » $1" | tr ' ' ' '
+  zi times 
   print -P "\n%F{122}■ BIN%f%b"
     printf '\033[1;42m%-*s\033[0m\n' "${COLUMNS:-$(tput cols || true)}" "▓▒░ ★ » $1" | tr ' ' ' '
   ls -l $ZPFX/bin/ | awk '{print $(NF-2),$(NF-1),$NF}'
@@ -62,16 +69,31 @@ zi light z-shell/z-a-linkbin
 #❯■■■■■■■■■❯meta-plugins❮❯■■■■■■■■■❯
 #                                           @annexes: bin-gem-node, readurl, patch-dl, rust, default-ice, unscope 
 #                                           @console-tools: dircolors-material (package), fd, bat, hexyl, hyperfine, exa, ripgrep, tig 
-#                                           @rust-utils: rust-toolchain, cargo-extensions 
 #zi for z-shell/z-a-meta-plugins  @annexes  
-#zi light-mode compile'functions/.*za-*~*.zwc' for z-shell/z-a-meta-plugins @annexes \
-#  atinit'Z_A_USECOMP=1' compile'functions/.*ev*~*.zwc' z-shell/z-a-eval
+zi light-mode compile'functions/.*za-*~*.zwc' for z-shell/z-a-meta-plugins @annexes @console-tools \
+  atinit'Z_A_USECOMP=1' compile'functions/.*ev*~*.zwc' z-shell/z-a-eval
+#zi for z-shell/z-a-meta-plugins @annexes @console-tools \
+#skip'rust' @annexes 
+
+#zi light-mode for @annexes \
+#  skip'rust' @annexes \
+
+#zi light-mode for @console-tools \ 
+#  skip'vivid exa tig' @console-tools
+
+
+
+#❯■■■■■■■■■❯rust❮cargo❯Compiling❮■■■■■■■■■❯
 zi for z-shell/z-a-meta-plugins @annexes @console-tools @rust-utils 
 zi id-as"rust" wait=1 as=null sbin="bin/*" lucid rustup nocompile \
 atload="[[ ! -f ${ZI[COMPLETIONS_DIR]}/_cargo ]] && zi creinstall -q rust; \
 export CARGO_HOME=\$PWD; export RUSTUP_HOME=\$PWD/rustup" for \
 zi light z-shell/z-a-rust
-export LS_COLORS="$(vivid generate snazzy)"
+
+#❯■■■■■■■■■❯cargo❮package❯■■■■■■■■■❯
+zi ice rustup cargo'!atuin'
+zi load z-shell/0
+eval "$(atuin init zsh)"
 
 
 
@@ -97,7 +119,6 @@ export LS_COLORS="$(vivid generate snazzy)"
 #    MichaelAquilina/zsh-you-should-use
 zi wait lucid for \
     atinit:"ZI[COMPINIT_OPTS]=-C; zicompinit; zicdreplay" \
-        "zplugin/zsh-exa" \
         "z-shell/fast-syntax-highlighting" \
         "z-shell/F-Sy-H" \
            OMZP::colored-man-pages \
@@ -105,7 +126,6 @@ zi wait lucid for \
         "zsh-users/zsh-completions" \
     atload:"!_zsh_autosuggest_start" \
         "zsh-users/zsh-autosuggestions" \
-        "zpm-zsh/ls" \
         "le0me55i/zsh-extract" \
         "z-shell/nb" 
 
@@ -128,13 +148,9 @@ zi load denisidoro/navi
 [ -d "$HOME/.export/share/navi/cheats/" ] && export NAVI=$HOME/.export/share/navd/cheats/
 #eval "$(navi widget zsh)" - create navi-widget for bindkey Ctrl + G > 45-bindkey.zsh
 
-zi ice rustup cargo'!atuin'
-zi load z-shell/0
-eval "$(atuin init zsh)"
-
-zi ice from'gh-r' as'program' mv'vivid* vivid' sbin'**/vivid(.exe|) -> vivid'
-zi light @sharkdp/vivid
-export LS_COLORS="$(vivid generate snazzy)"
+#zi ice from'gh-r' as'program' mv'vivid* vivid' sbin'**/vivid(.exe|) -> vivid'
+#zi light @sharkdp/vivid
+#export LS_COLORS="$(vivid generate snazzy)"
 
 zi ice lucid wait as'program' has'bat' pick'src/*'
 zi light eth-p/bat-extras
@@ -149,8 +165,6 @@ zi light eth-p/bat-extras
   zi is-snippet wait lucid for \
     atload"unalias grv g" \
  OMZP::{git,sudo,extract,pip,copypath,copyfile,gh,dirhistory,copybuffer,mosh,nmap,web-search} \
-    if'[[ -d ~/.nvm ]]' \
-  OMZP::nvm \
     if'[[ -d ~/.ssh ]]' \
   OMZP::ssh-agent \
     if'[[ -d ~/.gnupg ]]' \
@@ -161,6 +175,7 @@ zi light eth-p/bat-extras
   OMZP::pip \
     has'python' \
   OMZP::python
+
 
 
 

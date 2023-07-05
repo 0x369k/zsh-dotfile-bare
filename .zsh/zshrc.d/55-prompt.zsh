@@ -21,7 +21,6 @@ as"command" from"gh-r" atinit'export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PRE
 
 #❯■■■■■■■■■❯theme❮settings❯■■■■■■■■■❯
 #https://github.com/b-ryan/powerline-shell#zsh
-if [[ $(whoami) != "qgrep" ]]; then
 function powerline_precmd() {
     PS1="$(powerline-shell --shell zsh $?)"
 }
@@ -35,7 +34,6 @@ function install_powerline_precmd() {
 }
 if [ "$TERM" != "linux" -a -x "$(command -v powerline-shell)" ]; then
     install_powerline_precmd
-fi
 fi
 
 
@@ -84,5 +82,5 @@ woefe/git-prompt.zsh
 
 #❯■■■■■■■■■❯Theme no. 9❮powerlevel10k❯■■■■■■■■■❯
 zi ice load'![[ $MYPROMPT = 9 ]]' unload'![[ $MYPROMPT != 9 ]]' \
-  atload'source ~/.p10k.zsh; _p9k_precmd' wrap'_p9k_precmd'
+  atload'source ~/.zsh/.p10k.zsh; _p9k_precmd' wrap'_p9k_precmd'
 zi load romkatv/powerlevel10k

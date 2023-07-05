@@ -1,0 +1,18 @@
+# test/text.txt ❯ ignore a text.txt file located in a test directory at the root directory
+# text.txt      ❯ #ignore any text.txt files
+# img*          ❯ ignore all files and directories that have a name starting with #img, * wildcard
+# .md           ❯ gnores all .md files
+# !README.md    ❯ does not ignore the README.md file
+# test/         ❯ ignore all test directories
+
+.env  
+.dotfiles  
+.gitconfig  
+node_modules
+.cache
+.zi
+.zcompdump*
+*bak*
+package*
+.zsh_history
+history 
