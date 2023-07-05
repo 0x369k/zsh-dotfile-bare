@@ -11,7 +11,7 @@
 ## Installation
 
 ```bash
-curl -Lks https://github.com/qgrep/zsh-dotfile-bare/blob/main/.zsh/deploy.sh | /bin/bash
+curl -Lks https://raw.githubusercontent.com/qgrep/zsh-dotfile-bare/main/.zsh/deploy.sh | /bin/bash
 ```
 
 ## Bare-Git-Repository handling
