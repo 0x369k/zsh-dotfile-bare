@@ -35,6 +35,7 @@ export XDG_CACHE_HOME="$HOME/.cache"        #  Wo benutzerspezifische nicht wese
 skip_global_compinit=1
 
 export ZDOTDIR="/home/$(whoami)/.zsh"
+[[ -f $ZDOTDIR/.zshrc ]] && . $ZDOTDIR/.zshrc
 
 declare -A ZI
 export ZI[HOME_DIR]="$HOME/.zsh/.zi"
