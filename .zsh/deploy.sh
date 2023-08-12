@@ -18,11 +18,11 @@ BACKUPDIR=".dotfiles.backup"
 alias dot='git --git-dir=$HOME/$DOTDIR --work-tree=$HOME $@'
 dot() { git --git-dir="$DOTDIR" --work-tree="$HOME" "$@"; }
 
-if [ -d "$DOTDIR" ]; then
-echo "> updating dotfiles..."
-  dot pull 
-  exit 0
-fi
+#if [ -d "$DOTDIR" ]; then
+#echo "> updating dotfiles..."
+#  dot pull 
+#  exit 0
+#fi
 #------------------------------------------------------------------------------#
 # Backup already existing dotfiles
 #------------------------------------------------------------------------------#
