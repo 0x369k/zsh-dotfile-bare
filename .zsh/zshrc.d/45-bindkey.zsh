@@ -46,7 +46,7 @@ bindkey -s '^s'   '^Qsudo '               # Ctrl + s
 
 #alias-expension 
 zle -C alias-expension complete-word _generic
-bindkey '^a^e' alias-expension
+bindkey '^a' alias-expension
 
 #navi
 navi-widget() {

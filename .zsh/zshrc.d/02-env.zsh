@@ -3,6 +3,9 @@ export DATE=$(date +'%Y-%m-%d')
 export DATEHOUR=$(date +%F_%H-%M-%S)
 export TERM="xterm-256color" 
 
+#❯■■■■■■■■■❯opensuse❮thumbleweed❯■■■■■■■■■❯
+grep -E '^(VERSION|NAME)=' /etc/os-release | grep Tumbleweed 2&>1 > /dev/null && export LIBVA_DRIVER_NAME=vdpau and  export VDPAU_DRIVER=nvidia
+
 
 #❯■■■■■■■■■❯default❮prog❯■■■■■■■■■❯
 # [ -n "$DISPLAY" ] && export EDITOR="code"  
@@ -17,6 +20,13 @@ alias -s {index}="$BROWSER"
 alias -s {txt,md}="$MDEDITOR"
 alias -s {gif,GIF,jpeg,JPEG,jpg,JPG,png,PNG}="$IMAGEVIEWER"
 
+
+#❯■■■■■■■■■❯navi❮❯■■■■■■■■■❯
+export FZF_DEFAULT_OPTS=$FZF_DEFAULT_OPTS'
+--color=dark
+--color=fg:-1,bg:-1,hl:#5fff87,fg+:-1,bg+:-1,hl+:#ffaf5f
+--color=info:#af87ff,prompt:#5fff87,pointer:#ff87d7,marker:#ff87d7,spinner:#ff87d7
+'
 
 
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#073642,bg=#839496,bold,underline"

@@ -20,7 +20,7 @@ export ZDOTDIR=${HOME}/.zsh
 
 
 #❯■■■■■■■■■❯home❮❯■■■■■■■■■❯
-export PATH=/home/$USER/.local/bin:/home/$USER/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+export PATH=$HOME/.local/bin:$HOME/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 export PATH="$PATH:/snap/bin":$PATH 
 export PATH=$HOME/shell/:$PATH
 export PATH=$HOME/.docker/cli-plugins/:$PATH 
