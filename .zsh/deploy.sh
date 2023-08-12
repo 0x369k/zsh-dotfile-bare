@@ -11,7 +11,7 @@
 # SETTINGS
 #------------------------------------------------------------------------------#
 DOTDIR=".dotfiles"
-BACKUPDIR=".dotfiles.backup"
+BACKUPDIR="$HOME/.dotfiles.backup"
 #------------------------------------------------------------------------------#
 # check Download or UPDATE
 #------------------------------------------------------------------------------#
@@ -26,17 +26,17 @@ dot() { git --git-dir="$DOTDIR" --work-tree="$HOME" "$@"; }
 #------------------------------------------------------------------------------#
 # Backup already existing dotfiles
 #------------------------------------------------------------------------------#
-DOTGITFILES=($(dot ls-tree -r HEAD | awk '{print $NF}'))
+DOTGITFILES=($(dot ls-tree --full-tree -r --name-only HEAD | awk '{print $NF}'))
 
 for f in "${DOTGITFILES[@]}"; do
   # File at root ==> back up file
   if [[ $(basename "$f") = "$f" ]]; then
-    [[ -f "$HOME/$f" ]] && mkdir -p "$HOME/$BACKUPDIR" && mv "$HOME/$f" "$HOME/$BACKUPDIR" && echo "> Backing up: $f ==> $BACKUPDIR/$f"
+    [[ -f "$HOME/$f" ]] && mkdir -p "$BACKUPDIR" && mv "$HOME/$f" "$BACKUPDIR" && echo "> Backing up: $f ==> $BACKUPDIR/$f"
   else
     d=${f%%/*}
     if [[ -d "$HOME/$d" ]]; then
-      [[ -d "$HOME/$BACKUPDIR/$d" ]] && rm -rf "$HOME/$BACKUPDIR/$d"
-      mkdir -p "$HOME/$BACKUPDIR" && mv "$HOME/$d" "$HOME/$BACKUPDIR" && echo "> Backing up: $d/ ==> $BACKUPDIR/$d/"
+      [[ -d "$BACKUPDIR/$d" ]] && rm -rf "$BACKUPDIR/$d"
+      mkdir -p "$BACKUPDIR" && mv "$HOME/$d" "$BACKUPDIR" && echo "> Backing up: $d/ ==> $BACKUPDIR/$d/"
     fi
   fi
 done
