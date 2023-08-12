@@ -10,7 +10,7 @@
 #------------------------------------------------------------------------------#
 # SETTINGS
 #------------------------------------------------------------------------------#
-DOTDIR=".dotfiles"
+DOTDIR="$HOME/.dotfiles"
 BACKUPDIR="$HOME/.dotfiles.backup"
 #------------------------------------------------------------------------------#
 # check Download or UPDATE
@@ -45,7 +45,7 @@ done
 # DOWNLOAD dotfiles
 #------------------------------------------------------------------------------#
 echo "> downloading dotfiles..."
-dot clone --bare https://github.com/qgrep/zsh-dotfile-bare $HOME/$DOTDIR
+dot clone --bare https://github.com/qgrep/zsh-dotfile-bare $DOTDIR
 #dot clone --bare --recurse-submodules https://github.com/qgrep/zsh-dotfile-bare.git "$HOME/.dotfiles"
 #------------------------------------------------------------------------------#
 # INSTALL dotfiles
