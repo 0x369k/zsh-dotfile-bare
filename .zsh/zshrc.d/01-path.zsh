@@ -40,9 +40,14 @@ export PATH=$HOME/.docker/cli-plugins/:$PATH
 export PATH=$PATH:/qq/bin:$PATH
 export PATH="/qq/lib/code/shell/snippets:$PATH"
 
-#export ANDROID_HOME=$HOME/Android/Sdk
-#export PATH=$PATH:$ANDROID_HOME/tools
-#export PATH=$PATH:$ANDROID_HOME/platform-tools
+
+export ANDROID_HOME=$HOME/Android/Sdk
+    # Android Path
+    if [ -d "$ANDROID_HOME" ] ; then
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+    fi
+
 
 #go
 #export PATH=$PATH:/usr/export/go/bin:$HOME/go
