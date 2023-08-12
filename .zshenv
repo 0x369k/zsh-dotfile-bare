@@ -34,13 +34,12 @@ export XDG_CACHE_HOME="$HOME/.cache"        #  Wo benutzerspezifische nicht wese
 
 skip_global_compinit=1
 
-export ZDOTDIR="ZDOTDIR=${${(%):-%x}:P:h}/.zsh"
+export ZDOTDIR="/home/$(whoami)/.zsh"
 
 declare -A ZI
 export ZI[HOME_DIR]="$HOME/.zsh/.zi"
 export ZI[COMPLETIONS_DIR]="$ZI[HOME_DIR]/completions"	#Completion working directory
 export ZI[CACHE_DIR]="$HOME/.cache/zi"					#Cache directory
-
 export ZI[CONFIG_DIR]="$HOME/.config/zi"				#Directory for configuration files
 export ZI[MAN_DIR]="$ZPFX/man"							#Directory to store manpages
 export ZI[LOG_DIR]="$ZI[CACHE_DIR]/log"					#Directory to store log files
